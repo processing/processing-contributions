@@ -1,0 +1,131 @@
+name: Issue to Pull Request
+on:
+  issues:
+    types:
+      - opened
+      - edited
+      - reopened
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  validate:
+    if: contains(github.event.issue.labels.*.name, 'new-contribution')
+    runs-on: ubuntu-latest
+    outputs:
+      props: ${{ steps.parseProps.outputs.props }}
+      comment-id: ${{ steps.issueComment.outputs.comment-id }}
+    steps:
+      - name: Parse issue
+        id: parseIssue
+        uses: onmax/issue-form-parser@v1.5
+        with:
+          issue_number: ${{ github.event.issue.number }}
+
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Read and validate properties txt file
+        id: parseProps
+        run: >
+          python -u scripts/parse_and_validate_properties_txt.py \
+            ${{ fromJson(steps.parseIssue.outputs.payload).contribution_type }} \
+            "${{ fromJson(steps.parseIssue.outputs.payload).properties_url }}"
+
+      - name: add comment to issue
+        id: issueComment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Your properties file was successfully parsed.
+
+      - name: if failure, add comment to issue
+        if: failure()
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            There was an error in reading in your file and parsing it.
+            
+            ${{ steps.parseProps.outputs.error }}
+  create-pr:
+    needs: validate
+    env:
+      BRANCH_NAME: issue-${{ github.event.issue.number }}
+      ISSUE_NUM: ${{ github.event.issue.number }}
+      ISSUE_TITLE: ${{ github.event.issue.title }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: check if target branch exists
+        id: branchExists
+        uses: GuillaumeFalourd/branch-exists@v1
+        with:
+          branch: ${{ env.BRANCH_NAME }}
+
+      - name: delete target branch if exists
+        if: steps.branchExists.outputs.exists == 'true'
+        uses: dawidd6/action-delete-branch@v3
+        with:
+          github_token: ${{github.token}}
+          branches: ${{ env.BRANCH_NAME }}
+
+      - name: create branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue develop $ISSUE_NUM --name $BRANCH_NAME --checkout
+
+      - name: edit database
+        run: |
+          cd scripts
+          python add_new_contribution_to_yaml.py '${{ needs.validate.outputs.props }}'
+
+      - name: commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: new contribution from issue ${{ env.ISSUE_NUM }}
+          branch: ${{ env.BRANCH_NAME }}
+          add_options: '-u'
+
+      - name: Create pull request
+        run: gh pr create -B main -H $BRANCH_NAME --title "new contribution issue $ISSUE_NUM" --body "${{github.event.issue.title }}"
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: add comment to issue
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ needs.validate.outputs.comment-id }}
+          body: |
+            A pull request with your contribution has been successfully created.
+
+
+      - name: if failure, add comment to issue
+        if: failure()
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ needs.validate.outputs.comment-id }}
+          body: |
+            An error was encountered when adding your contribution.
+            We will look into this issue as soon as possible.
