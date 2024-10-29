@@ -570,10 +570,24 @@ contributions:
     - Typography
 - id: 39
   source: https://github.com/codeanticode/tablet/releases/download/latestv2/Tablet.txt
-  status: BROKEN
+  status: VALID
   type: library
   log:
   - file not found, status code 500 returned for url https://github.com/codeanticode/tablet/releases/download/latestv2/Tablet.txt
+  name: Tablet
+  authors: '[Andres Colubri](http://interfaze.info/)'
+  url: http://interfaze.info/libraries/tablet/
+  categories:
+  - I/O
+  sentence: Tablet is a library for using pen tablets from Processing.
+  paragraph: It provides simplified access to the pen's pressure, tilt, etc. It is
+    based on <a href="https://sourceforge.net/projects/jpen/">JPen</a>, the Java Pen
+    Tablet Access Library.
+  version: '4'
+  prettyVersion: 1.2.1
+  minRevision: 0
+  maxRevision: 227
+  download: https://github.com/codeanticode/tablet/releases/download/latestv2/Tablet.zip
 - id: 40
   source: http://r-s-g.org/carnivore/download/carnivore_p5lib.txt
   status: VALID
