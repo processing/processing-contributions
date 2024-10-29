@@ -1,7 +1,7 @@
 # [WIP] processing-contributions
 
-[!WARNING]
-This repository is a work in progress.
+> [!WARNING]
+> This repository is a work in progress.
 
 This repository maintains the contributions to Processing.
 
