@@ -1,0 +1,57 @@
+name: Update Contributions
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '45 4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: fetch updates and edit database
+        run: |
+          cd scripts
+          python fetch_updates.py 
+
+      - name: commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: chore(CI) update contributions to database and output files
+          branch: main
+          add_options: '-u'
+
+      - name: Get current date
+        id: date
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: update output files
+        run: |
+          python to_contribs_txt.py
+          python to_sources_jsons.py
+          cd ..
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: output-files-${{ env.DATE }}
+          overwrite: true
+          path: |
+            pde/contribs.txt
+            sources/*.json
+      
