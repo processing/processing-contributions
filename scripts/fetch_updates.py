@@ -30,13 +30,13 @@ def log_broken(contribution, msg):
 
 def process_contribution(contribution):
   date_today = datetime.today().strftime('%Y-%m-%d')
-  this_version = 0
+  this_version = '0'
 
   if contribution['status'] != 'DEPRECATED':
-    # compare version to what is at url. If has iterated up, update contribution to
+    # compare version to what is at url. If has changed, update contribution to
     # what is online
     if 'version' in contribution:
-      this_version = int(contribution['version'])
+      this_version = contribution['version']
 
     try:
       properties_raw = read_properties_txt(contribution['source'])
@@ -53,7 +53,7 @@ def process_contribution(contribution):
       log_broken(contribution, f'invalid file, {date_today}')
       return
 
-    if int(props['version']) > this_version:
+    if props['version'] != this_version:
       # update from online
       update_contribution(contribution, props)
       contribution['status'] = 'VALID'
