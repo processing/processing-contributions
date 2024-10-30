@@ -26,6 +26,8 @@ def update_contribution(contribution, props):
 def log_broken(contribution, msg):
   if contribution['status'] == 'VALID':
     contribution['status'] = 'BROKEN'
+    if 'log' not in contribution:
+      contribution['log'] = []
     contribution['log'].append(msg)
 
 def process_contribution(contribution):
