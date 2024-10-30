@@ -9,6 +9,9 @@ from parse_and_validate_properties_txt import read_properties_txt, parse_text, v
 
 
 def update_contribution(contribution, props):
+  datetime_today = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S%z')
+  contribution['last_updated'] = datetime_today
+
   # update from online
   for field in props.keys():
     # process category list
@@ -31,7 +34,7 @@ def log_broken(contribution, msg):
     contribution['log'].append(msg)
 
 def process_contribution(contribution):
-  date_today = datetime.today().strftime('%Y-%m-%d')
+  date_today = datetime.utcnow().strftime('%Y-%m-%d')
   this_version = '0'
 
   if contribution['status'] != 'DEPRECATED':
