@@ -114,7 +114,7 @@ contributions:
 - id: 7
   source: 
     https://github.com/generative-design/GenerativeDesignLibrary2/releases/download/latest/generativedesign.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: GenerativeDesign
   authors: '[Benedikt Gross, Hartmut Bohnacker](http://www.generative-gestaltung.de/)'
@@ -440,7 +440,7 @@ contributions:
   - file not found, status code 404 returned for url http://libraries.seltar.org/postToWeb/postToWeb.txt
 - id: 32
   source: http://n.clavaud.free.fr/processing/library/picking/download/Picking.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Picking
   authors: '[Nicolas Clavaud](http://n.clavaud.free.fr/)'
@@ -740,7 +740,7 @@ contributions:
   - invalid file
 - id: 50
   source: http://www.lagers.org.uk/processing/shapes3d/Shapes3D.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Shapes 3D
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -766,7 +766,7 @@ contributions:
   - in skipped conf
 - id: 51
   source: http://www.lagers.org.uk/processing/g4p/G4P.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: G4P
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -790,7 +790,7 @@ contributions:
   - in skipped conf
 - id: 52
   source: http://www.lagers.org.uk/processing/guibuilder/G4PTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: G4P GUI Builder
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -2237,7 +2237,7 @@ contributions:
   - file not found, status code 404 returned for url https://py.processing.org/PythonMode.txt%20
 - id: 143
   source: http://www.lagers.org.uk/processing/gamecontrol/GameControlPlus.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Game Control Plus
   authors: '[Peter Lager](http://lagers.org.uk)'
@@ -3826,7 +3826,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4696,7 +4696,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
