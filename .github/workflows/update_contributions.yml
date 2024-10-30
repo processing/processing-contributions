@@ -43,9 +43,9 @@ jobs:
 
       - name: update output files
         run: |
+          cd scripts
           python to_contribs_txt.py
           python to_sources_jsons.py
-          cd ..
 
       - uses: actions/upload-artifact@v4
         with:
