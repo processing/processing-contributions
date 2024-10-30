@@ -58,10 +58,11 @@ def process_contribution(contribution):
       log_broken(contribution, f'invalid file, {date_today}')
       return
 
+    contribution['status'] = 'VALID'
+
     if props['version'] != this_version:
       # update from online
       update_contribution(contribution, props)
-      contribution['status'] = 'VALID'
 
 
 if __name__ == "__main__":
