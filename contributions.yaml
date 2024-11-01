@@ -2042,8 +2042,7 @@ contributions:
   prettyVersion: 0.7.0
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
-  download: 
+  download:
     https://github.com/cansik/opencv-processing/releases/download/contribution-manager/opencv_processing.zip
   override:
     categories:
@@ -2433,8 +2432,7 @@ contributions:
   prettyVersion: 2.4.0
   minRevision: 229
   maxRevision: 0
-  lastUpdated: '0'
-  download: 
+  download:
     https://github.com/processing/processing-sound/releases/download/latest/sound.zip
   override:
     categories:
@@ -2565,7 +2563,6 @@ contributions:
   prettyVersion: 0.2.2
   minRevision: 242
   maxRevision: 0
-  lastUpdated: '1443010051000'
   download: https://github.com/joelmoniz/Git-Manager/releases/download/latest/GitManager.zip
 - id: 161
   source: http://codigogenerativo.com/KinectPV2.txt
@@ -2610,7 +2607,6 @@ contributions:
   minRevision: 242
   maxRevision: 0
   imports: processing.mode.java.JavaMode
-  lastUpdated: '1443120511000'
   download: https://github.com/joelmoniz/REPLmode/releases/download/latest/REPLMode.zip
 - id: 163
   source: http://shiffman.net/p5/examples/learningprocessing2.txt
@@ -2954,8 +2950,7 @@ contributions:
   prettyVersion: 0.8.0
   minRevision: 245
   maxRevision: 0
-  lastUpdated: '1455510195000'
-  download: 
+  download:
     https://github.com/joelmoniz/Shape-Sketch/releases/download/latest/ShapeSketch.zip
 - id: 182
   source: 
@@ -3189,7 +3184,6 @@ contributions:
   prettyVersion: '1.0'
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
   download: http://damellis.github.io/wovns-processing-examples/WOVNS.zip
 - id: 195
   source: http://culebra.technology/culebra.txt
@@ -3460,8 +3454,7 @@ contributions:
   prettyVersion: 0.1.1
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
-  download: 
+  download:
     https://github.com/Lord-of-the-Galaxy/Timing-Utilities/releases/download/latest/timing_utils.zip
   override:
     categories:
@@ -3631,7 +3624,6 @@ contributions:
   prettyVersion: '1.02'
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
   download: http://maxlfarrell.gitlab.io/extruder/extruder.zip
   override:
     categories:
@@ -3865,8 +3857,7 @@ contributions:
   prettyVersion: '1.0'
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
-  download: 
+  download:
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.zip
 - id: 227
   source: 
@@ -4054,7 +4045,6 @@ contributions:
   prettyVersion: 2.0.0
   minRevision: 228
   maxRevision: 0
-  lastUpdated: '0'
   download: http://gicentre.org/handy/handy.zip
   override:
     categories:
@@ -4409,7 +4399,6 @@ contributions:
   prettyVersion: v1.0.7
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
   download: http://www.kramann.info/ComposingForEveryone.zip
   override:
     categories:
@@ -4598,7 +4587,6 @@ contributions:
   prettyVersion: 2.0.0
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
   download: https://codingart-book.github.io/examples/CodingArtBookExamples.zip
   override:
     categories:
@@ -4710,7 +4698,6 @@ contributions:
   prettyVersion: 0.1.1
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
   download: https://www.robertesler.com/software/Pd4P3.zip
   override:
     categories:
@@ -4734,8 +4721,7 @@ contributions:
   prettyVersion: 1.0.0
   minRevision: 266
   maxRevision: 0
-  lastUpdated: '0'
-  download: 
+  download:
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.zip
   override:
     categories:
@@ -4979,7 +4965,6 @@ contributions:
   prettyVersion: 1.0.0
   minRevision: 266
   maxRevision: 0
-  lastUpdated: '0'
   download: https://fox-gieg.com/patches/processing/libraries/joons/joons.zip
   override:
     categories:
@@ -5090,8 +5075,7 @@ contributions:
   prettyVersion: 1.1.0
   minRevision: 400
   maxRevision: 0
-  lastUpdated: '0'
-  download: 
+  download:
     https://github.com/letorbi/discord-rich-presence-for-processing/releases/latest/download/DiscordRichPresence.zip
 - id: 289
   source: 
@@ -5170,8 +5154,7 @@ contributions:
   prettyVersion: '2.0'
   minRevision: 0
   maxRevision: 0
-  lastUpdated: '0'
-  download: 
+  download:
     https://github.com/Apress/Processing-for-Android-Second-Edition/releases/download/latest/processing-for-android-examples.zip
   override:
     categories:

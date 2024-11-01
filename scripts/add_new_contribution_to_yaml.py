@@ -42,7 +42,7 @@ if __name__ == "__main__":
     contribution = {
         'id': max_index + 1,
         'status': 'VALID',
-        'date_added': datetime_today,
+        'dateAdded': datetime_today,
     }
     contribution.update(props)
 

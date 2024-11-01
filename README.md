@@ -35,6 +35,14 @@ Additional fields are
 * `override` - This is an object, where any component field values will replace the existing field values. For example, libraries in the `broken.conf` file are outdated, and we want to cap the
 `maxRevision` to `228`. This cap can be applied by setting `override` to {`maxRevision`: `228`}
 * `log` - Any notes of explanation, such as why a library was labeled `BROKEN`
+* These fields are included, but the data is not comprehensive. It would require pulling data from the archives. 
+   * `previousVersions` - a list of previous `prettyVersion` values. This will be added whenever a new 
+   library is updated. To have complete data for this field will require some detective work into the archives.
+   * `dateAdded` - Date library was added to contributions. This will be added whenever a new library is
+   added. To have complete data for this field will require some detective work into the archives.
+   * `lastUpdated` - Date library was last updated in the repo. This will be added whenever a library is
+   updated. To have complete data for this field will require waiting for all libraries to be updated, or
+   will require some detective work into the archives.
 
 ## Scripts
 The scripts folder contains scripts in Python for parsing, validating, and processing the database 
