@@ -10,7 +10,10 @@ from parse_and_validate_properties_txt import read_properties_txt, parse_text, v
 
 def update_contribution(contribution, props):
   datetime_today = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S%z')
-  contribution['last_updated'] = datetime_today
+  contribution['lastUpdated'] = datetime_today
+  if 'previous_versions' not in contribution:
+    contribution['previousVersions'] = []
+  contribution['previousVersions'].append(contribution['prettyVersion'])
 
   # update from online
   for field in props.keys():
@@ -57,6 +60,10 @@ def process_contribution(contribution):
     except Exception:
       log_broken(contribution, f'invalid file, {date_today}')
       return
+
+    # some library files have field lastUpdated. This also exists in the database, but is defined
+    # by our scripts, so remove this field.
+    contribution.pop('lastUpdated', None)
 
     contribution['status'] = 'VALID'
 
