@@ -11,7 +11,7 @@ from parse_and_validate_properties_txt import read_properties_txt, parse_text, v
 def update_contribution(contribution, props):
   datetime_today = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S%z')
   contribution['lastUpdated'] = datetime_today
-  if 'previous_versions' not in contribution:
+  if 'previousVersions' not in contribution:
     contribution['previousVersions'] = []
   contribution['previousVersions'].append(contribution['prettyVersion'])
 
