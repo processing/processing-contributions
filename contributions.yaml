@@ -3082,7 +3082,7 @@ contributions:
   - url timeout
 - id: 189
   source: http://ciaron.net/hpglgraphics/download/hpglgraphics.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: HPGLGraphics
   authors: '[Ciaron Linstead](http://ciaron.net)'
@@ -3102,6 +3102,8 @@ contributions:
   override:
     categories:
     - Hardware
+  log:
+  - url timeout, 2024-11-05
 - id: 190
   source: https://github.com/gohai/processing/releases/download/latest/io.txt
   status: VALID
