@@ -809,7 +809,7 @@ contributions:
   maxRevision: 227
   download: http://www.lagers.org.uk/processing/guibuilder/G4PTool.zip
   override:
-    categories: null
+    categories:
   log:
   - in skipped conf
 - id: 53
@@ -904,7 +904,7 @@ contributions:
   maxRevision: 0
   download: http://www.lagers.org.uk/processing3/guibuilder/G4PTool.zip
   override:
-    categories: null
+    categories:
 - id: 58
   source: http://www.sojamo.de/libraries/controlP5/controlP5.txt
   status: VALID
@@ -1482,7 +1482,7 @@ contributions:
   download: http://www.lagers.org.uk/processing/appletmaker/AppletMaker.zip
   override:
     maxRevision: 228
-    categories: null
+    categories:
 - id: 97
   source: https://andrusiv.com/android-select-file/download/SelectFile.txt
   status: VALID
@@ -1743,7 +1743,7 @@ contributions:
   download: http://larskaltenbach.de/code/speedTool/download/SpeedTool.zip
   override:
     maxRevision: 228
-    categories: null
+    categories:
   log:
   - in broken conf
 - id: 113
@@ -2234,7 +2234,7 @@ contributions:
   download: http://s3.staticvoidgames.com/JarMatey/JarMateyProcessingTool.zip
   override:
     maxRevision: 228
-    categories: null
+    categories:
   log:
   - in broken conf
 - id: 142
@@ -2574,7 +2574,7 @@ contributions:
   maxRevision: 0
   download: https://github.com/joelmoniz/Git-Manager/releases/download/latest/GitManager.zip
   override:
-    categories: null
+    categories:
 - id: 161
   source: http://codigogenerativo.com/KinectPV2.txt
   status: VALID
@@ -2964,7 +2964,7 @@ contributions:
   download: 
     https://github.com/joelmoniz/Shape-Sketch/releases/download/latest/ShapeSketch.zip
   override:
-    categories: null
+    categories:
 - id: 182
   source: 
     https://github.com/rzats/font-highlighting-editor/releases/download/latest/FontHighlightingEditor.txt
@@ -2985,7 +2985,7 @@ contributions:
   download: 
     https://github.com/rzats/font-highlighting-editor/releases/download/latest/FontHighlightingEditor.zip
   override:
-    categories: null
+    categories:
 - id: 183
   source: 
     https://github.com/onlylemi/processing-android-capture/releases/download/latest/AndroidCaptureForProcessing.txt
@@ -3159,7 +3159,7 @@ contributions:
   download: 
     https://github.com/gohai/processing-uploadtopi/releases/download/latest/UploadToPiTool.zip
   override:
-    categories: null
+    categories:
 - id: 192
   source: 
     https://github.com/barelief/freeTransform-processing/releases/download/latest/FreeTransform.txt
@@ -3781,7 +3781,7 @@ contributions:
   maxRevision: 0
   download: http://jonathan.dahlberg.media/ecc/ecc.zip
   override:
-    categories: null
+    categories:
 - id: 222
   source: https://pierdr.github.io/tramontanaCV/download/tramontanaCV.txt
   status: VALID
@@ -4005,7 +4005,7 @@ contributions:
   download: 
     https://github.com/jaewhyun/GettingStarted/releases/download/latest/GettingStarted.zip
   override:
-    categories: null
+    categories:
 - id: 234
   source: 
     https://github.com/jaewhyun/ReferenceTool/releases/download/latest/ReferenceTool.txt
@@ -4026,7 +4026,7 @@ contributions:
   download: 
     https://github.com/jaewhyun/ReferenceTool/releases/download/latest/ReferenceTool.zip
   override:
-    categories: null
+    categories:
 - id: 235
   source: https://openpatch.github.io/scratch-for-java/scratch.txt
   status: BROKEN
@@ -4167,7 +4167,7 @@ contributions:
   maxRevision: 0
   download: https://jwilder4690.github.io/tools/ArtStation/ArtStation.zip
   override:
-    categories: null
+    categories:
 - id: 243
   source: https://coding-creative.dringtech.com/examples/coding-creative-examples.txt
   status: VALID
@@ -4571,7 +4571,7 @@ contributions:
   maxRevision: 0
   download: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.zip
   override:
-    categories: null
+    categories:
 - id: 264
   source: https://github.com/dennisppaul/wellen/releases/latest/download/wellen.txt
   status: VALID
@@ -5038,7 +5038,7 @@ contributions:
   maxRevision: 0
   download: https://github.com/hkiel/JavaDoc/releases/latest/download/JavaDoc.zip
   override:
-    categories: null
+    categories:
 - id: 286
   source: https://github.com/KrabCode/LazyGui/releases/download/latest/LazyGui.txt
   status: VALID
@@ -5111,7 +5111,7 @@ contributions:
   download: 
     https://github.com/letorbi/discord-rich-presence-for-processing/releases/latest/download/DiscordRichPresence.zip
   override:
-    categories: null
+    categories:
 - id: 289
   source: 
     https://raw.githubusercontent.com/DarkMortal/Newton_Fractal/main/Newton_Fractals.txt
