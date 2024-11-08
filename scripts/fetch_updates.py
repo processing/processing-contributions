@@ -3,6 +3,7 @@ Reads in the contributions.yaml file, and updates the entries by hitting the 'so
 """
 import argparse
 from datetime import datetime
+import pathlib
 from ruamel.yaml import YAML
 
 from parse_and_validate_properties_txt import read_properties_txt, parse_text, validate_existing
@@ -81,7 +82,7 @@ if __name__ == "__main__":
   if args.index:
     index = args.index
 
-  database_file = '../contributions.yaml'
+  database_file = pathlib.Path(__file__).parent.parent / 'contributions.yaml'
 
   # read in database yaml file
   yaml = YAML()
