@@ -27,6 +27,7 @@ class PropertiesBase(BaseModel):
     prettyVersion: str
     minRevision: int = Field(0)
     maxRevision: int = Field(0)
+    modes: Optional[str] = Field(None, alias='compatibleModesList')
 
     model_config = ConfigDict(
         extra='allow',

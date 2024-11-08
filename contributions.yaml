@@ -1476,6 +1476,8 @@ contributions:
   minRevision: 0
   maxRevision: 0
   download: http://www.lagers.org.uk/processing/appletmaker/AppletMaker.zip
+  override:
+    maxRevision: 228
 - id: 97
   source: https://andrusiv.com/android-select-file/download/SelectFile.txt
   status: VALID
@@ -3412,7 +3414,7 @@ contributions:
   prettyVersion: v1.2
   minRevision: 0
   maxRevision: 0
-  compatibleModesList: ''
+  modes: ''
   download: http://mad4j.github.io/book-mdpc/book-mdpc.zip
   override:
     categories:
@@ -4158,7 +4160,7 @@ contributions:
   prettyVersion: 1.0.1
   minRevision: 0
   maxRevision: 0
-  compatibleModesList: jycessing.mode.PythonMode
+  modes: jycessing.mode.PythonMode
   download: https://coding-creative.dringtech.com/examples/coding-creative-examples.zip
 - id: 244
   source: http://giftedapprentice.com/ewbIK/ewbIK.txt
