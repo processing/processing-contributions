@@ -3,6 +3,7 @@ given properties, add a new contribution to the contributions.yaml database file
 """
 from datetime import datetime
 import json
+import pathlib
 from sys import argv
 
 from ruamel.yaml import YAML
@@ -25,7 +26,7 @@ if __name__ == "__main__":
         props['download'] = props['source'][:props['source'].rfind('.')] + '.zip'
 
     # open database
-    database_file = '../contributions.yaml'
+    database_file = pathlib.Path(__file__).parent.parent / 'contributions.yaml'
 
     yaml = YAML()
     with open(database_file, 'r') as db:

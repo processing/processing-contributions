@@ -1,6 +1,7 @@
+import pathlib
 from ruamel.yaml import YAML
 
-database_file = '../contributions.yaml'
+database_file = pathlib.Path(__file__).parent.parent / 'contributions.yaml'
 
 
 def get_contributions():
