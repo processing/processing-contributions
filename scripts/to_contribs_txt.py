@@ -13,7 +13,7 @@ type_list = ['library', 'examples', 'tool', 'mode']
 contribs_fields_list = [
     'name', 'authors', 'url', 'categories', 'sentence', 'paragraph',
     'version', 'prettyVersion', 'minRevision', 'maxRevision', 'imports',
-    'compatibleModesList', 'id', 'type', 'download'
+    'modes', 'compatibleModesList', 'id', 'type', 'download'
 ]
 
 

@@ -50,7 +50,7 @@ def to_sources_dict(contribution_dict):
       for field in json_fields_mode if field in contribution_dict
     }
 
-  # put authors and categories in list
+  # put authors in list
   sources_dict['authors'] = [sources_dict['authors']] if sources_dict['authors'] else sources_dict['authors']
 
   sources_dict['packages'] = [
