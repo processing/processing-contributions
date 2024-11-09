@@ -114,7 +114,7 @@ contributions:
 - id: 7
   source: 
     https://github.com/generative-design/GenerativeDesignLibrary2/releases/download/latest/generativedesign.txt
-  status: VALID
+  status: DEPRECATED
   type: library
   name: GenerativeDesign
   authors: '[Benedikt Gross, Hartmut Bohnacker](http://www.generative-gestaltung.de/)'
@@ -130,7 +130,7 @@ contributions:
   prettyVersion: 1.0.5
   minRevision: 0
   maxRevision: 227
-  download: 
+  download:
     https://github.com/generative-design/GenerativeDesignLibrary2/releases/download/latest/generativedesign.zip
   override:
     categories:
@@ -269,7 +269,7 @@ contributions:
     categories:
     - Sound
 - id: 20
-  source: 
+  source:
     https://dl.dropboxusercontent.com/u/69944346/ColorSelectorPlus/ColorSelectorPlusTool.txt
   status: BROKEN
   type: tool
@@ -325,7 +325,7 @@ contributions:
     categories:
     - Video & Vision
 - id: 24
-  source: 
+  source:
     https://github.com/firmata/processing/releases/download/latest/processing-arduino.txt
   status: VALID
   type: library
@@ -341,7 +341,7 @@ contributions:
   prettyVersion: '9'
   minRevision: 0
   maxRevision: 0
-  download: 
+  download:
     https://github.com/firmata/processing/releases/download/latest/processing-arduino.zip
   override:
     categories:
@@ -367,7 +367,7 @@ contributions:
     categories:
     - I/O
 - id: 26
-  source: 
+  source:
     http://jorgecardoso.eu/processing/MindSetProcessing/download/MindsetProcessing.txt
   status: VALID
   type: library
@@ -386,7 +386,7 @@ contributions:
   prettyVersion: 0.1.2
   minRevision: 0
   maxRevision: 0
-  download: 
+  download:
     http://jorgecardoso.eu/processing/MindSetProcessing/download/MindsetProcessing.zip
   override:
     maxRevision: 228
@@ -572,7 +572,7 @@ contributions:
     - Typography
 - id: 39
   source: https://github.com/codeanticode/tablet/releases/download/latestv2/Tablet.txt
-  status: VALID
+  status: DEPRECATED
   type: library
   log:
   - file not found, status code 500 returned for url https://github.com/codeanticode/tablet/releases/download/latestv2/Tablet.txt
@@ -740,7 +740,7 @@ contributions:
   - invalid file
 - id: 50
   source: http://www.lagers.org.uk/processing/shapes3d/Shapes3D.txt
-  status: VALID
+  status: DEPRECATED
   type: library
   name: Shapes 3D
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -766,7 +766,7 @@ contributions:
   - in skipped conf
 - id: 51
   source: http://www.lagers.org.uk/processing/g4p/G4P.txt
-  status: VALID
+  status: DEPRECATED
   type: library
   name: G4P
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -790,7 +790,7 @@ contributions:
   - in skipped conf
 - id: 52
   source: http://www.lagers.org.uk/processing/guibuilder/G4PTool.txt
-  status: VALID
+  status: DEPRECATED
   type: tool
   name: G4P GUI Builder
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -860,7 +860,7 @@ contributions:
     - Math
     - Simulation
 - id: 56
-  source: 
+  source:
     https://github.com/generative-design/GenerativeDesignLibrary3/releases/download/latest/generativedesign.txt
   status: VALID
   type: library
@@ -878,7 +878,7 @@ contributions:
   prettyVersion: 1.0.6
   minRevision: 239
   maxRevision: 0
-  download: 
+  download:
     https://github.com/generative-design/GenerativeDesignLibrary3/releases/download/latest/generativedesign.zip
   override:
     categories:
@@ -1056,7 +1056,7 @@ contributions:
   log:
   - in broken conf
 - id: 69
-  source: 
+  source:
     https://raw.githubusercontent.com/nok/onedollar-unistroke-recognizer/master/download/OneDollarUnistrokeRecognizer.txt
   status: VALID
   type: library
@@ -1072,7 +1072,7 @@ contributions:
   prettyVersion: 1.0.3
   minRevision: 215
   maxRevision: 0
-  download: 
+  download:
     https://raw.githubusercontent.com/nok/onedollar-unistroke-recognizer/master/download/OneDollarUnistrokeRecognizer.zip
   override:
     categories:
@@ -1360,7 +1360,7 @@ contributions:
     categories:
     - Typography
 - id: 89
-  source: 
+  source:
     https://raw.githubusercontent.com/nok/soundcloud-processing/master/download/SoundCloud.txt
   status: VALID
   type: library
@@ -1376,7 +1376,7 @@ contributions:
   prettyVersion: 0.1.6
   minRevision: 215
   maxRevision: 0
-  download: 
+  download:
     https://raw.githubusercontent.com/nok/soundcloud-processing/master/download/SoundCloud.zip
   override:
     maxRevision: 228
@@ -1523,7 +1523,7 @@ contributions:
   log:
   - url timeout
 - id: 101
-  source: 
+  source:
     https://github.com/processing/processing-android/releases/download/latest-processing3/AndroidMode.txt
   status: VALID
   type: mode
@@ -1538,7 +1538,7 @@ contributions:
   minRevision: 249
   maxRevision: 270
   imports: processing.mode.java.JavaMode
-  download: 
+  download:
     https://github.com/processing/processing-android/releases/download/latest-processing3/AndroidMode.zip
 - id: 102
   source: ' http://s176381904.onlinehome.fr/processing/MoveLib/download/MoveLib.txt '
@@ -1658,7 +1658,7 @@ contributions:
   log:
   - file not found, status code 404 returned for url https://dl.dropboxusercontent.com/u/6030446/bRigid/bRigid.txt
 - id: 109
-  source: 
+  source:
     https://raw.githubusercontent.com/nok/leap-motion-processing/master/download/LeapMotionForProcessing.txt
   status: VALID
   type: library
@@ -1675,13 +1675,13 @@ contributions:
   prettyVersion: 2.3.1.6
   minRevision: 0
   maxRevision: 0
-  download: 
+  download:
     https://raw.githubusercontent.com/nok/leap-motion-processing/master/download/LeapMotionForProcessing.zip
   override:
     categories:
     - Hardware
 - id: 110
-  source: 
+  source:
     https://raw.github.com/fjenett/xlsreader-library-processing/latest/release/XlsReader.txt
   status: VALID
   type: library
@@ -1696,7 +1696,7 @@ contributions:
   prettyVersion: 0.1.2
   minRevision: 218
   maxRevision: 0
-  download: 
+  download:
     https://raw.github.com/fjenett/xlsreader-library-processing/latest/release/XlsReader.zip
   override:
     maxRevision: 228
@@ -1705,7 +1705,7 @@ contributions:
   log:
   - in broken conf
 - id: 111
-  source: 
+  source:
     https://github.com/benfry/sql-library-processing/raw/master/release/BezierSQLib.txt
   status: VALID
   type: library
@@ -1720,7 +1720,7 @@ contributions:
   prettyVersion: 0.3.1
   minRevision: 0
   maxRevision: 0
-  download: 
+  download:
     https://github.com/benfry/sql-library-processing/raw/master/release/BezierSQLib.zip
   override:
     categories:
@@ -1759,7 +1759,7 @@ contributions:
   log:
   - file not found, status code 404 returned for url https://drifkin.net/processing/beziereditor/download/BezierEditorTool.txt
 - id: 115
-  source: 
+  source:
     http://s176381904.onlinehome.fr/processing/SignalFilter/download/signalFilter.txt
   status: VALID
   type: library
@@ -1776,7 +1776,7 @@ contributions:
   prettyVersion: 1.0.0
   minRevision: 0
   maxRevision: 0
-  download: 
+  download:
     http://s176381904.onlinehome.fr/processing/SignalFilter/download/signalFilter.zip
   override:
     categories:
@@ -1989,7 +1989,7 @@ contributions:
   log:
   - in broken conf
 - id: 130
-  source: 
+  source:
     https://github.com/codeanticode/planetarium/releases/download/latest/planetarium.txt
   status: VALID
   type: library
@@ -2006,7 +2006,7 @@ contributions:
   prettyVersion: '0.5'
   minRevision: 246
   maxRevision: 0
-  download: 
+  download:
     https://github.com/codeanticode/planetarium/releases/download/latest/planetarium.zip
   override:
     categories:
@@ -2034,7 +2034,7 @@ contributions:
     categories:
     - Math
 - id: 132
-  source: 
+  source:
     https://github.com/cansik/opencv-processing/releases/download/contribution-manager/opencv_processing.txt
   status: VALID
   type: library
@@ -2050,7 +2050,7 @@ contributions:
   prettyVersion: 0.7.0
   minRevision: 0
   maxRevision: 0
-  download: 
+  download:
     https://github.com/cansik/opencv-processing/releases/download/contribution-manager/opencv_processing.zip
   override:
     categories:
@@ -2124,7 +2124,7 @@ contributions:
     categories:
     - I/O
 - id: 137
-  source: 
+  source:
     https://github.com/runemadsen/HTTP-Requests-for-Processing/releases/download/latest/httprequests_processing.txt
   status: VALID
   type: library
@@ -2140,7 +2140,7 @@ contributions:
   prettyVersion: 0.1.5
   minRevision: 218
   maxRevision: 0
-  download: 
+  download:
     https://github.com/runemadsen/HTTP-Requests-for-Processing/releases/download/latest/httprequests_processing.zip
   override:
     categories:
@@ -2193,7 +2193,7 @@ contributions:
     categories:
     - I/O
 - id: 140
-  source: 
+  source:
     https://raw.github.com/dhchoi/processing-countdowntimer/master/release/CountdownTimer.txt
   status: VALID
   type: library
@@ -2211,7 +2211,7 @@ contributions:
   prettyVersion: 0.9.4
   minRevision: 227
   maxRevision: 0
-  download: 
+  download:
     https://raw.github.com/dhchoi/processing-countdowntimer/master/release/CountdownTimer.zip
   override:
     categories:
@@ -2239,13 +2239,13 @@ contributions:
   - in broken conf
 - id: 142
   source: ' http://py.processing.org/PythonMode.txt '
-  status: BROKEN
+  status: DEPRECATED
   type: mode
   log:
   - file not found, status code 404 returned for url https://py.processing.org/PythonMode.txt%20
 - id: 143
   source: http://www.lagers.org.uk/processing/gamecontrol/GameControlPlus.txt
-  status: VALID
+  status: DEPRECATED
   type: library
   name: Game Control Plus
   authors: '[Peter Lager](http://lagers.org.uk)'
