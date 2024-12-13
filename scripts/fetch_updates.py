@@ -31,7 +31,6 @@ def update_contribution(contribution, props):
   if 'download' not in contribution:
     contribution['download'] = contribution['source'][:contribution['source'].rfind('.')] + '.zip'
     
-  print(f"Updated {contribution['source']}: {contribution['lastUpdated']}")
 
 def log_broken(contribution, msg):
   if contribution['status'] == 'VALID':
@@ -95,9 +94,16 @@ if __name__ == "__main__":
   contributions_list = data['contributions']
 
   if index == 'all':
-    # update all contributions
-    with Pool() as pool:
-        pool.map(process_contribution, contributions_list)
+    total = len(contributions_list)
+    completed = 0
+    print(f"Starting processing of {total} contributions...")
+    
+    with Pool(processes=256) as pool:
+        for _ in pool.imap_unordered(process_contribution, contributions_list):
+            completed += 1
+            print(f"Progress: {completed}/{total} ({(completed/total*100):.1f}%)")
+    
+    print("All processing complete")
   else:
     # update only contribution with id==index
     contribution = next((x for x in contributions_list if x['id'] == int(index)), None)

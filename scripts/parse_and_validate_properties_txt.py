@@ -64,7 +64,7 @@ def read_properties_txt(properties_url):
         'User-Agent': 'Mozilla/5.0',
         'Accept': 'text/html',
     }
-    r = requests.get(properties_url, headers=headers)
+    r = requests.get(properties_url, headers=headers, timeout=30)
 
     if r.status_code != 200:
         raise FileNotFoundError(f"status code {r.status_code} returned for url {r.url}")
