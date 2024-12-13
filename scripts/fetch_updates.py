@@ -5,6 +5,7 @@ import argparse
 from datetime import datetime
 import pathlib
 from ruamel.yaml import YAML
+from multiprocessing import Pool
 
 from parse_and_validate_properties_txt import read_properties_txt, parse_text, validate_existing
 
@@ -93,8 +94,8 @@ if __name__ == "__main__":
 
   if index == 'all':
     # update all contributions
-    for contribution in contributions_list:
-      process_contribution(contribution)
+    with Pool() as pool:
+        pool.map(process_contribution, contributions_list)
   else:
     # update only contribution with id==index
     contribution = next((x for x in contributions_list if x['id'] == int(index)), None)
