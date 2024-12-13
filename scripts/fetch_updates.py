@@ -30,6 +30,8 @@ def update_contribution(contribution, props):
 
   if 'download' not in contribution:
     contribution['download'] = contribution['source'][:contribution['source'].rfind('.')] + '.zip'
+    
+  print(f"Updated {contribution['source']}: {contribution['lastUpdated']}")
 
 def log_broken(contribution, msg):
   if contribution['status'] == 'VALID':
