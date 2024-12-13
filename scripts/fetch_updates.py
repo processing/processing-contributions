@@ -2,7 +2,7 @@
 Reads in the contributions.yaml file, and updates the entries by hitting the 'source' url.
 """
 import argparse
-from datetime import datetime
+from datetime import datetime, UTC
 import pathlib
 from ruamel.yaml import YAML
 from multiprocessing import Pool
@@ -11,7 +11,7 @@ from parse_and_validate_properties_txt import read_properties_txt, parse_text, v
 
 
 def update_contribution(contribution, props):
-  datetime_today = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S%z')
+  datetime_today = datetime.now(UTC).strftime('%Y-%m-%dT%H:%M:%S%z')
   contribution['lastUpdated'] = datetime_today
   if 'previousVersions' not in contribution:
     contribution['previousVersions'] = []
@@ -40,7 +40,7 @@ def log_broken(contribution, msg):
     contribution['log'].append(msg)
 
 def process_contribution(contribution):
-  date_today = datetime.utcnow().strftime('%Y-%m-%d')
+  date_today = datetime.now(UTC).strftime('%Y-%m-%d')
   this_version = '0'
 
   if contribution['status'] != 'DEPRECATED':
