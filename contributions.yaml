@@ -440,7 +440,7 @@ contributions:
   - file not found, status code 404 returned for url http://libraries.seltar.org/postToWeb/postToWeb.txt
 - id: 32
   source: http://n.clavaud.free.fr/processing/library/picking/download/Picking.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Picking
   authors: '[Nicolas Clavaud](http://n.clavaud.free.fr/)'
@@ -4589,14 +4589,18 @@ contributions:
     as well as some *standard* muscial mechanics. the library acts as an adapter to
     various sound in- and outputs like MIDI, OSC, or digital/analog audio. the library
     is hosted on github [wellen](https://github.com/dennisppaul/wellen).
-  version: '12'
-  prettyVersion: '0.12'
+  version: '13'
+  prettyVersion: '0.13'
   minRevision: 246
   maxRevision: 0
   download: https://github.com/dennisppaul/wellen/releases/latest/download/wellen.zip
   override:
     categories:
     - Sound
+  lastUpdated: '2024-12-14T05:16:04'
+  previousVersions:
+  - '0.12'
+  modes:
 - id: 265
   source: https://codingart-book.github.io/examples/CodingArtBookExamples.txt
   status: VALID
@@ -5056,8 +5060,8 @@ contributions:
     Features a json save system with autosave on program exit, copy/paste, undo/redo,
     these control elements: [slider, 2D plot, color picker, gradient picker, button,
     toggle, text input, radio], and much more... Works on Windows, Mac and Linux.'
-  version: '50'
-  prettyVersion: v1.10.1
+  version: '51'
+  prettyVersion: v1.11.1
   minRevision: 0
   maxRevision: 0
   imports: com.krab.lazy
@@ -5065,6 +5069,10 @@ contributions:
   override:
     categories:
     - GUI
+  lastUpdated: '2024-12-14T05:16:12'
+  previousVersions:
+  - v1.10.1
+  modes:
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
