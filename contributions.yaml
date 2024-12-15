@@ -4597,7 +4597,6 @@ contributions:
   override:
     categories:
     - Sound
-  lastUpdated: '2024-12-14T05:16:04'
   previousVersions:
   - '0.12'
   modes:
@@ -5069,7 +5068,6 @@ contributions:
   override:
     categories:
     - GUI
-  lastUpdated: '2024-12-14T05:16:12'
   previousVersions:
   - v1.10.1
   modes:
