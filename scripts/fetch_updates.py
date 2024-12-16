@@ -39,7 +39,9 @@ def log_broken(contribution, msg):
       contribution['log'] = []
     contribution['log'].append(msg)
 
-def process_contribution(contribution):
+def process_contribution(item):
+  index, contribution = item
+
   date_today = datetime.now(UTC).strftime('%Y-%m-%d')
   this_version = '0'
 
@@ -53,16 +55,16 @@ def process_contribution(contribution):
       properties_raw = read_properties_txt(contribution['source'])
     except FileNotFoundError as e:
       log_broken(contribution, f'file not found, {e}, {date_today}')
-      return
+      return index, contribution
     except Exception:
       log_broken(contribution, f'url timeout, {date_today}')
-      return
+      return index, contribution
 
     try:
         props = validate_existing(parse_text(properties_raw))
     except Exception:
       log_broken(contribution, f'invalid file, {date_today}')
-      return
+      return index, contribution
 
     # some library files have field lastUpdated. This also exists in the database, but is defined
     # by our scripts, so remove this field.
@@ -73,6 +75,7 @@ def process_contribution(contribution):
     if props['version'] != this_version:
       # update from online
       update_contribution(contribution, props)
+  return index, contribution
 
 
 if __name__ == "__main__":
@@ -99,7 +102,8 @@ if __name__ == "__main__":
     print(f"Starting processing of {total} contributions...")
     
     with Pool(processes=256) as pool:
-        for _ in pool.imap_unordered(process_contribution, contributions_list):
+        for index, contribution in pool.imap_unordered(process_contribution, enumerate(contributions_list)):
+            contributions_list[index] = contribution
             completed += 1
             print(f"Progress: {completed}/{total} ({(completed/total*100):.1f}%)")
     
@@ -108,7 +112,7 @@ if __name__ == "__main__":
     # update only contribution with id==index
     contribution = next((x for x in contributions_list if x['id'] == int(index)), None)
     print(contribution)
-    process_contribution(contribution)
+    process_contribution((index, contribution))
     print(contribution)
 
   # write all contributions to database file
