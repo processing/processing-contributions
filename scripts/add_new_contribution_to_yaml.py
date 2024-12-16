@@ -1,7 +1,7 @@
 """
 given properties, add a new contribution to the contributions.yaml database file.
 """
-from datetime import datetime
+from datetime import datetime, UTC
 import json
 import pathlib
 from sys import argv
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     # append new contribution with next index
     # add status, at top
-    datetime_today = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S%z')
+    datetime_today = datetime.now(UTC).strftime('%Y-%m-%dT%H:%M:%S%z')
     contribution = {
         'id': max_index + 1,
         'status': 'VALID',
