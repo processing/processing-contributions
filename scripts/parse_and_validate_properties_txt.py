@@ -101,19 +101,19 @@ def validate_existing(properties_dict):
     # validation on existing contribution is weaker
     properties = PropertiesExisting.model_validate(properties_dict)
 
-    return properties.model_dump()
+    return properties.model_dump(exclude_unset=True)
 
 def validate_new(properties_dict):
     # new contribution has stronger validation
     properties = PropertiesBase.model_validate(properties_dict)
 
-    return properties.model_dump()
+    return properties.model_dump(exclude_unset=True)
 
 def validate_new_library(properties_dict):
     # new contribution has stronger validation
     properties = LibraryPropertiesNew.model_validate(properties_dict)
 
-    return properties.model_dump()
+    return properties.model_dump(exclude_unset=True)
 
 def set_output(output_object):
     with open(os.environ['GITHUB_OUTPUT'],'a') as f:
