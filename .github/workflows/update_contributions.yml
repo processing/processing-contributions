@@ -12,6 +12,8 @@ permissions:
 
 jobs:
   update:
+    if: >
+      github.event.issue.labels.*.name contains 'new-contribution'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
