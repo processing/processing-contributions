@@ -440,7 +440,7 @@ contributions:
   - file not found, status code 404 returned for url http://libraries.seltar.org/postToWeb/postToWeb.txt
 - id: 32
   source: http://n.clavaud.free.fr/processing/library/picking/download/Picking.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Picking
   authors: '[Nicolas Clavaud](http://n.clavaud.free.fr/)'
@@ -461,6 +461,7 @@ contributions:
   log:
   - url timeout, 2024-10-30
   - url timeout, 2024-11-09
+  - url timeout, 2025-01-05
 - id: 33
   source: http://ekeneijeoma.com/processing/ijeomamotion/download/ijeomamotion.txt
   status: BROKEN
