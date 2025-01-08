@@ -10,6 +10,8 @@ This repository contains the list of Processing libraries, tools, modes, and exa
 All contributions are stored in a contributions database file in yaml format, `contributions.yaml`.
 Consumers of this data are the Processing website, and the Processing application.
 
+![Example contribution object showing the key-value pairs, as well as new fields like ‘status’ and ‘override’](https://github.com/user-attachments/assets/6005b31f-167a-435d-9087-d7f1b57a220e)
+
 Within the `scripts` folder are scripts for parsing and validating the data from the 
 properties file. These are used by a Github action to processing new contributions and add them to the
 database. The `issue_to_pr.yml` workflow is triggered by a new issue for registering a new contribution.
