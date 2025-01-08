@@ -37,6 +37,18 @@ body:
   - type: markdown
     attributes:
       value: |
+        Please provide a link to your contribution's documentation page. 
+  - type: input
+    id: documentation_url
+    attributes:
+      label: documentation_url
+      description: URL of the documentation page for your contribution.
+      placeholder: https://
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
         Once you submit this form, the properties file found at the url will be parsed and validated. 
         
         The result of this validation will be added to this issue:
