@@ -1,5 +1,5 @@
 name: New Contribution
-description: Register a new contribution.
+description: Submit a new library, mode, tool, or example collection
 labels: ["new-contribution"]
 body:
   - type: markdown
