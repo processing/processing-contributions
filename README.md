@@ -1,9 +1,14 @@
-# [WIP] processing-contributions
-
-> [!WARNING]
-> This repository is a work in progress.
+# processing-contributions
 
 This repository maintains the contributions to Processing.
+
+> [!TIP]  
+> If you're ready to publish your contribution and have it appear in the Contribution Manager, 
+> submit it via our 
+> [Github issue form](https://github.com/processing/processing-contributions/issues/new?assignees=&labels=new-contribution&projects=&template=new-contribution.yaml).
+
+
+## Technical information
 
 All contributions are stored in a contributions database file in yaml format, `contributions.yaml`.
 Consumers of this data are the Processing website, and the Processing application.
@@ -14,7 +19,7 @@ database. The `issue_to_pr.yml` workflow is triggered by a new issue for registe
 It will then retrieve the properties file provided in the issue, parse and validate, and then if valid,
 add the new information to the `contributions.yaml` database file in a new pull request.
 
-## Data structure
+### Data structure
 All contributions are stored in a contributions database file in yaml format, `contributions.yaml`.
 Each entry contains the fields found in the properties file, such as
 * The fields from the `library.properties` file are: `name`, `version`, `prettyVersion`, 
@@ -44,7 +49,7 @@ Additional fields are
    updated. To have complete data for this field will require waiting for all libraries to be updated, or
    will require some detective work into the archives.
 
-## Scripts
+### Scripts
 The scripts folder contains scripts in Python for parsing, validating, and processing the database 
 file and properties files.
 
@@ -65,7 +70,7 @@ folder, for consumption by the Processing website.
 * `utils.py`: utility functions used by multiple script files.
 
 
-## Outputs
+### Outputs
 
 At this time, the website requires a folder of json files, where each json file is a separate 
 contribution. These files are created from the database using the script `scripts/to_source_jsons.py`.
