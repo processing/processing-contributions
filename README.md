@@ -1,6 +1,6 @@
 # processing-contributions
 
-This repository maintains the contributions to Processing.
+This repository contains the list of Processing libraries, tools, modes, and examples contributed by the community. 
 
 > [!TIP]  
 > If you're ready to publish your contribution and have it appear in the Contribution Manager, 
