@@ -1,4 +1,4 @@
-# processing-contributions
+# Processing Contributions
 
 This repository contains the list of Processing libraries, tools, modes, and examples contributed by the community. Contributions added here will appear in the Contribution Manager and on the [libraries page](https://processing.org/reference/libraries/) of the Processing.org website.
 
