@@ -43,6 +43,14 @@ jobs:
           || contains(github.event.issue.labels.*.name, 'tool') && 'tool'
           || contains(github.event.issue.labels.*.name, 'library') && 'library'}}"
 
+      - name: Validate properties URL
+        id: validateUrl
+        run: |
+          if ! curl --output /dev/null --silent --head --fail "${{ fromJson(steps.parseIssue.outputs.payload).properties_url }}"; then
+            echo "Url not valid: ${{ fromJson(steps.parseIssue.outputs.payload).properties_url }}"
+            exit 1
+          fi
+
       - name: Read and validate properties txt file
         id: parseProps
         run: >
