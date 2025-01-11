@@ -38,6 +38,7 @@ jobs:
       - name: Determine category from labels
         id: determineCategory
         run: |
+          echo "Labels: ${{ github.event.issue.labels.*.name }}"
           category=$(
             if [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'examples') ]]; then
               echo 'examples'
@@ -49,6 +50,10 @@ jobs:
               echo 'library'
             fi
           )
+          if [ -z "$category" ]; then
+            echo "Category is empty. Please ensure the issue has a valid label."
+            exit 1
+          fi
           echo "category=$category" >> $GITHUB_OUTPUT
           echo "Category found: $category"
 
