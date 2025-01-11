@@ -5,7 +5,6 @@ on:
       - opened
       - edited
       - reopened
-    if: contains(github.event.issue.labels.*.name, 'new contribution')
 permissions:
   contents: write
   issues: write
@@ -13,6 +12,8 @@ permissions:
 
 jobs:
   validate:
+    # Only run this job if the issue has the 'new contribution' label
+    if: contains(github.event.issue.labels.*.name, 'new contribution')
     runs-on: ubuntu-latest
     outputs:
       props: ${{ steps.parseProps.outputs.props }}
@@ -101,6 +102,8 @@ jobs:
 
             ${{ steps.parseProps.outputs.error }}
   create-pr:
+    # Only run this job if the issue has the 'new contribution' label
+    if: contains(github.event.issue.labels.*.name, 'new contribution')
     needs: validate
     env:
       BRANCH_NAME: issue-${{ github.event.issue.number }}
