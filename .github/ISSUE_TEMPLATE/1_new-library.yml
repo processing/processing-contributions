@@ -29,15 +29,11 @@ body:
       placeholder: https://
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Please read the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) and make sure that your library follows them.
   - type: checkboxes
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation
-      description: I confirm that I have read the Library Guidelines and that my library follows the guidelines.
+      description: I confirm that I have read the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) and that my library follows the guidelines.
       options:
         - label: I confirm
           required: true

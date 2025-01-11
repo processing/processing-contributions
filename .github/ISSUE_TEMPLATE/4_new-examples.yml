@@ -29,10 +29,6 @@ body:
       placeholder: https://
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Please read the [Examples Overview](https://github.com/processing/processing/wiki/Examples-Overview) and make sure that your example pack follows the guidelines.
   - type: checkboxes
     id: guidelines_confirmation
     attributes:

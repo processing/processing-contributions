@@ -29,15 +29,11 @@ body:
       placeholder: https://
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Please read the [Tool Guidelines](https://github.com/processing/processing/wiki/Tool-Guidelines) and make sure that your tool follows them.
   - type: checkboxes
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation
-      description: I confirm that I have read the Tool Guidelines and that my tool follows the guidelines.
+      description: I confirm that I have read the [Tool Guidelines](https://github.com/processing/processing/wiki/Tool-Guidelines) and that my tool follows the guidelines.
       options:
         - label: I confirm
           required: true
