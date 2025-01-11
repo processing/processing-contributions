@@ -54,8 +54,13 @@ jobs:
       - name: Validate properties URL
         id: validateUrl
         run: |
-          if ! curl --output /dev/null --silent --head --fail "${{ fromJson(steps.parseIssue.outputs.payload).properties_url }}"; then
-            echo "Url not valid: ${{ fromJson(steps.parseIssue.outputs.payload).properties_url }}"
+          properties_url="${{ fromJson(steps.parseIssue.outputs.payload).properties_url }}"
+          if [ -z "$properties_url" ]; then
+            echo "Properties URL is empty. Please provide a valid URL."
+            exit 1
+          fi
+          if ! curl --output /dev/null --silent --head --fail "$properties_url"; then
+            echo "Url not valid: $properties_url"
             exit 1
           fi
 
