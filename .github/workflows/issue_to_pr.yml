@@ -51,6 +51,9 @@ jobs:
           )
           echo "category=$category" >> $GITHUB_OUTPUT
 
+      - name: Debug payload
+        run: echo "${{ steps.parseIssue.outputs.payload }}"
+
       - name: Validate properties URL
         id: validateUrl
         run: |
