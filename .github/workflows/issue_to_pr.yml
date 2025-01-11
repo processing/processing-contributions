@@ -35,26 +35,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Get issue labels
+        id: getLabels
+        uses: snnaplab/get-labels-action@v1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+
       - name: Determine category from labels
         id: determineCategory
         run: |
-          labels_json="${{ toJson(github.event.issue.labels) }}"
+          labels_json="${{ steps.getLabels.outputs.labels }}"
           echo "Labels: $labels_json"
-          category=$(
-            if [[ $(echo "$labels_json" | grep -q 'examples') ]]; then
-              echo 'examples'
-            elif [[ $(echo "$labels_json" | grep -q 'mode') ]]; then
-              echo 'mode'
-            elif [[ $(echo "$labels_json" | grep -q 'tool') ]]; then
-              echo 'tool'
-            elif [[ $(echo "$labels_json" | grep -q 'library') ]]; then
-              echo 'library'
-            fi
-          )
-          if [ -z "$category" ]; then
-            echo "Category is empty. Please ensure the issue has a valid label."
-            exit 1
-          fi
+          category=$(python scripts/determine_category.py "$labels_json")
           echo "category=$category" >> $GITHUB_OUTPUT
           echo "Category found: $category"
 
