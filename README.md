@@ -3,7 +3,12 @@
 This repository contains the list of Processing libraries, tools, modes, and examples contributed by the community. Contributions added here will appear in the Contribution Manager and on the Processing.org website.
 
 > [!TIP]  
-> Ready to publish your contribution? Submit it through the [GitHub issue form for new contributions](https://github.com/processing/processing-contributions/issues/new?assignees=&labels=new-contribution&projects=&template=new-contribution.yaml).
+> Ready to publish your contribution? Submit it through the GitHub issue forms for 
+> [new libraries](https://github.com/processing/processing-contributions/issues/new?assignees=&labels=new-contribution&projects=&template=1_new-library.yml),
+> [new tools](https://github.com/processing/processing-contributions/issues/new?assignees=&labels=new-contribution&projects=&template=2_new-tool.yml),
+> [new modes](https://github.com/processing/processing-contributions/issues/new?assignees=&labels=new-contribution&projects=&template=3_new-mode.yml),
+> and 
+> [new examples](https://github.com/processing/processing-contributions/issues/new?assignees=&labels=new-contribution&projects=&template=4_new-examples.yml).
 
 ## Technical information
 
