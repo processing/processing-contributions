@@ -17,7 +17,7 @@ body:
     id: properties_url
     attributes:
       label: Properties File URL
-      description: URL of your `mode.properties` file.
+      description: URL of your properties `.txt` file (e.g. `myMode.txt`). It should be in your published release artifacts.
       placeholder: https://
     validations:
       required: true
