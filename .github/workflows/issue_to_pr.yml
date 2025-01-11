@@ -37,11 +37,19 @@ jobs:
 
       - name: Determine category from labels
         id: determineCategory
-        run: echo "::set-output name=category::${{
-          contains(github.event.issue.labels.*.name, 'examples') && 'examples'
-          || contains(github.event.issue.labels.*.name, 'mode') && 'mode'
-          || contains(github.event.issue.labels.*.name, 'tool') && 'tool'
-          || contains(github.event.issue.labels.*.name, 'library') && 'library'}}"
+        run: |
+          category=$(
+            if [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'examples') ]]; then
+              echo 'examples'
+            elif [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'mode') ]]; then
+              echo 'mode'
+            elif [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'tool') ]]; then
+              echo 'tool'
+            elif [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'library') ]]; then
+              echo 'library'
+            fi
+          )
+          echo "category=$category" >> $GITHUB_OUTPUT
 
       - name: Validate properties URL
         id: validateUrl
