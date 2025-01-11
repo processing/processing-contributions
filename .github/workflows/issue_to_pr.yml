@@ -39,7 +39,7 @@ jobs:
         id: getLabels
         uses: snnaplab/get-labels-action@v1
         with:
-          issue-number: ${{ github.event.issue.number }}
+          number: ${{ github.event.issue.number }}
 
       - name: Determine category from labels
         id: determineCategory
