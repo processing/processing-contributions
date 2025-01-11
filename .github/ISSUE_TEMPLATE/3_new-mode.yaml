@@ -1,0 +1,54 @@
+name: 👗 New Mode
+description: Submit a new Processing mode
+labels: ["new-contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your contribution to Processing!
+
+        Modes, also called language modes, allow Processing users to code and run sketches in different code languages and on different platforms ([read more](https://github.com/processing/processing/wiki/Mode-Overview)).
+
+        If you need help creating a mode, see the [Mode Overview](https://github.com/processing/processing/wiki/Mode-Overview) or ask on the [Processing Forum](https://discourse.processing.org/).
+
+        Please provide the necessary information below.
+
+  - type: input
+    id: properties_url
+    attributes:
+      label: Properties File URL
+      description: URL of your `mode.properties` file.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: documentation_url
+    attributes:
+      label: Home Page URL
+      description: URL of the home page for your mode.
+      placeholder: https://
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Please read the [Mode Overview](https://github.com/processing/processing/wiki/Mode-Overview) and make sure that your mode follows the guidelines.
+  - type: checkbox
+    id: guidelines_confirmation
+    attributes:
+      label: Guidelines Confirmation
+      description: I confirm that I have read the Mode Overview and that my mode follows the guidelines.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Once you submit this form, the `mode.properties` file at the provided URL will be parsed and validated.
+
+        The result of this validation will be added to this issue:
+        - If valid, a pull request will automatically be created to add your mode to the repository.
+        - If invalid, a comment will be added with details of the error. You will need to fix the file and resubmit.
+  - type: hidden
+    id: contribution_type
+    attributes:
+      value: mode

@@ -1,0 +1,54 @@
+name: 💙 New Library 
+description: Submit a new Processing library
+labels: ["new-contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your new library contribution to Processing!
+
+        Libraries are add-ons that extend the functionality of the Processing language ([read more](https://github.com/processing/processing4/wiki/Library-Overview)).
+
+        Please provide the necessary information below.
+
+        If you need help creating a library, see the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) or ask on the [Processing Forum](https://discourse.processing.org/).
+
+  - type: input
+    id: properties_url
+    attributes:
+      label: Properties File URL
+      description: URL of your `library.properties` file.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: documentation_url
+    attributes:
+      label: Home Page URL
+      description: URL of the home page for your library.
+      placeholder: https://
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Please read the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) and make sure that your library follows them.
+  - type: checkbox
+    id: guidelines_confirmation
+    attributes:
+      label: Guidelines Confirmation
+      description: I confirm that I have read the Library Guidelines and that my library follows the guidelines.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Once you submit this form, the `library.properties` file at the provided URL will be parsed and validated.
+
+        The result of this validation will be added to this issue:
+        - If valid, a pull request will automatically be created to add your library to the repository.
+        - If invalid, a comment will be added with details of the error. You will need to fix the file and resubmit.
+  - type: hidden
+    id: contribution_type
+    attributes:
+      value: library

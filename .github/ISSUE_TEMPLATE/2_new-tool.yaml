@@ -1,0 +1,54 @@
+name: 🔨 New Tool
+description: Submit a new Processing tool
+labels: ["new-contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your new tool contribution to Processing!
+
+        Tools allow Processing users to modify or extend the Processing Development Environment ([read more](https://github.com/processing/processing/wiki/Tool-Overview)).
+
+        If you need help creating a tool, see the [Tool Guidelines](https://github.com/processing/processing/wiki/Tool-Guidelines) or ask on the [Processing Forum](https://discourse.processing.org/).
+
+        Please provide the necessary information below.
+
+  - type: input
+    id: properties_url
+    attributes:
+      label: Properties File URL
+      description: URL of your `tool.properties` file.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: documentation_url
+    attributes:
+      label: Home Page URL
+      description: URL of the home page for your tool.
+      placeholder: https://
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Please read the [Tool Guidelines](https://github.com/processing/processing/wiki/Tool-Guidelines) and make sure that your tool follows them.
+  - type: checkbox
+    id: guidelines_confirmation
+    attributes:
+      label: Guidelines Confirmation
+      description: I confirm that I have read the Tool Guidelines and that my tool follows the guidelines.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Once you submit this form, the `tool.properties` file at the provided URL will be parsed and validated.
+
+        The result of this validation will be added to this issue:
+        - If valid, a pull request will automatically be created to add your tool to the repository.
+        - If invalid, a comment will be added with details of the error. You will need to fix the file and resubmit.
+  - type: hidden
+    id: contribution_type
+    attributes:
+      value: tool
