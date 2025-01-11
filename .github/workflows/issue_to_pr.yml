@@ -72,7 +72,9 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            There was an error in reading in your file and parsing it.
+            There was an error in reading your properties file or parsing it.
+
+            Please ensure that the URL is correct and the file follows the required format.
 
             ${{ steps.parseProps.outputs.error }}
   create-pr:
@@ -144,4 +146,5 @@ jobs:
           comment-id: ${{ needs.validate.outputs.comment-id }}
           body: |
             An error was encountered when adding your contribution.
-            We will look into this issue as soon as possible.
+
+            We will look into this issue as soon as possible. Please check the details of your submission and try again if necessary.
