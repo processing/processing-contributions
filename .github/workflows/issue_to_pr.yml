@@ -38,15 +38,16 @@ jobs:
       - name: Determine category from labels
         id: determineCategory
         run: |
-          echo "Labels: ${{ github.event.issue.labels.*.name }}"
+          labels_json="${{ toJson(github.event.issue.labels) }}"
+          echo "Labels: $labels_json"
           category=$(
-            if [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'examples') ]]; then
+            if [[ $(echo "$labels_json" | grep -q 'examples') ]]; then
               echo 'examples'
-            elif [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'mode') ]]; then
+            elif [[ $(echo "$labels_json" | grep -q 'mode') ]]; then
               echo 'mode'
-            elif [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'tool') ]]; then
+            elif [[ $(echo "$labels_json" | grep -q 'tool') ]]; then
               echo 'tool'
-            elif [[ $(echo "${{ github.event.issue.labels.*.name }}" | grep -q 'library') ]]; then
+            elif [[ $(echo "$labels_json" | grep -q 'library') ]]; then
               echo 'library'
             fi
           )
