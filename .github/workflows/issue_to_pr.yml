@@ -70,10 +70,11 @@ jobs:
 
       - name: Read and validate properties txt file
         id: parseProps
-        run: >
+        run: |
+          properties_url=$(echo "${{ steps.parseIssue.outputs.payload }}" | jq -r '."Properties File URL"')
           python -u scripts/parse_and_validate_properties_txt.py \
             ${{ steps.determineCategory.outputs.category }} \
-            "${{ fromJson(steps.parseIssue.outputs.payload).properties_url }}"
+            "$properties_url"
 
       - name: add comment to issue
         id: issueComment
