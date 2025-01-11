@@ -59,7 +59,7 @@ jobs:
         id: validateUrl
         run: |
           properties_url="${{ fromJson(steps.parseIssue.outputs.payload)['Properties File URL'] }}"
-          if [ -z "$properties_url"; then
+          if [ -z "$properties_url" ]; then
             echo "Properties URL is empty. Please provide a valid URL."
             exit 1
           fi
