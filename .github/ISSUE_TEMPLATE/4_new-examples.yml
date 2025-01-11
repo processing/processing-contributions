@@ -1,6 +1,6 @@
 name: 📦 New Example Pack
 description: Submit a new Processing example pack
-labels: ["new-contribution"]
+labels: ["new-contribution", "examples"]
 body:
   - type: markdown
     attributes:
@@ -48,7 +48,3 @@ body:
         The result of this validation will be added to this issue:
         - If valid, a pull request will automatically be created to add your example pack to the repository.
         - If invalid, a comment will be added with details of the error. You will need to fix the file and resubmit.
-  - type: hidden
-    id: contribution_type
-    attributes:
-      value: examples
