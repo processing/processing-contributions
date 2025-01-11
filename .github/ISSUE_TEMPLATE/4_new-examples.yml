@@ -1,6 +1,6 @@
 name: 📦 New Example Pack
 description: Submit a new Processing example pack
-labels: ["new-contribution", "examples"]
+labels: ["new contribution", "examples"]
 body:
   - type: markdown
     attributes:

@@ -1,6 +1,6 @@
 name: 👗 New Mode
 description: Submit a new Processing mode
-labels: ["new-contribution", "mode"]
+labels: ["new contribution", "mode"]
 body:
   - type: markdown
     attributes:

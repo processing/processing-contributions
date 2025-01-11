@@ -5,7 +5,7 @@ on:
       - opened
       - edited
       - reopened
-    if: contains(github.event.issue.labels.*.name, 'new-contribution')
+    if: contains(github.event.issue.labels.*.name, 'new contribution')
 permissions:
   contents: write
   issues: write

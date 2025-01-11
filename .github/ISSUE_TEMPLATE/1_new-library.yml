@@ -1,6 +1,6 @@
 name: 💙 New Library
 description: Submit a new Processing library
-labels: ["new-contribution", "library"]
+labels: ["new contribution", "library"]
 body:
   - type: markdown
     attributes:

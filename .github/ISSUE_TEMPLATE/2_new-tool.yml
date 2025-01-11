@@ -1,6 +1,6 @@
 name: 🔨 New Tool
 description: Submit a new Processing tool
-labels: ["new-contribution", "tool"]
+labels: ["new contribution", "tool"]
 body:
   - type: markdown
     attributes:
