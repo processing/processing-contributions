@@ -38,6 +38,9 @@ body:
     attributes:
       label: Guidelines Confirmation
       description: I confirm that I have read the Library Guidelines and that my library follows the guidelines.
+      options:
+        - label: I confirm
+          required: true
     validations:
       required: true
   - type: markdown
