@@ -37,16 +37,21 @@ jobs:
 
       - name: Get issue labels
         id: getLabels
-        uses: snnaplab/get-labels-action@v1
-        with:
-          number: ${{ github.event.issue.number }}
+        run: |
+          labels=$(gh issue view "${{ github.event.issue.number }}" --json labels -q '.labels|map(.name)')
+          echo "Labels: $labels"
+          echo "labels=$labels" >> $GITHUB_ENV
 
       - name: Determine category from labels
         id: determineCategory
         run: |
-          labels_json="${{ steps.getLabels.outputs.labels }}"
+          labels_json="${{ env.labels }}"
           echo "Labels: $labels_json"
           category=$(python scripts/determine_category.py "$labels_json")
+          if [ -z "$category" ]; then
+            echo "Category is empty. Please ensure the issue has a valid label."
+            exit 1
+          fi
           echo "category=$category" >> $GITHUB_OUTPUT
           echo "Category found: $category"
 
