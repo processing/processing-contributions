@@ -57,9 +57,8 @@ jobs:
       - name: Validate properties URL
         id: validateUrl
         run: |
-          payload="${{ steps.parseIssue.outputs.payload }}"
-          properties_url=$(echo "$payload" | jq -r '."Properties File URL"')
-          if [ -z "$properties_url" ]; then
+          properties_url="${{ fromJson(steps.parseIssue.outputs.payload)['Properties File URL'] }}"
+          if [ -z "$properties_url"; then
             echo "Properties URL is empty. Please provide a valid URL."
             exit 1
           fi
@@ -71,7 +70,7 @@ jobs:
       - name: Read and validate properties txt file
         id: parseProps
         run: |
-          properties_url=$(echo "${{ steps.parseIssue.outputs.payload }}" | jq -r '."Properties File URL"')
+          properties_url="${{ fromJson(steps.parseIssue.outputs.payload)['Properties File URL'] }}"
           python -u scripts/parse_and_validate_properties_txt.py \
             ${{ steps.determineCategory.outputs.category }} \
             "$properties_url"
