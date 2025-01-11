@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     props = json.loads(argv[1])
     # process category list
-    if props['categories']:
+    if 'categories' in props and props['categories']:
         props['categories'] = sorted(props['categories'].replace('"', '').split(','))
         props['categories'] = [category.strip() for category in props['categories']]
     else:
