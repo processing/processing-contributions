@@ -37,6 +37,8 @@ jobs:
 
       - name: Get issue labels
         id: getLabels
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           labels=$(gh issue view "${{ github.event.issue.number }}" --json labels -q '.labels|map(.name)')
           echo "Labels: $labels"
