@@ -50,6 +50,7 @@ jobs:
             fi
           )
           echo "category=$category" >> $GITHUB_OUTPUT
+          echo "Category found: $category"
 
       - name: Debug payload
         run: echo "${{ steps.parseIssue.outputs.payload }}"
