@@ -45,17 +45,17 @@ jobs:
           echo "labels=$labels" >> $GITHUB_ENV
 
       - name: Determine category from labels
-          id: determineCategory
-          run: |
-            labels_json='${{ env.labels }}'
-            echo "Labels: $labels_json"
-            category=$(python scripts/determine_category.py "$labels_json")
-            if [ -z "$category" ]; then
-              echo "Category is empty. Please ensure the issue has a valid label."
-              exit 1
-            fi
-            echo "category=$category" >> $GITHUB_OUTPUT
-            echo "Category found: $category"
+        id: determineCategory
+        run: |
+          labels_json='${{ env.labels }}'
+          echo "Labels: $labels_json"
+          category=$(python scripts/determine_category.py "$labels_json")
+          if [ -z "$category" ]; then
+            echo "Category is empty. Please ensure the issue has a valid label."
+            exit 1
+          fi
+          echo "category=$category" >> $GITHUB_OUTPUT
+          echo "Category found: $category"
 
       - name: Debug payload
         run: echo "${{ steps.parseIssue.outputs.payload }}"
