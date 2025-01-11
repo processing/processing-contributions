@@ -35,11 +35,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Determine category from labels
+        id: determineCategory
+        run: echo "::set-output name=category::${{
+          contains(github.event.issue.labels.*.name, 'examples') && 'examples'
+          || contains(github.event.issue.labels.*.name, 'mode') && 'mode'
+          || contains(github.event.issue.labels.*.name, 'tool') && 'tool'
+          || contains(github.event.issue.labels.*.name, 'library') && 'library'}}"
+
       - name: Read and validate properties txt file
         id: parseProps
         run: >
           python -u scripts/parse_and_validate_properties_txt.py \
-            ${{ fromJson(steps.parseIssue.outputs.payload).contribution_type }} \
+            ${{ steps.determineCategory.outputs.category }} \
             "${{ fromJson(steps.parseIssue.outputs.payload).properties_url }}"
 
       - name: add comment to issue
@@ -57,7 +65,7 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           body: |
             There was an error in reading in your file and parsing it.
-            
+
             ${{ steps.parseProps.outputs.error }}
   create-pr:
     needs: validate
