@@ -33,7 +33,7 @@ body:
     attributes:
       value: |
         Please read the [Tool Guidelines](https://github.com/processing/processing/wiki/Tool-Guidelines) and make sure that your tool follows them.
-  - type: checkbox
+  - type: checkboxes
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation

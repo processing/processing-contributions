@@ -33,7 +33,7 @@ body:
     attributes:
       value: |
         Please read the [Examples Overview](https://github.com/processing/processing/wiki/Examples-Overview) and make sure that your example pack follows the guidelines.
-  - type: checkbox
+  - type: checkboxes
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation

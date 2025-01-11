@@ -33,7 +33,7 @@ body:
     attributes:
       value: |
         Please read the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) and make sure that your library follows them.
-  - type: checkbox
+  - type: checkboxes
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation
