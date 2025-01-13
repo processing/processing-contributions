@@ -24,6 +24,9 @@ body:
         - `.txt` file: `https://github.com/yourusername/yourrepo/releases/latest/download/myLibrary.txt`
         - `.zip` file: `https://github.com/yourusername/yourrepo/releases/latest/download/myLibrary.zip`
 
+        > [!IMPORTANT]
+        > Make sure to keep the same URL in the future. If you release a new version, the URL should remain the same.
+
         For more details, see the [Release Artifacts section of the Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines#release-artifacts).
   - type: input
     id: properties_url
