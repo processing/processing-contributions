@@ -42,7 +42,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Once you submit this form, the `tool.properties` file at the provided URL will be parsed and validated.
+        Once you submit this form, the `.txt` file at the provided URL will be parsed and validated.
 
         The result of this validation will be added to this issue:
         - If valid, a pull request will automatically be created to add your tool to the repository.
