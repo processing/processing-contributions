@@ -15,9 +15,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### About the `.txt` File
+        ### About the Properties File
 
-        The `.txt` file (e.g., `myExamples.txt`) is necessary for submitting your example pack. It should be a direct copy of your `examples.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
+        A properties file (e.g., `myExamples.txt`) is necessary for submitting your example pack. It should be a direct copy of your `examples.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
 
         **Example:**
         If your release artifacts are hosted at `https://github.com/yourusername/yourrepo/releases/latest/`, ensure these files are available:
