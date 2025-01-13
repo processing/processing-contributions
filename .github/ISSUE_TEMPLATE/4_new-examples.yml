@@ -20,9 +20,9 @@ body:
         The `.txt` file (e.g., `myExamples.txt`) is necessary for submitting your example pack. It should be a direct copy of your `examples.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
 
         **Example:**
-        If your release artifacts are hosted at `https://mywebsite.com/releases/latest/`, ensure these files are available:
-        - `.txt` file: `https://mywebsite.com/releases/latest/myExamples.txt`
-        - `.zip` file: `https://mywebsite.com/releases/latest/myExamples.zip`
+        If your release artifacts are hosted at `https://github.com/yourusername/yourrepo/releases/latest/`, ensure these files are available:
+        - `.txt` file: `https://github.com/yourusername/yourrepo/releases/latest/download/myExamples.txt`
+        - `.zip` file: `https://github.com/yourusername/yourrepo/releases/latest/download/myExamples.zip`
   - type: input
     id: properties_url
     attributes:

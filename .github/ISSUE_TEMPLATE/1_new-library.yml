@@ -20,9 +20,9 @@ body:
         The `.txt` file (e.g., `myLibrary.txt`) is necessary for submitting your library. It should be a direct copy of your `library.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
 
         **Example:**
-        If your release artifacts are hosted at `https://mywebsite.com/releases/latest/`, ensure these files are available:
-        - `.txt` file: `https://mywebsite.com/releases/latest/myLibrary.txt`
-        - `.zip` file: `https://mywebsite.com/releases/latest/myLibrary.zip`
+        If your release artifacts are hosted at `https://github.com/yourusername/yourrepo/releases/latest/`, ensure these files are available:
+        - `.txt` file: `https://github.com/yourusername/yourrepo/releases/latest/download/myLibrary.txt`
+        - `.zip` file: `https://github.com/yourusername/yourrepo/releases/latest/download/myLibrary.zip`
 
         For more details, see the [Release Artifacts section of the Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines#release-artifacts).
   - type: input
