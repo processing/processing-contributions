@@ -5217,3 +5217,24 @@ contributions:
   override:
     categories:
     - Books
+- id: 293
+  status: VALID
+  dateAdded: 2025-01-13T01:06:14+0000
+  type: category=library
+  source: 
+    https://raw.githubusercontent.com/alexdmiller/shape-mapper/refs/heads/main/library.properties
+  name: Shape Mapper
+  authors: '[Alex Miller](https\://alexmiller.cv/)'
+  url: https\://shapemapper.dev
+  categories:
+  - 3D
+  sentence: Projection mapping library for 3D models
+  paragraph: Projection mapping is the process of calibrating a digital projection
+    to align with a three dimensional surface. The Shape Mapper library is useful
+    if you have a 3D model of the object you want to projection map.
+  version: 15
+  prettyVersion: 0.1.5
+  minRevision: 0
+  maxRevision: 0
+  download: 
+    https://raw.githubusercontent.com/alexdmiller/shape-mapper/refs/heads/main/library.zip
