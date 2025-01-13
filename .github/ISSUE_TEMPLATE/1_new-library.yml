@@ -9,9 +9,9 @@ body:
 
         Libraries are add-ons that extend the functionality of the Processing language ([read more](https://github.com/processing/processing4/wiki/Library-Overview)).
 
-        Please provide the necessary information below.
-
         If you need help creating a library, see the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) or ask on the [Processing Forum](https://discourse.processing.org/).
+
+        Please provide the necessary information below.
 
   - type: input
     id: properties_url
