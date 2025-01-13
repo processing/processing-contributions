@@ -9,15 +9,27 @@ body:
 
         Libraries are add-ons that extend the functionality of the Processing language ([read more](https://github.com/processing/processing4/wiki/Library-Overview)).
 
-        Please provide the necessary information below.
-
         If you need help creating a library, see the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) or ask on the [Processing Forum](https://discourse.processing.org/).
 
+        Please complete the form below with the necessary information about your library.
+  - type: markdown
+    attributes:
+      value: |
+        ### About the `.txt` File
+
+        The `.txt` file (e.g., `myLibrary.txt`) is necessary for submitting your library. It should be a direct copy of your `library.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
+
+        **Example:**
+        If your release artifacts are hosted at `https://mywebsite.com/releases/latest/`, ensure these files are available:
+        - `.txt` file: `https://mywebsite.com/releases/latest/myLibrary.txt`
+        - `.zip` file: `https://mywebsite.com/releases/latest/myLibrary.zip`
+
+        For more details, see the [Release Artifacts section of the Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines#release-artifacts).
   - type: input
     id: properties_url
     attributes:
       label: Properties File URL
-      description: URL of your properties `.txt` file (e.g. `myLibrary.txt`). It should be in your published release artifacts.
+      description: URL of your properties `.txt` file (e.g. `myLibrary.txt`).
       placeholder: https://
     validations:
       required: true
@@ -42,7 +54,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Once you submit this form, the `library.properties` file at the provided URL will be parsed and validated.
+        Once you submit this form, the `.txt` file at the provided URL will be parsed and validated.
 
         The result of this validation will be added to this issue:
         - If valid, a pull request will automatically be created to add your library to the repository.
