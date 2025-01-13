@@ -12,9 +12,9 @@ body:
         If you need help creating a mode, see the [Mode Overview](https://github.com/processing/processing/wiki/Mode-Overview) or ask on the [Processing Forum](https://discourse.processing.org/).
 
         Please provide the necessary information below.
-  - type: markdown
-    attributes:
-      value: |
+
+        ---
+
         #### About the Properties File
 
         A properties file (e.g., `myMode.txt`) is necessary for submitting your mode. It should be a direct copy of your `mode.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
@@ -26,6 +26,8 @@ body:
 
         > [!IMPORTANT]
         > Make sure to keep the same URL in the future. If you release a new version, the URL should remain the same.
+
+        ---
   - type: input
     id: properties_url
     attributes:
@@ -46,15 +48,17 @@ body:
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation
-      description: I confirm that I have read the [Mode Overview](https://github.com/processing/processing/wiki/Mode-Overview) and that my mode follows the guidelines.
+      description: All modes must follow the guidelines described on the [Mode Overview](https://github.com/processing/processing/wiki/Mode-Overview) page.
       options:
-        - label: I confirm
+        - label: I confirm that my mode follows the guidelines.
           required: true
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
+        ---
+
         Once you submit this form, the `.txt` file at the provided URL will be parsed and validated.
 
         The result of this validation will be added to this issue:

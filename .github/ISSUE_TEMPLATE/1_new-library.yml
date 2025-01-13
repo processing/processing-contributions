@@ -12,9 +12,9 @@ body:
         If you need help creating a library, see the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) or ask on the [Processing Forum](https://discourse.processing.org/).
 
         Please complete the form below with the necessary information about your library.
-  - type: markdown
-    attributes:
-      value: |
+
+        ---
+
         #### About the Properties File
 
         A properties file (e.g., `myLibrary.txt`) is necessary for submitting your library. It should be a direct copy of your `library.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
@@ -28,6 +28,8 @@ body:
         > Make sure to keep the same URL in the future. If you release a new version, the URL should remain the same.
 
         For more details, see the [Release Artifacts section of the Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines#release-artifacts).
+
+        ---
   - type: input
     id: properties_url
     attributes:
@@ -48,15 +50,17 @@ body:
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation
-      description: I confirm that I have read the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) and that my library follows the guidelines.
+      description: All libraries must follow the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines).
       options:
-        - label: I confirm
+        - label: I confirm that my library follows the guidelines.
           required: true
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
+        ---
+
         Once you submit this form, the `.txt` file at the provided URL will be parsed and validated.
 
         The result of this validation will be added to this issue:
