@@ -12,12 +12,22 @@ body:
         If you need help creating a mode, see the [Mode Overview](https://github.com/processing/processing/wiki/Mode-Overview) or ask on the [Processing Forum](https://discourse.processing.org/).
 
         Please provide the necessary information below.
+  - type: markdown
+    attributes:
+      value: |
+        ### About the `.txt` File
 
+        The `.txt` file (e.g., `myMode.txt`) is necessary for submitting your mode. It should be a direct copy of your `mode.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
+
+        **Example:**
+        If your release artifacts are hosted at `https://mywebsite.com/releases/latest/`, ensure these files are available:
+        - `.txt` file: `https://mywebsite.com/releases/latest/myMode.txt`
+        - `.zip` file: `https://mywebsite.com/releases/latest/myMode.zip`
   - type: input
     id: properties_url
     attributes:
       label: Properties File URL
-      description: URL of your properties `.txt` file (e.g. `myMode.txt`). It should be in your published release artifacts.
+      description: URL of your properties `.txt` file (e.g. `myMode.txt`).
       placeholder: https://
     validations:
       required: true

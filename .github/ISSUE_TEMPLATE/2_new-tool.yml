@@ -12,12 +12,22 @@ body:
         If you need help creating a tool, see the [Tool Guidelines](https://github.com/processing/processing/wiki/Tool-Guidelines) or ask on the [Processing Forum](https://discourse.processing.org/).
 
         Please provide the necessary information below.
+  - type: markdown
+    attributes:
+      value: |
+        ### About the `.txt` File
 
+        The `.txt` file (e.g., `myTool.txt`) is necessary for submitting your tool. It should be a direct copy of your `tool.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
+
+        **Example:**
+        If your release artifacts are hosted at `https://mywebsite.com/releases/latest/`, ensure these files are available:
+        - `.txt` file: `https://mywebsite.com/releases/latest/myTool.txt`
+        - `.zip` file: `https://mywebsite.com/releases/latest/myTool.zip`
   - type: input
     id: properties_url
     attributes:
       label: Properties File URL
-      description: URL of your properties `.txt` file (e.g. `myTool.txt`). It should be in your published release artifacts.
+      description: URL of your properties `.txt` file (e.g. `myTool.txt`).
       placeholder: https://
     validations:
       required: true
