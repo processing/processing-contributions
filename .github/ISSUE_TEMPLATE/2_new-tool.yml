@@ -46,9 +46,9 @@ body:
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation
-      description: I confirm that I have read the [Tool Guidelines](https://github.com/processing/processing/wiki/Tool-Guidelines) and that my tool follows the guidelines.
+      description: All tools must follow the [Tool Guidelines](https://github.com/processing/processing/wiki/Tool-Guidelines).
       options:
-        - label: I confirm
+        - label: I confirm that my tool follows the guidelines.
           required: true
     validations:
       required: true
