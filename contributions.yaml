@@ -5217,3 +5217,22 @@ contributions:
   override:
     categories:
     - Books
+- id: 293
+  status: VALID
+  dateAdded: 2025-01-13T20:37:05+0000
+  type: library
+  source: 
+    https://github.com/alexdmiller/shape-mapper/releases/latest/download/shapemapper.txt
+  name: Shape Mapper
+  authors: '[Alex Miller](https\://alexmiller.cv/)'
+  url: https\://github.com/alexdmiller/shape-mapper
+  categories:
+  - 3D
+  sentence: Projection mapping library for 3D models
+  paragraph: ''
+  version: 1
+  prettyVersion: 1.0.0
+  minRevision: 0
+  maxRevision: 0
+  download: 
+    https://github.com/alexdmiller/shape-mapper/releases/latest/download/shapemapper.zip
