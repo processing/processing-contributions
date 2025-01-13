@@ -20,9 +20,12 @@ body:
         The `.txt` file (e.g., `myTool.txt`) is necessary for submitting your tool. It should be a direct copy of your `tool.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
 
         **Example:**
-        If your release artifacts are hosted at `https://mywebsite.com/releases/latest/`, ensure these files are available:
-        - `.txt` file: `https://mywebsite.com/releases/latest/myTool.txt`
-        - `.zip` file: `https://mywebsite.com/releases/latest/myTool.zip`
+        If your release artifacts are hosted at `https://github.com/yourusername/yourrepo/releases/latest/`, ensure these files are available:
+        - `.txt` file: `https://github.com/yourusername/yourrepo/releases/latest/download/myTool.txt`
+        - `.zip` file: `https://github.com/yourusername/yourrepo/releases/latest/download/myTool.zip`
+
+        > [!IMPORTANT]
+        > Make sure to keep the same URL in the future. If you release a new version, the URL should remain the same.
   - type: input
     id: properties_url
     attributes:
