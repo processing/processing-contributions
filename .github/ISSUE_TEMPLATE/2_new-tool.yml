@@ -15,7 +15,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### About the Properties File
+        #### About the Properties File
 
         A properties file (e.g., `myTool.txt`) is necessary for submitting your tool. It should be a direct copy of your `tool.properties` file, hosted in the same directory as your `.zip` distribution, and share the same base name.
 
