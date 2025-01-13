@@ -33,9 +33,9 @@ body:
     id: guidelines_confirmation
     attributes:
       label: Guidelines Confirmation
-      description: I confirm that I have read the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines) and that my library follows the guidelines.
+      description: All libraries must follow the [Library Guidelines](https://github.com/processing/processing4/wiki/Library-Guidelines).
       options:
-        - label: I confirm
+        - label: I confirm that my library follows the guidelines.
           required: true
     validations:
       required: true
