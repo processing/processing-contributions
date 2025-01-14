@@ -5217,3 +5217,27 @@ contributions:
   override:
     categories:
     - Books
+- id: 293
+  status: VALID
+  dateAdded: 2025-01-13T21:51:20+0000
+  type: library
+  source: 
+    https://github.com/micycle1/PGS/releases/download/latest/GeometrySuiteForProcessing.txt
+  name: Geometry Suite for Processing
+  authors: '[Michael Carleton](https://github.com/micycle1/)'
+  url: https://github.com/micycle1/PGS
+  categories:
+  - Geometry
+  sentence: All things computational geometry
+  paragraph: 'PGS provides easy access to 2D geometric algorithms across a rich range
+    of computational geometry subjects: circle packing, mesh-coloring, contouring,
+    hulls, meshing, morphology, geometric optimisation, point and segment set generation,
+    shape boolean operations, shape predicates, tilings, geometric transformation,
+    triangulation, voronoi diagrams.'
+  version: 200
+  prettyVersion: '2.0'
+  minRevision: 4
+  maxRevision: 0
+  lastUpdated: '0'
+  download: 
+    https://github.com/micycle1/PGS/releases/download/latest/GeometrySuiteForProcessing.zip
