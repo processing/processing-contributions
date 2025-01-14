@@ -5,6 +5,9 @@ on:
       - opened
       - edited
       - reopened
+  push:
+    branches:
+      - main
 permissions:
   contents: write
   issues: write
