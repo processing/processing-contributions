@@ -62,7 +62,7 @@ contributions:
     - Animation
 - id: 4
   source: http://staff.city.ac.uk/~jwo/giCentre/utils/gicentreUtils.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: gicentreUtils
   authors: '[Jo Wood](http://gicentre.org/) and [Aidan Slingsby](http://gicentre.org/)'
@@ -83,6 +83,8 @@ contributions:
   override:
     categories:
     - Compilation
+  log:
+  - url timeout, 2025-01-15
 - id: 5
   source: ' http://nootropicdesign.com/processing-layers/downloads/layers.txt '
   status: BROKEN
@@ -3843,7 +3845,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -3875,6 +3877,8 @@ contributions:
     2025-01-02
   - file not found, status code 503 returned for url http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt,
     2025-01-08
+  - file not found, status code 503 returned for url http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt,
+    2025-01-15
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
@@ -5234,10 +5238,12 @@ contributions:
     hulls, meshing, morphology, geometric optimisation, point and segment set generation,
     shape boolean operations, shape predicates, tilings, geometric transformation,
     triangulation, voronoi diagrams.'
-  version: 200
+  version: '200'
   prettyVersion: '2.0'
   minRevision: 4
   maxRevision: 0
-  lastUpdated: '0'
   download: 
     https://github.com/micycle1/PGS/releases/download/latest/GeometrySuiteForProcessing.zip
+  lastUpdated: '0'
+  previousVersions:
+  - '2.0'
