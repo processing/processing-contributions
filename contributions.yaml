@@ -3845,7 +3845,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -5244,7 +5244,6 @@ contributions:
   maxRevision: 0
   download: 
     https://github.com/micycle1/PGS/releases/download/latest/GeometrySuiteForProcessing.zip
-  lastUpdated: '0'
   previousVersions:
   - '2.0'
 - id: 294
@@ -5260,9 +5259,12 @@ contributions:
   - 3D
   sentence: Projection mapping library for 3D models
   paragraph: ''
-  version: 17
+  version: '017'
   prettyVersion: 0.1.7
   minRevision: 0
   maxRevision: 0
   download: 
     https://github.com/alexdmiller/shape-mapper/releases/latest/download/shapemapper.zip
+  lastUpdated: 2025-01-16T04:47:00+0000
+  previousVersions:
+  - 0.1.7
