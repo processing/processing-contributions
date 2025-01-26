@@ -472,7 +472,7 @@ contributions:
   - file not found, status code 404 returned for url https://studioijeoma.com/processing/ijeomamotion/download/ijeomamotion.txt
 - id: 34
   source: http://www.deadpixel.ca/keystone/download/keystone.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Keystone
   authors: '[David Bouchard](http://www.deadpixel.ca)'
