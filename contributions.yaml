@@ -93,7 +93,7 @@ contributions:
   - file not found, status code 404 returned for url https://nootropicdesign.com/processing-layers/downloads/layers.txt
 - id: 6
   source: http://www.die-seite.ch/colladaloader/colladaLoader.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Collada Loader for SketchUp and Blender
   authors: '[Markus Zimmermann](http://www.die-seite.ch/)'
@@ -113,6 +113,8 @@ contributions:
   override:
     categories:
     - 3D
+  log:
+  - url timeout, 2025-02-20
 - id: 7
   source: 
     https://github.com/generative-design/GenerativeDesignLibrary2/releases/download/latest/generativedesign.txt
@@ -4793,7 +4795,7 @@ contributions:
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Latk for Processing
   authors: '[Nick Fox-Gieg](https://fox-gieg.com)'
@@ -4811,6 +4813,8 @@ contributions:
   override:
     categories:
     - Animation
+  log:
+  - url timeout, 2025-02-20
 - id: 273
   source: 
     https://github.com/processing/processing4-javafx/releases/download/latest/processing4-javafx.txt
@@ -5037,7 +5041,7 @@ contributions:
     - Math
 - id: 283
   source: https://fox-gieg.com/patches/processing/libraries/joons/joons.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Joon's Renderer
   authors: '[Joon Hyub Lee](https://sketch.kaist.ac.kr/people/joonhyublee)'
@@ -5054,6 +5058,8 @@ contributions:
   override:
     categories:
     - 3D
+  log:
+  - url timeout, 2025-02-20
 - id: 284
   source: 
     https://github.com/jjeongin/creative-machine/releases/download/latest/creative_machine.txt
