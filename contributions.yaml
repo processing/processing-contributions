@@ -2241,7 +2241,7 @@ contributions:
     - Utilities
 - id: 141
   source: http://s3.staticvoidgames.com/JarMatey/JarMateyProcessingTool.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: JarMatey
   authors: '[Kevin Workman](http://StaticVoidGames.com)'
@@ -2260,6 +2260,7 @@ contributions:
     categories:
   log:
   - in broken conf
+  - invalid file, 2025-02-24
 - id: 142
   source: ' http://py.processing.org/PythonMode.txt '
   status: DEPRECATED
