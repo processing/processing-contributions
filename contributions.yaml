@@ -1910,7 +1910,7 @@ contributions:
   - file not found, status code 404 returned for url http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -1932,6 +1932,7 @@ contributions:
     - 3D
   log:
   - in broken conf
+  - url timeout, 2025-03-13
 - id: 124
   source: ' http://download.processing.org/pdeX.txt '
   status: BROKEN
