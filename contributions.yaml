@@ -1910,7 +1910,7 @@ contributions:
   - file not found, status code 404 returned for url http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -2248,7 +2248,7 @@ contributions:
     - Utilities
 - id: 141
   source: http://s3.staticvoidgames.com/JarMatey/JarMateyProcessingTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: JarMatey
   authors: '[Kevin Workman](http://StaticVoidGames.com)'
