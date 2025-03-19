@@ -521,7 +521,7 @@ contributions:
     - Sound
 - id: 36
   source: http://www.gdsstudios.com/processing/libraries/ocd/download/ocd.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'OCD: Obsessive Camera Direction'
   authors: '[Kristian Damkjer](http://www.gdsstudios.com/)'
@@ -541,6 +541,8 @@ contributions:
   override:
     categories:
     - 3D
+  log:
+  - url timeout, 2025-03-19
 - id: 37
   source: http://mrfeinberg.com/patchy/patchy.txt
   status: VALID
@@ -4775,7 +4777,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -4801,6 +4803,7 @@ contributions:
   - url timeout, 2024-12-28
   - url timeout, 2025-02-10
   - url timeout, 2025-03-02
+  - url timeout, 2025-03-19
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
