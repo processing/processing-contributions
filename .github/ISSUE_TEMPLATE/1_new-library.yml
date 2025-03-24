@@ -72,5 +72,5 @@ body:
     id: remarks
     attributes:
       label: Additional Remarks
-      description: Anything else you'd like to mention about your submission - any comments or questions - let us know here.
+      description: Anything else you'd like to mention about your submission - any comments or questions.
       placeholder: Tell us any other information or questions about your submission
