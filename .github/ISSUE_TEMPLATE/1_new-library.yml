@@ -66,6 +66,8 @@ body:
         The result of this validation will be added to this issue:
         - If valid, a pull request will automatically be created to add your library to the repository.
         - If invalid, a comment will be added with details of the error. You will need to fix the file and resubmit.
+        
+        ---
   - type: input
     id: remarks
     attributes:
