@@ -5341,3 +5341,25 @@ contributions:
     https://github.com/domizai/SimpleBackup/releases/latest/download/SimpleBackup.zip
   previousVersions:
   - 0.0.1
+- id: 296
+  status: VALID
+  dateAdded: 2025-03-24T14:56:25+0000
+  type: library
+  source: 
+    https://github.com/vincentsijben/vjmotion-processing/releases/latest/download/VJMotion.txt
+  name: VJ Motion
+  authors: '[Vincent Sijben](https\://github.com/vincentsijben)'
+  url: https\://vincentsijben.github.io/vjmotion-processing/
+  categories:
+  - Math
+  - Sound
+  - Utilities
+  sentence: A collection of helper functions to create live, audio-reactive visuals
+    with BPM-synced animation, Arduino input and frequency analyzing.
+  paragraph: ''
+  version: 2
+  prettyVersion: 0.0.2
+  minRevision: 0
+  maxRevision: 0
+  download: 
+    https://github.com/vincentsijben/vjmotion-processing/releases/latest/download/VJMotion.zip
