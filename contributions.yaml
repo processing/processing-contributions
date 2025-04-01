@@ -1436,7 +1436,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
@@ -5357,9 +5357,12 @@ contributions:
   sentence: A collection of helper functions to create live, audio-reactive visuals
     with BPM-synced animation, Arduino input and frequency analyzing.
   paragraph: ''
-  version: 2
+  version: '2'
   prettyVersion: 0.0.2
   minRevision: 0
   maxRevision: 0
   download: 
     https://github.com/vincentsijben/vjmotion-processing/releases/latest/download/VJMotion.zip
+  lastUpdated: 2025-04-01T04:48:30+0000
+  previousVersions:
+  - 0.0.2
