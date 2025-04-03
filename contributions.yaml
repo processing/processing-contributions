@@ -1101,7 +1101,7 @@ contributions:
     - Utilities
 - id: 70
   source: http://bezier.de/processing/modes/CoffeeScriptMode.txt
-  status: BROKEN
+  status: VALID
   type: mode
   name: CoffeeScript Mode
   authors: '[Florian Jenett](http://bezier.de/)'
@@ -1236,7 +1236,7 @@ contributions:
   - url timeout, 2025-02-18
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1349,7 +1349,7 @@ contributions:
     - Utilities
 - id: 87
   source: http://bezier.de/processing/modes/JavaScriptMode.txt
-  status: BROKEN
+  status: VALID
   type: mode
   name: JavaScript Mode
   authors: '[Florian Jenett](http://bezier.de/)'
@@ -1658,7 +1658,7 @@ contributions:
     - I/O
 - id: 106
   source: http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
@@ -1920,7 +1920,7 @@ contributions:
   - file not found, status code 404 returned for url http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -3256,7 +3256,7 @@ contributions:
   download: http://damellis.github.io/wovns-processing-examples/WOVNS.zip
 - id: 195
   source: http://culebra.technology/culebra.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Culebra Behavior Library for Processing
   authors: '[Luis Quinones](http://complicitMatter.com)'
@@ -4475,7 +4475,7 @@ contributions:
     - Other
 - id: 254
   source: http://www.kramann.info/ComposingForEveryone.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ComposingForEveryone
   authors: '[Guido Kramann](http://www.kramann.info/cfe)'
