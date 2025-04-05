@@ -5368,11 +5368,13 @@ contributions:
   sentence: A collection of helper functions to create live, audio-reactive visuals
     with BPM-synced animation, Arduino input and frequency analyzing.
   paragraph: ''
-  version: '2'
-  prettyVersion: 0.0.2
+  version: '5'
+  prettyVersion: 0.0.5
   minRevision: 0
   maxRevision: 0
   download: 
     https://github.com/vincentsijben/vjmotion-processing/releases/latest/download/VJMotion.zip
   previousVersions:
   - 0.0.2
+  - 0.0.2
+  lastUpdated: 2025-04-05T04:47:54+0000
