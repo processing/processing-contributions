@@ -2623,7 +2623,7 @@ contributions:
     categories:
 - id: 161
   source: http://codigogenerativo.com/KinectPV2.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Kinect v2 for Processing
   authors: '[Thomas Sanchez Lengeling](http://codigogenerativo.com/)'
@@ -2642,6 +2642,7 @@ contributions:
     - Video & Vision
   log:
   - url timeout, 2025-02-16
+  - invalid file, 2025-04-07
 - id: 162
   source: https://github.com/joelmoniz/REPLmode/releases/download/latest/REPLMode.txt
   status: VALID
@@ -4792,7 +4793,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
