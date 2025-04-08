@@ -1101,7 +1101,7 @@ contributions:
     - Utilities
 - id: 70
   source: http://bezier.de/processing/modes/CoffeeScriptMode.txt
-  status: VALID
+  status: BROKEN
   type: mode
   name: CoffeeScript Mode
   authors: '[Florian Jenett](http://bezier.de/)'
@@ -1122,6 +1122,8 @@ contributions:
   log:
   - in broken conf
   - url timeout, 2025-04-02
+  - file not found, status code 404 returned for url http://bezier.de/processing/modes/CoffeeScriptMode.txt,
+    2025-04-08
 - id: 71
   source: http://motscousus.com/stuff/2011-01_dmxP512/dmxP512.txt
   status: VALID
@@ -1349,7 +1351,7 @@ contributions:
     - Utilities
 - id: 87
   source: http://bezier.de/processing/modes/JavaScriptMode.txt
-  status: VALID
+  status: BROKEN
   type: mode
   name: JavaScript Mode
   authors: '[Florian Jenett](http://bezier.de/)'
@@ -1368,6 +1370,8 @@ contributions:
   log:
   - in broken conf
   - url timeout, 2025-04-02
+  - file not found, status code 404 returned for url http://bezier.de/processing/modes/JavaScriptMode.txt,
+    2025-04-08
 - id: 88
   source: https://raw.github.com/andreaskoller/Fontastic/master/download/Fontastic.txt
   status: VALID
@@ -5370,8 +5374,8 @@ contributions:
   sentence: A collection of helper functions to create live, audio-reactive visuals
     with BPM-synced animation, Arduino input and frequency analyzing.
   paragraph: ''
-  version: '5'
-  prettyVersion: 0.0.5
+  version: '6'
+  prettyVersion: 0.0.6
   minRevision: 0
   maxRevision: 0
   download: 
@@ -5379,3 +5383,5 @@ contributions:
   previousVersions:
   - 0.0.2
   - 0.0.2
+  - 0.0.5
+  lastUpdated: 2025-04-08T04:48:40+0000
