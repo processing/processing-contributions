@@ -2657,8 +2657,8 @@ contributions:
   categories:
   sentence: Adds an REPL Console to view the output of code typed into it immediately.
     Also gives the PDE the ability to hot swap code.
-  paragraph: This mode adds in a Read-Evaluate-Print-Loop console to processing in
-    the form of a tab at the bottom. The console enables users to type in processing
+  paragraph: This mode adds in a Read-Evaluate-Print-Loop console to Processing in
+    the form of a tab at the bottom. The console enables users to type in Processing
     code and to view the output of this code immediately. Each subsequent line of
     code shows the output incrementally, much like how an REPL Console for any interpretive
     language (like Python, and the Linux bash terminal) would. The console also provides
@@ -3310,7 +3310,7 @@ contributions:
   status: DEPRECATED
   type: library
   name: Phidgets For Processing
-  authors: '[Shachar Geiger](sgeiger@shenkar.ac.il)'
+  authors: '[Shachar Geiger](mailto:sgeiger@shenkar.ac.il)'
   url: https://github.com/sgeigers/Phidgets-For-Processing
   categories:
   - Hardware
@@ -3846,7 +3846,7 @@ contributions:
   status: VALID
   type: library
   name: tramontanaCV
-  authors: '[Pierluigi Dalla Rosa](www.pierdr.com)'
+  authors: '[Pierluigi Dalla Rosa](https://www.pierdr.com/)'
   url: https://tramontana.xyz/tramontanacv
   categories:
   - Video & Vision
@@ -3875,7 +3875,7 @@ contributions:
   status: VALID
   type: library
   name: meter
-  authors: Bill (Papa) Kujawa
+  authors: Bill \(Papa\) Kujawa
   url: https://github.com/BillKujawa/meter.git
   categories:
   - Hardware
@@ -4710,7 +4710,7 @@ contributions:
   status: VALID
   type: library
   name: Simple Phidgets
-  authors: '[Shachar Geiger](s.geiger.s@gmail.com)'
+  authors: '[Shachar Geiger](mailto:s.geiger.s@gmail.com)'
   url: https://github.com/sgeigers/SimplePhidgets
   categories:
   - Hardware
@@ -4778,8 +4778,7 @@ contributions:
   status: VALID
   type: library
   name: (Weka4P) Weka Machine Learning for Processing
-  authors: '[Rong-Hao Liang](r.liang@tue.nl), [Wesley Hartogs](https://wesleyhartogs.nl),
-    [Janet Huang](Y.C.Huang@tue.nl)'
+  authors: '[Rong-Hao Liang](mailto:r.liang@tue.nl), [Wesley Hartogs](https://wesleyhartogs.nl), [Janet Huang](mailto:Y.C.Huang@tue.nl)'
   url: https://howieliang.github.io/Weka4P/
   categories:
   - Data
@@ -4958,7 +4957,7 @@ contributions:
   status: VALID
   type: library
   name: SerialRecord
-  authors: '[Oliver Steele](steele@osteele.com)'
+  authors: '[Oliver Steele](mailto:steele@osteele.com)'
   url: https://osteele.github.io/Processing_SerialRecord/
   categories:
   - Data
