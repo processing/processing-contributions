@@ -5163,7 +5163,7 @@ contributions:
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
-  status: VALID
+  status: DEPRECATED
   type: library
   name: BPM timings
   authors: '[Vincent Sijben](https://github.com/vincentsijben)'
@@ -5172,7 +5172,8 @@ contributions:
   - Math
   - Sound
   - Utilities
-  sentence: A collection of functions to animate visuals based on timings.
+  sentence: A collection of functions to animate visuals based on timings. This library is now deprecated. 
+    Please install instead the VJMotion library.
   paragraph: ''
   version: '20'
   prettyVersion: 1.2.6
@@ -5185,6 +5186,8 @@ contributions:
     - Math
     - Sound
     - Utilities
+  log:
+  - library superceded by VJMotion, id 296, 2025-03-31
 - id: 288
   source: 
     https://github.com/letorbi/discord-rich-presence-for-processing/releases/latest/download/DiscordRichPresence.txt
