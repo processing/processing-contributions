@@ -4778,7 +4778,8 @@ contributions:
   status: VALID
   type: library
   name: (Weka4P) Weka Machine Learning for Processing
-  authors: '[Rong-Hao Liang](mailto:r.liang@tue.nl), [Wesley Hartogs](https://wesleyhartogs.nl), [Janet Huang](mailto:Y.C.Huang@tue.nl)'
+  authors: '[Rong-Hao Liang](mailto:r.liang@tue.nl), [Wesley Hartogs](https://wesleyhartogs.nl),
+    [Janet Huang](mailto:Y.C.Huang@tue.nl)'
   url: https://howieliang.github.io/Weka4P/
   categories:
   - Data
@@ -5172,8 +5173,8 @@ contributions:
   - Math
   - Sound
   - Utilities
-  sentence: A collection of functions to animate visuals based on timings. This library is now deprecated. 
-    Please install instead the VJMotion library.
+  sentence: A collection of functions to animate visuals based on timings. This library
+    is now deprecated. Please install instead the VJMotion library.
   paragraph: ''
   version: '20'
   prettyVersion: 1.2.6
@@ -5387,4 +5388,3 @@ contributions:
   - 0.0.2
   - 0.0.5
   - 0.0.6
-  lastUpdated: 2025-04-09T04:49:22+0000
