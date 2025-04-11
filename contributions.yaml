@@ -5377,8 +5377,8 @@ contributions:
   sentence: A collection of helper functions to create live, audio-reactive visuals
     with BPM-synced animation, Arduino input and frequency analyzing.
   paragraph: ''
-  version: '7'
-  prettyVersion: 0.0.7
+  version: '8'
+  prettyVersion: 0.0.8
   minRevision: 0
   maxRevision: 0
   download: 
@@ -5388,3 +5388,5 @@ contributions:
   - 0.0.2
   - 0.0.5
   - 0.0.6
+  - 0.0.7
+  lastUpdated: 2025-04-11T04:48:40+0000
