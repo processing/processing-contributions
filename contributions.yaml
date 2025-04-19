@@ -4262,7 +4262,7 @@ contributions:
   download: https://coding-creative.dringtech.com/examples/coding-creative-examples.zip
 - id: 244
   source: http://giftedapprentice.com/ewbIK/ewbIK.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Everything Will Be IK
   authors: '[Eron Gjoni](https://github.com/EGjoni/)'
@@ -4287,6 +4287,8 @@ contributions:
     - 3D
     - Animation
     - Simulation
+  log:
+  - url timeout, 2025-04-19
 - id: 245
   source: https://github.com/VisualComputing/nub/releases/download/latest/nub.txt
   status: VALID
