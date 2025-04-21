@@ -4262,7 +4262,7 @@ contributions:
   download: https://coding-creative.dringtech.com/examples/coding-creative-examples.zip
 - id: 244
   source: http://giftedapprentice.com/ewbIK/ewbIK.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Everything Will Be IK
   authors: '[Eron Gjoni](https://github.com/EGjoni/)'
