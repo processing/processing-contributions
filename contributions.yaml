@@ -229,7 +229,7 @@ contributions:
     - 3D
 - id: 18
   source: http://www.ricardmarxer.com/fisica/download/fisica.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Fisica
   authors: '[Ricard Marxer](http://www.ricardmarxer.com/)'
@@ -241,7 +241,7 @@ contributions:
     to make it much easier to create physical models by exposing an object oriented
     API similar to [PPhys2D](http://pphys2d.jmcouillard.com/) physics library for
     Processing.
-  version: '16'
+  version: '15'
   prettyVersion: ''
   minRevision: 0
   maxRevision: 0
@@ -252,6 +252,9 @@ contributions:
   log:
   - file not found, status code 404 returned for url https://www.ricardmarxer.com/fisica/download/fisica.txt,
     2025-03-03
+  lastUpdated: 2025-04-28T17:01:41+0000
+  previousVersions:
+  - ''
 - id: 19
   source: http://www.smallbutdigital.com/releases/themidibus/themidibus-latest.txt
   status: VALID
@@ -561,7 +564,7 @@ contributions:
   download: http://mrfeinberg.com/patchy/patchy.zip
 - id: 38
   source: http://www.ricardmarxer.com/geomerative/geomerative.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Geomerative
   authors: '[Ricard Marxer](http://www.ricardmarxer.com/)'
@@ -574,7 +577,7 @@ contributions:
     in a more approchable way. Geomerative makes it easy to access the paths, the
     handles and the points, making it easy to develop generative typography and geometry
     pieces in Processing.
-  version: '43'
+  version: '40'
   prettyVersion: ''
   minRevision: 0
   maxRevision: 0
@@ -586,6 +589,9 @@ contributions:
   log:
   - file not found, status code 404 returned for url https://www.ricardmarxer.com/geomerative/geomerative.txt,
     2025-03-03
+  lastUpdated: 2025-04-28T17:01:41+0000
+  previousVersions:
+  - ''
 - id: 39
   source: https://github.com/codeanticode/tablet/releases/download/latestv2/Tablet.txt
   status: DEPRECATED
@@ -3087,7 +3093,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3104,6 +3110,8 @@ contributions:
   override:
     categories:
     - Other
+  log:
+  - url timeout, 2025-04-28
 - id: 186
   source: https://github.com/leadedge/SpoutProcessing/releases/download/latest/spout.txt
   status: VALID
@@ -3821,7 +3829,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -3899,7 +3907,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -3937,6 +3945,7 @@ contributions:
     2025-01-17
   - file not found, status code 503 returned for url http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt,
     2025-01-21
+  - url timeout, 2025-04-28
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
@@ -4111,7 +4120,7 @@ contributions:
   - file not found, status code 404 returned for url https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -4128,6 +4137,8 @@ contributions:
   override:
     categories:
     - Video & Vision
+  log:
+  - url timeout, 2025-04-28
 - id: 237
   source: http://gicentre.org/handy/handy.txt
   status: VALID
@@ -4637,7 +4648,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -4801,7 +4812,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
