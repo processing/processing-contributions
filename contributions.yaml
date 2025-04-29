@@ -252,7 +252,6 @@ contributions:
   log:
   - file not found, status code 404 returned for url https://www.ricardmarxer.com/fisica/download/fisica.txt,
     2025-03-03
-  lastUpdated: 2025-04-28T17:01:41+0000
   previousVersions:
   - ''
 - id: 19
@@ -589,7 +588,6 @@ contributions:
   log:
   - file not found, status code 404 returned for url https://www.ricardmarxer.com/geomerative/geomerative.txt,
     2025-03-03
-  lastUpdated: 2025-04-28T17:01:41+0000
   previousVersions:
   - ''
 - id: 39
@@ -3093,7 +3091,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3907,7 +3905,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4120,7 +4118,7 @@ contributions:
   - file not found, status code 404 returned for url https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
