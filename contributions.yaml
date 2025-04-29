@@ -1,7 +1,7 @@
 contributions:
 - id: 1
   source: https://github.com/remixlab/proscene/releases/download/latest/proscene.txt
-  status: VALID
+  status: DEPRECATED
   type: library
   name: proscene
   authors: '[Jean Pierre Charalambos](http://otrolado.info)'
