@@ -3604,7 +3604,7 @@ contributions:
     - Utilities
 - id: 211
   source: https://github.com/diwi/PS3Eye/releases/download/latest/PS3Eye.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: PS3Eye
   authors: '[Thomas Diewald](http://www.thomasdiewald.com)'
