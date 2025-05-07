@@ -5409,3 +5409,24 @@ contributions:
   - 0.0.5
   - 0.0.6
   - 0.0.7
+- id: 297
+  status: VALID
+  dateAdded: 2025-05-07T17:17:37+0000
+  type: 'false'
+  source: 
+    https://github.com/Stefterv/processing4-movie-maker/releases/download/v2/MovieMaker.properties
+  name: Movie Maker II
+  authors: The Processing Foundation
+  url: 
+    https://github.com/processing/processing4/tree/main/build/shared/tools/MovieMaker
+  sentence: Movie Maker for Processing 4
+  paragraph: A new version of the Movie Maker for Processing 4 that uses [ffmpeg](https://ffmpeg.org/)
+    to create MP4 and GIF videos.
+  version: 1279
+  prettyVersion: '2'
+  minRevision: 1279
+  maxRevision: 0
+  category: Other
+  categories:
+  download: 
+    https://github.com/Stefterv/processing4-movie-maker/releases/download/v2/MovieMaker.zip
