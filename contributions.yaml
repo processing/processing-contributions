@@ -5412,7 +5412,7 @@ contributions:
 - id: 297
   status: VALID
   dateAdded: 2025-05-07T17:17:37+0000
-  type: 'false'
+  type: tool
   source: 
     https://github.com/Stefterv/processing4-movie-maker/releases/download/v2/MovieMaker.properties
   name: Movie Maker II
