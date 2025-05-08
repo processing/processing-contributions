@@ -5422,11 +5422,15 @@ contributions:
   sentence: Movie Maker for Processing 4
   paragraph: A new version of the Movie Maker for Processing 4 that uses [ffmpeg](https://ffmpeg.org/)
     to create MP4 and GIF videos.
-  version: 1279
+  version: '1279'
   prettyVersion: '2'
   minRevision: 1279
   maxRevision: 0
   category: Other
   categories:
+  - Other
   download: 
     https://github.com/Stefterv/processing4-movie-maker/releases/download/v2/MovieMaker.zip
+  lastUpdated: 2025-05-08T04:49:12+0000
+  previousVersions:
+  - '2'
