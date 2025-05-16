@@ -454,7 +454,7 @@ contributions:
   - file not found, status code 404 returned for url http://libraries.seltar.org/postToWeb/postToWeb.txt
 - id: 32
   source: http://n.clavaud.free.fr/processing/library/picking/download/Picking.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Picking
   authors: '[Nicolas Clavaud](http://n.clavaud.free.fr/)'
@@ -1455,7 +1455,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
