@@ -14,6 +14,7 @@ import re
 import os
 from typing import Optional, Union
 from pydantic import BaseModel, Field, ConfigDict, field_validator
+import javaproperties as jp
 
 
 class PropertiesBase(BaseModel):
@@ -71,32 +72,6 @@ def read_properties_txt(properties_url):
 
     return r.text
 
-def parse_text(properties_raw):
-    field_pattern = re.compile(r"^([a-zA-z]+)\s*=(.*)")
-
-    properties_dict = {}
-    field_name = ""
-    field_value = ""
-    properties_lines = properties_raw.split('\n')
-    for line in properties_lines:
-        if line.startswith('#') or not line.strip():
-            continue
-        if line_match := field_pattern.match(line):
-            # store previous key-value pair
-            if field_name:
-                properties_dict[field_name] = field_value
-            # process current line
-            field_name = line_match[1].strip()
-            field_value = line_match[2].strip()
-            field_value = field_value.split('#')[0].strip()
-        else:
-            field_value += " " + line.strip()
-    # store last key-pair
-    if field_name:
-        properties_dict[field_name] = field_value
-
-    return properties_dict
-
 def validate_existing(properties_dict):
     # validation on existing contribution is weaker
     properties = PropertiesExisting.model_validate(properties_dict)
@@ -151,9 +126,9 @@ if __name__ == "__main__":
 
     try:
         if type_ == 'library':
-            props = validate_new_library(parse_text(properties_raw))
+            props = validate_new_library(jp.loads(properties_raw))
         else:
-            props = validate_new(parse_text(properties_raw))
+            props = validate_new(jp.loads(properties_raw))
     except Exception as e:
         set_output_error(f'Errors when parsing file. Please check all required fields, and file format.\n\n{e}')
         raise e
