@@ -5359,8 +5359,8 @@ contributions:
   source: 
     https://github.com/alexdmiller/shape-mapper/releases/latest/download/shapemapper.txt
   name: Shape Mapper
-  authors: '[Alex Miller](https\://alexmiller.cv/)'
-  url: https\://github.com/alexdmiller/shape-mapper
+  authors: '[Alex Miller](https://alexmiller.cv/)'
+  url: https://github.com/alexdmiller/shape-mapper
   categories:
   - 3D
   sentence: Projection mapping library for 3D models
@@ -5401,8 +5401,8 @@ contributions:
   source: 
     https://github.com/vincentsijben/vjmotion-processing/releases/latest/download/VJMotion.txt
   name: VJ Motion
-  authors: '[Vincent Sijben](https\://github.com/vincentsijben)'
-  url: https\://vincentsijben.github.io/vjmotion-processing/
+  authors: '[Vincent Sijben](https://github.com/vincentsijben)'
+  url: https://vincentsijben.github.io/vjmotion-processing/
   categories:
   - Math
   - Sound

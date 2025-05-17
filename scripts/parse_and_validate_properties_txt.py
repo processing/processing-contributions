@@ -73,7 +73,11 @@ def read_properties_txt(properties_url):
     return r.text
 
 def parse_text(properties_raw):
-    return jp.loads(properties_raw)
+    properties_dict = {
+        key: value.split('#')[0].strip() if isinstance(value, str) else value
+        for key, value in jp.loads(properties_raw).items()
+    }
+    return properties_dict
 
 def validate_existing(properties_dict):
     # validation on existing contribution is weaker
