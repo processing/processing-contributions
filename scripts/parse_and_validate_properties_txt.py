@@ -72,6 +72,9 @@ def read_properties_txt(properties_url):
 
     return r.text
 
+def parse_text(properties_raw):
+    return jp.loads(properties_raw)
+
 def validate_existing(properties_dict):
     # validation on existing contribution is weaker
     properties = PropertiesExisting.model_validate(properties_dict)
@@ -126,9 +129,9 @@ if __name__ == "__main__":
 
     try:
         if type_ == 'library':
-            props = validate_new_library(jp.loads(properties_raw))
+            props = validate_new_library(parse_text(properties_raw))
         else:
-            props = validate_new(jp.loads(properties_raw))
+            props = validate_new(parse_text(properties_raw))
     except Exception as e:
         set_output_error(f'Errors when parsing file. Please check all required fields, and file format.\n\n{e}')
         raise e
