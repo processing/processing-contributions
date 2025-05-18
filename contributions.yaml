@@ -357,7 +357,7 @@ contributions:
     - Hardware
 - id: 25
   source: http://jorgecardoso.eu/processing/NXTComm/NXTComm.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: NXTComm Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -377,10 +377,11 @@ contributions:
     - I/O
   log:
   - url timeout, 2025-05-09
+  - url timeout, 2025-05-18
 - id: 26
   source: 
     http://jorgecardoso.eu/processing/MindSetProcessing/download/MindsetProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: MindSet Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -406,9 +407,10 @@ contributions:
   log:
   - in broken conf
   - url timeout, 2025-05-09
+  - url timeout, 2025-05-18
 - id: 27
   source: http://jorgecardoso.eu/processing/ID3/ID3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ID3
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -428,6 +430,7 @@ contributions:
     - Utilities
   log:
   - url timeout, 2025-05-09
+  - url timeout, 2025-05-18
 - id: 28
   source: http://projects.formatlos.de/ambientlightsensor/download/AmbientLightSensor.txt
   status: BROKEN
@@ -2693,7 +2696,7 @@ contributions:
 - id: 164
   source: 
     http://jorgecardoso.eu/processing/eyetribeprocessing/download/EyeTribeProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Eye Tribe for Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -2714,6 +2717,7 @@ contributions:
     - Hardware
   log:
   - url timeout, 2025-05-09
+  - url timeout, 2025-05-18
 - id: 165
   source: https://processing.org/handbook/handbook_2e.txt
   status: BROKEN
