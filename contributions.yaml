@@ -357,7 +357,7 @@ contributions:
     - Hardware
 - id: 25
   source: http://jorgecardoso.eu/processing/NXTComm/NXTComm.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: NXTComm Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -381,7 +381,7 @@ contributions:
 - id: 26
   source: 
     http://jorgecardoso.eu/processing/MindSetProcessing/download/MindsetProcessing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: MindSet Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -410,7 +410,7 @@ contributions:
   - url timeout, 2025-05-18
 - id: 27
   source: http://jorgecardoso.eu/processing/ID3/ID3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ID3
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -2696,7 +2696,7 @@ contributions:
 - id: 164
   source: 
     http://jorgecardoso.eu/processing/eyetribeprocessing/download/EyeTribeProcessing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Eye Tribe for Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -4832,7 +4832,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -4863,6 +4863,7 @@ contributions:
   - url timeout, 2025-04-06
   - url timeout, 2025-04-28
   - url timeout, 2025-05-11
+  - url timeout, 2025-05-19
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
