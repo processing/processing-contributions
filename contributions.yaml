@@ -3928,7 +3928,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -3967,6 +3967,8 @@ contributions:
   - file not found, status code 503 returned for url http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt,
     2025-01-21
   - url timeout, 2025-04-28
+  - file not found, status code 503 returned for url http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt,
+    2025-06-01
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
@@ -4837,7 +4839,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
