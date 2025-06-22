@@ -221,7 +221,7 @@ contributions:
   - invalid file
 - id: 17
   source: http://mrfeinberg.com/peasycam/peasycam.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: PeasyCam
   authors: '[Jonathan Feinberg](http://mrfeinberg.com/)'
@@ -238,6 +238,8 @@ contributions:
   override:
     categories:
     - 3D
+  log:
+  - url timeout, 2025-06-22
 - id: 18
   source: http://www.ricardmarxer.com/fisica/download/fisica.txt
   status: VALID
@@ -598,10 +600,11 @@ contributions:
   - url timeout, 2025-03-19
 - id: 37
   source: http://mrfeinberg.com/patchy/patchy.txt
-  status: VALID
+  status: BROKEN
   type: library
   log:
   - invalid file
+  - url timeout, 2025-06-22
   name: Patchy
   authors: '[Jonathan Feinberg](http://mrfeinberg.com/)'
   url: http://mrfeinberg.com/patchy/
@@ -1328,7 +1331,7 @@ contributions:
   - url timeout, 2025-02-18
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -4113,7 +4116,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4168,6 +4171,9 @@ contributions:
   - file not found, status code 503 returned for url 
     http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt, 
     2025-06-16
+  - file not found, status code 503 returned for url 
+    http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt, 
+    2025-06-22
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
