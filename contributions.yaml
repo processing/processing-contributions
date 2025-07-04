@@ -5738,3 +5738,25 @@ contributions:
     https://github.com/Stefterv/processing4-movie-maker/releases/download/v2/MovieMaker.zip
   previousVersions:
   - '2'
+- id: 298
+  status: VALID
+  dateAdded: 2025-07-04T21:56:25+0000
+  type: library
+  source: 
+    https://github.com/BarneyWhiteman/SpicyText/releases/latest/download/SpicyText.txt
+  name: SpicyText
+  authors: '[Barney Whiteman](https://barneycodes.com)'
+  url: https://www.barneycodes.com/SpicyText
+  categories:
+  - Typography
+  sentence: A simple text effect library.
+  paragraph: Use the built-in [COLOUR=...], [BACKGROUND=...] and [EFFECT=...] 
+    tags to quickly style and animate your text. Stacking tags lets you get 
+    truly creative, and if thats not enough you can also supply your own CUSTOM 
+    effects!
+  version: 1
+  prettyVersion: 1.0.0-alpha
+  minRevision: 0
+  maxRevision: 0
+  download: 
+    https://github.com/BarneyWhiteman/SpicyText/releases/latest/download/SpicyText.zip
