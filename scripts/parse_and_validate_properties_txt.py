@@ -131,6 +131,9 @@ if __name__ == "__main__":
 
     print(f"properties text: {properties_raw}")  # just for debugging, should do this via logging levels
 
+    # replace occurrences of single quotes with two single quotes.
+    # this is because github actions will delimit strings with single quotes, and escapes single quotes this way
+    properties_raw = properties_raw.replace("'", "''")
     try:
         if type_ == 'library':
             props = validate_new_library(parse_text(properties_raw))
@@ -147,4 +150,4 @@ if __name__ == "__main__":
     contribution.update(props)
 
     print(f"properties dict: {contribution}")  # just for debugging, should do this via logging levels
-    set_output(json.dumps(contribution))
+    set_output(contribution)
