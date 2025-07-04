@@ -1550,7 +1550,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
@@ -1570,6 +1570,7 @@ contributions:
   log:
   - url timeout, 2025-03-31
   - url timeout, 2025-05-11
+  - url timeout, 2025-07-04
 - id: 93
   source: http://www.lagers.org.uk/processing/pathfinder/Path_Finder.txt
   status: VALID
