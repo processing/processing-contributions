@@ -147,4 +147,4 @@ if __name__ == "__main__":
     contribution.update(props)
 
     print(f"properties dict: {contribution}")  # just for debugging, should do this via logging levels
-    set_output(contribution)
+    set_output(json.dumps(contribution))
