@@ -498,7 +498,7 @@ contributions:
 - id: 32
   source: 
     http://n.clavaud.free.fr/processing/library/picking/download/Picking.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Picking
   authors: '[Nicolas Clavaud](http://n.clavaud.free.fr/)'
@@ -526,6 +526,7 @@ contributions:
   - url timeout, 2025-05-27
   - url timeout, 2025-06-05
   - url timeout, 2025-06-26
+  - url timeout, 2025-07-08
 - id: 33
   source: 
     http://ekeneijeoma.com/processing/ijeomamotion/download/ijeomamotion.txt
@@ -5097,7 +5098,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5753,11 +5754,14 @@ contributions:
   sentence: A simple text effect library.
   paragraph: Use the built-in [COLOUR=...], [BACKGROUND=...] and [EFFECT=...] 
     tags to quickly style and animate your text. Stacking tags lets you get 
-    truly creative, and if thats not enough you can also supply your own CUSTOM 
+    truly creative, and if that's not enough you can also supply your own CUSTOM
     effects!
-  version: 1
+  version: '1'
   prettyVersion: 1.0.0-alpha
   minRevision: 0
   maxRevision: 0
   download: 
     https://github.com/BarneyWhiteman/SpicyText/releases/latest/download/SpicyText.zip
+  lastUpdated: 2025-07-08T04:51:56+0000
+  previousVersions:
+  - 1.0.0-alpha
