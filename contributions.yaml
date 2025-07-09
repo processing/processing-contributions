@@ -498,7 +498,7 @@ contributions:
 - id: 32
   source: 
     http://n.clavaud.free.fr/processing/library/picking/download/Picking.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Picking
   authors: '[Nicolas Clavaud](http://n.clavaud.free.fr/)'
@@ -5098,7 +5098,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5137,6 +5137,7 @@ contributions:
   - url timeout, 2025-06-25
   - url timeout, 2025-06-28
   - url timeout, 2025-07-07
+  - url timeout, 2025-07-09
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
@@ -5762,6 +5763,5 @@ contributions:
   maxRevision: 0
   download: 
     https://github.com/BarneyWhiteman/SpicyText/releases/latest/download/SpicyText.zip
-  lastUpdated: 2025-07-08T04:51:56+0000
   previousVersions:
   - 1.0.0-alpha
