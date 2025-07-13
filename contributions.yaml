@@ -355,7 +355,7 @@ contributions:
 - id: 24
   source: 
     https://github.com/firmata/processing/releases/download/latest/processing-arduino.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Arduino (Firmata)
   authors: '[David A. Mellis](http://dam.mellis.org/)'
@@ -5102,7 +5102,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5142,6 +5142,7 @@ contributions:
   - url timeout, 2025-06-28
   - url timeout, 2025-07-07
   - url timeout, 2025-07-09
+  - url timeout, 2025-07-13
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
