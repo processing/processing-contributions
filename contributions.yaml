@@ -1225,7 +1225,7 @@ contributions:
     http://bezier.de/processing/modes/CoffeeScriptMode.txt, 2025-04-08
 - id: 71
   source: http://motscousus.com/stuff/2011-01_dmxP512/dmxP512.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: dmxP512
   authors: Henri DAVID
@@ -3174,22 +3174,25 @@ contributions:
   type: library
   name: Interfascia
   authors: '[Brendan Berg](http://berg.industries/)'
-  url: http://github.com/brendanberg/interfascia
+  url: http://interfascia.berg.industries/
   categories:
-  - Utilities
+  - ' Utilities'
   - GUI
   sentence: Build simple yet gorgeous user interfaces.
   paragraph: Interfascia is an event-based GUI toolkit that provides standard 
     interface widgets like text fields, buttons, checkboxes, and sliders.
-  version: '4'
-  prettyVersion: '004'
-  minRevision: 0
+  version: '6'
+  prettyVersion: '006'
+  minRevision: 246
   maxRevision: 0
   download: http://interfascia.berg.industries/download/interfascia.zip
   override:
     categories:
     - GUI
     - Utilities
+  lastUpdated: 2025-07-17T04:54:36+0000
+  previousVersions:
+  - '004'
 - id: 181
   source: 
     https://github.com/joelmoniz/Shape-Sketch/releases/download/latest/ShapeSketch.txt
