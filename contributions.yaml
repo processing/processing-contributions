@@ -355,7 +355,7 @@ contributions:
 - id: 24
   source: 
     https://github.com/firmata/processing/releases/download/latest/processing-arduino.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Arduino (Firmata)
   authors: '[David A. Mellis](http://dam.mellis.org/)'
