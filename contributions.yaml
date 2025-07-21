@@ -355,7 +355,7 @@ contributions:
 - id: 24
   source: 
     https://github.com/firmata/processing/releases/download/latest/processing-arduino.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Arduino (Firmata)
   authors: '[David A. Mellis](http://dam.mellis.org/)'
@@ -382,6 +382,9 @@ contributions:
   - file not found, status code 404 returned for url 
     https://release-assets.githubusercontent.com/github-production-release-asset/releases/3215061/7417b76a-a53d-11e6-8684-25d31bcf8b24.txt?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-07-16T05%3A49%3A43Z&rscd=attachment%3B+filename%3Dprocessing-arduino.txt&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-07-16T04%3A49%3A17Z&ske=2025-07-16T05%3A49%3A43Z&sks=b&skv=2018-11-09&sig=sY%2BVlw3cev8TF90op9%2BXBo3i96XCsTI87XFvStoxzIQ%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1MjY0MTk4NiwibmJmIjoxNzUyNjQxNjg2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.FrTAJJBOmoeQnLrGVs9dTAraBojtsdwnSYhxxt1MFLU&response-content-disposition=attachment%3B%20filename%3Dprocessing-arduino.txt&response-content-type=application%2Foctet-stream,
     2025-07-16
+  - file not found, status code 404 returned for url 
+    https://release-assets.githubusercontent.com/github-production-release-asset/releases/3215061/7417b76a-a53d-11e6-8684-25d31bcf8b24.txt?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-07-21T05%3A57%3A03Z&rscd=attachment%3B+filename%3Dprocessing-arduino.txt&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-07-21T04%3A56%3A58Z&ske=2025-07-21T05%3A57%3A03Z&sks=b&skv=2018-11-09&sig=ZoNYZ7CCE%2FBhLD83k3pcZXtSTdoEiDp3Q9Tw9iNMYt8%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1MzA3NDE0MSwibmJmIjoxNzUzMDczODQxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.T63nkcid4kbzEMNpS_wCz4gkeCd6K2jZfNR01FvYZxI&response-content-disposition=attachment%3B%20filename%3Dprocessing-arduino.txt&response-content-type=application%2Foctet-stream,
+    2025-07-21
 - id: 25
   source: http://jorgecardoso.eu/processing/NXTComm/NXTComm.txt
   status: VALID
