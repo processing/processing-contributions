@@ -5464,14 +5464,17 @@ contributions:
   - Utilities
   sentence: Generate JavaDoc for sketch.
   paragraph: ''
-  version: '7'
-  prettyVersion: 1.0.6
+  version: '8'
+  prettyVersion: 1.0.7
   minRevision: 0
   maxRevision: 0
   download: 
     https://github.com/hkiel/JavaDoc/releases/latest/download/JavaDoc.zip
   override:
     categories:
+  lastUpdated: 2025-08-14T04:52:03+0000
+  previousVersions:
+  - 1.0.6
 - id: 286
   source: 
     https://github.com/KrabCode/LazyGui/releases/download/latest/LazyGui.txt
