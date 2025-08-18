@@ -4399,7 +4399,7 @@ contributions:
   - url timeout, 2025-04-28
 - id: 237
   source: http://gicentre.org/handy/handy.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: handy
   authors: '[Jo Wood](http://gicentre.net/) and [Aidan Slingsby](http://gicentre.net/)'
@@ -4421,6 +4421,8 @@ contributions:
     categories:
     - Geometry
     - GUI
+  log:
+  - url timeout, 2025-08-18
 - id: 238
   source: 
     https://github.com/cansik/realsense-processing/releases/download/contributed/RealSenseProcessing.txt
