@@ -511,7 +511,7 @@ contributions:
 - id: 32
   source: 
     http://n.clavaud.free.fr/processing/library/picking/download/Picking.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Picking
   authors: '[Nicolas Clavaud](http://n.clavaud.free.fr/)'
