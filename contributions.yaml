@@ -5796,3 +5796,22 @@ contributions:
     https://github.com/BarneyWhiteman/SpicyText/releases/latest/download/SpicyText.zip
   previousVersions:
   - 1.0.0-alpha
+- id: 299
+  status: VALID
+  dateAdded: 2025-08-27T15:36:48+0000
+  type: library
+  source: 
+    https://github.com/skaringa/colormaps-mpl/releases/latest/download/ColorMapsMPL.txt
+  name: ColorMaps from Matplotlib
+  authors: '[Martin Kompf](https://kompf.de)'
+  url: https://skaringa.github.io/colormaps-mpl/
+  categories:
+  - Utilities
+  sentence: Colormaps from Pythonss Matplotlib adapted for Processing.
+  paragraph: ''
+  version: 1
+  prettyVersion: 1.0.0
+  minRevision: 0
+  maxRevision: 0
+  download: 
+    https://github.com/skaringa/colormaps-mpl/releases/latest/download/ColorMapsMPL.zip
