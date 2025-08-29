@@ -5807,11 +5807,14 @@ contributions:
   url: https://skaringa.github.io/colormaps-mpl/
   categories:
   - Utilities
-  sentence: Colormaps from Pythonss Matplotlib adapted for Processing.
+  sentence: Colormaps from Pythons's Matplotlib adapted for Processing.
   paragraph: ''
-  version: 1
+  version: '1'
   prettyVersion: 1.0.0
   minRevision: 0
   maxRevision: 0
   download: 
     https://github.com/skaringa/colormaps-mpl/releases/latest/download/ColorMapsMPL.zip
+  lastUpdated: 2025-08-29T04:47:56+0000
+  previousVersions:
+  - 1.0.0
