@@ -2,8 +2,6 @@
 Reads a properties txt file from a library's release artifacts,
 and validates the contents. If valid, it returns the contents
 as an object.
-
-TODO: write tests for validation
 """
 import json
 import argparse
@@ -13,37 +11,31 @@ from tenacity import retry, stop_after_attempt, wait_fixed
 import re
 import os
 from typing import Optional, Union
-from pydantic import BaseModel, Field, ConfigDict, field_validator
+from pydantic import BaseModel, Field, ConfigDict, field_validator, AliasChoices
 import javaproperties as jp
+
 
 
 class PropertiesBase(BaseModel):
     name: str
-    authors: str
+    authors: str = Field(validation_alias=AliasChoices('authors','authorList'))
     url: str
-    categories: Optional[str] = Field(None)
+    categories: Optional[str] = Field(None, validation_alias=AliasChoices('categories','category'))
     sentence: str
     paragraph: Optional[str] = None
     version: int
     prettyVersion: str
     minRevision: int = Field(0)
     maxRevision: int = Field(0)
-    modes: Optional[str] = Field(None, alias='compatibleModesList')
+    modes: Optional[str] = Field(None, validation_alias=AliasChoices('modes','compatibleModesList'))
 
     model_config = ConfigDict(
         extra='allow',
     )
 
 class PropertiesExisting(PropertiesBase):
-    authors: str = Field(alias='authorList')
-    categories: Optional[str] = Field(None, alias='category')
     version: Union[int, str]
     prettyVersion: Optional[str] = None
-
-    model_config = ConfigDict(
-        extra='allow',
-        populate_by_name=True,
-    )
 
     @field_validator('minRevision', 'maxRevision', mode='before')
     def default_on_error(cls, v):
@@ -54,7 +46,7 @@ class PropertiesExisting(PropertiesBase):
 
 
 class LibraryPropertiesNew(PropertiesBase):
-    categories: str
+    categories: str = Field(validation_alias=AliasChoices('categories','category'))
 
 
 @retry(stop=stop_after_attempt(3),

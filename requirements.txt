@@ -1,5 +1,6 @@
 ruamel.yaml
 tenacity~=9.0.0
 requests~=2.32.3
-pydantic~=2.9.2
+pydantic~=2.11
 javaproperties~=0.8.2
+pytest
