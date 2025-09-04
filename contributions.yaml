@@ -5820,3 +5820,23 @@ contributions:
     https://github.com/skaringa/colormaps-mpl/releases/latest/download/ColorMapsMPL.zip
   previousVersions:
   - 1.0.0
+- id: 300
+  status: VALID
+  dateAdded: 2025-09-04T00:09:58+0000
+  type: examples
+  source: 
+    https://github.com/shiffman/LearningProcessing/releases/download/2025-update/learningprocessing2.txt
+  name: Learning Processing 2nd Edition
+  authors: '[Daniel Shiffman](http://shiffman.net)'
+  url: http://learningprocessing.com
+  categories:
+  - Books
+  sentence: All examples from the second edition of Learning Processing.
+  paragraph: 'All examples from the second edition of Learning Processing: A Beginners
+    Guide to Programming Images, Animation, and Interaction.'
+  version: 1
+  prettyVersion: '1'
+  minVersion: '0'
+  maxVersion: '0'
+  download: 
+    https://github.com/shiffman/LearningProcessing/releases/download/2025-update/learningprocessing2.zip
