@@ -5832,14 +5832,17 @@ contributions:
   categories:
   - Books
   sentence: All examples from the second edition of Learning Processing.
-  paragraph: 'All examples from the second edition of Learning Processing: A Beginners
-    Guide to Programming Images, Animation, and Interaction.'
-  version: 1
+  paragraph: "All examples from the second edition of Learning Processing: A Beginner's
+    Guide to Programming Images, Animation, and Interaction."
+  version: '1'
   prettyVersion: '1'
   minVersion: '0'
   maxVersion: '0'
   download: 
     https://github.com/shiffman/LearningProcessing/releases/download/2025-update/learningprocessing2.zip
+  lastUpdated: 2025-09-04T04:47:24+0000
+  previousVersions:
+  - '1'
 - id: 301
   status: VALID
   dateAdded: 2025-09-04T00:15:27+0000
@@ -5853,9 +5856,12 @@ contributions:
   - Books
   sentence: All examples from the Nature of Code book.
   paragraph: All examples from the Nature of Code book, ported to Processing.
-  version: 1
+  version: '1'
   prettyVersion: '1'
   minVersion: '0'
   maxVersion: '0'
   download: 
     https://github.com//nature-of-code/noc-2-processing-port/releases/latest/download/noc-2-processing-port.zip
+  lastUpdated: 2025-09-04T04:47:24+0000
+  previousVersions:
+  - '1'
