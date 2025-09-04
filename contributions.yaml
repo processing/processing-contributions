@@ -5840,7 +5840,6 @@ contributions:
   maxRevision: 0
   download: 
     https://github.com/shiffman/LearningProcessing/releases/download/2025-update/learningprocessing2.zip
-  lastUpdated: 2025-09-04T04:47:24+0000
   previousVersions:
   - '1'
 - id: 301
@@ -5862,6 +5861,5 @@ contributions:
   maxRevision: 0
   download: 
     https://github.com//nature-of-code/noc-2-processing-port/releases/latest/download/noc-2-processing-port.zip
-  lastUpdated: 2025-09-04T04:47:24+0000
   previousVersions:
   - '1'
