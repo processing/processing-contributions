@@ -5840,3 +5840,22 @@ contributions:
   maxVersion: '0'
   download: 
     https://github.com/shiffman/LearningProcessing/releases/download/2025-update/learningprocessing2.zip
+- id: 301
+  status: VALID
+  dateAdded: 2025-09-04T00:15:27+0000
+  type: examples
+  source: 
+    https://github.com//nature-of-code/noc-2-processing-port/releases/latest/download/noc-2-processing-port.txt
+  name: Nature of Code
+  authors: '[Daniel Shiffman](http://thecodingtrain.com)'
+  url: https://natureofcode.com/
+  categories:
+  - Books
+  sentence: All examples from the Nature of Code book.
+  paragraph: All examples from the Nature of Code book, ported to Processing.
+  version: 1
+  prettyVersion: '1'
+  minVersion: '0'
+  maxVersion: '0'
+  download: 
+    https://github.com//nature-of-code/noc-2-processing-port/releases/latest/download/noc-2-processing-port.zip
