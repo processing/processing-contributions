@@ -1,0 +1,36 @@
+name: Pull Request Test Update Workflow
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  test_run:
+    name: Test that update contributions workflow runs
+    # Only run this job if the issue has the 'new contribution' label
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: run unit tests
+        run: pytest
+
+      - name: fetch updates on contributions
+        run: python -u scripts/fetch_updates.py
+
+      - name: write contribs.txt file
+        run: python -u scripts/to_contribs_txt.py
+
+      - name: write source json files
+        run: python -u scripts/to_sources_jsons.py
