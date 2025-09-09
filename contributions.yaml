@@ -5881,5 +5881,7 @@ contributions:
   paragraph: ''
   version: 4
   prettyVersion: '0.4'
-  download: 
+  minRevision: 0
+  maxRevision: 0
+  download:
     https://github.com/shiffman/Box2D-for-Processing/releases/download/2.0.1/box2d_processing.zip
