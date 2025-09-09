@@ -9,19 +9,10 @@ on:
 jobs:
   test_run:
     name: Test that update contributions workflow runs
-    # Only run this job if the issue has the 'new contribution' label
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout sources
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Setup environment
+        uses: ./.github/setup
 
       - name: run unit tests
         run: pytest

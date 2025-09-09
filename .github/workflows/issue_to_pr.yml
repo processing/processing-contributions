@@ -27,16 +27,8 @@ jobs:
         with:
           issue_number: ${{ github.event.issue.number }}
 
-      - name: Checkout sources
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Setup environment
+        uses: ./.github/setup
 
       - name: Read and validate properties txt file
         id: parseProps
