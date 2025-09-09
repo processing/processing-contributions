@@ -63,6 +63,17 @@ def to_sources_dict(contribution_dict):
   return sources_dict
 
 
+def write_json_for_each_contribution_in_list(all_contributions, folder_path):
+    for contribution in all_contributions:
+        if 'name' in contribution:
+            # output zero padded string for id
+            contribution['id'] = f"{contribution['id']:03}"
+            filename = contribution['name'].replace(':', '').replace('/', '').replace(' ', '_') + '.json'
+            this_filepath = folder_path / filename
+            with open(this_filepath, 'w') as f:
+                json.dump(to_sources_dict(contribution), f, indent=2)
+
+
 if __name__ == "__main__":
   sources_folder = pathlib.Path(__file__).parent.parent / 'sources/'
 
@@ -74,11 +85,4 @@ if __name__ == "__main__":
   sources_folder.mkdir(parents=True, exist_ok=True)
 
   # create a json file in the sources folder for each contribution
-  for contribution in contributions_list:
-    if 'name' in contribution:
-      # output zero padded string for id
-      contribution['id'] = f"{contribution['id']:03}"
-      filename = contribution['name'].replace(':','').replace('/','').replace(' ','_') + '.json'
-      this_filepath = sources_folder / filename
-      with open(this_filepath, 'w') as f:
-        json.dump(to_sources_dict(contribution),f,indent=2)
+  write_json_for_each_contribution_in_list(contributions_list, sources_folder)

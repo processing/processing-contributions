@@ -78,6 +78,18 @@ def process_contribution(item):
   return index, contribution
 
 
+def process_all(contributions_list):
+  total = len(contributions_list)
+  completed = 0
+  print(f"Starting processing of {total} contributions...")
+
+  with Pool(processes=256) as pool:
+    for index, contribution in pool.imap_unordered(process_contribution, enumerate(contributions_list)):
+      contributions_list[index] = contribution
+      completed += 1
+      print(f"Progress: {completed}/{total} ({(completed / total * 100):.1f}%)")
+
+
 if __name__ == "__main__":
   parser = argparse.ArgumentParser()
   parser.add_argument('--index')
@@ -97,16 +109,7 @@ if __name__ == "__main__":
   contributions_list = data['contributions']
 
   if index == 'all':
-    total = len(contributions_list)
-    completed = 0
-    print(f"Starting processing of {total} contributions...")
-    
-    with Pool(processes=256) as pool:
-        for index, contribution in pool.imap_unordered(process_contribution, enumerate(contributions_list)):
-            contributions_list[index] = contribution
-            completed += 1
-            print(f"Progress: {completed}/{total} ({(completed/total*100):.1f}%)")
-    
+    process_all(contributions_list)
     print("All processing complete")
   else:
     # update only contribution with id==index
