@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup environment
-        uses: ./.github/setup
+        uses: ./.github/actions/setup
 
       - name: fetch updates and edit database
         run: |

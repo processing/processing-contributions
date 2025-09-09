@@ -28,7 +28,7 @@ jobs:
           issue_number: ${{ github.event.issue.number }}
 
       - name: Setup environment
-        uses: ./.github/setup
+        uses: ./.github/actions/setup
 
       - name: Read and validate properties txt file
         id: parseProps
