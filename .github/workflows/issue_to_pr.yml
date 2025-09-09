@@ -27,7 +27,10 @@ jobs:
         with:
           issue_number: ${{ github.event.issue.number }}
 
-      - name: Setup environment
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Setup python
         uses: ./.github/actions/setup
 
       - name: Read and validate properties txt file

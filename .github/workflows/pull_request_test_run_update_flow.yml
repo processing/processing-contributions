@@ -11,7 +11,10 @@ jobs:
     name: Test that update contributions workflow runs
     runs-on: ubuntu-latest
     steps:
-      - name: Setup environment
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Setup python
         uses: ./.github/actions/setup
 
       - name: run unit tests

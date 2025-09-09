@@ -11,7 +11,10 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup environment
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Setup python
         uses: ./.github/actions/setup
 
       - name: fetch updates and edit database
