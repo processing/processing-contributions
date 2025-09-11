@@ -511,7 +511,7 @@ contributions:
 - id: 32
   source: 
     http://n.clavaud.free.fr/processing/library/picking/download/Picking.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Picking
   authors: '[Nicolas Clavaud](http://n.clavaud.free.fr/)'
@@ -5823,7 +5823,6 @@ contributions:
   previousVersions:
   - 1.0.0
   - 1.0.0
-  lastUpdated: 2025-09-10T04:47:21+0000
   modes:
 - id: 300
   status: VALID
@@ -5889,7 +5888,6 @@ contributions:
   maxRevision: 0
   download: 
     https://github.com/shiffman/Box2D-for-Processing/releases/download/2.0.1/box2d_processing.zip
-  lastUpdated: 2025-09-10T04:47:22+0000
   previousVersions:
   - '0.4'
   modes:
