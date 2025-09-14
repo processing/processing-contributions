@@ -1568,7 +1568,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
@@ -5138,9 +5138,10 @@ contributions:
   - Sound
   sentence: A real-time audio synthesis library of Pure Data's signal objects 
     for Processing.
-  paragraph: Beta Release with new examples, and bug fixes to the backend.
-  version: '10'
-  prettyVersion: 0.1.1
+  paragraph: New introductory, nature, filters, and modeling examples.  Bug 
+    fixes.
+  version: '11'
+  prettyVersion: 0.1.2
   minRevision: 0
   maxRevision: 0
   download: https://www.robertesler.com/software/Pd4P3.zip
@@ -5172,6 +5173,10 @@ contributions:
   - url timeout, 2025-07-13
   - url timeout, 2025-08-08
   - url timeout, 2025-08-22
+  lastUpdated: '0'
+  previousVersions:
+  - 0.1.1
+  modes:
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
