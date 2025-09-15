@@ -1353,7 +1353,7 @@ contributions:
   - url timeout, 2025-02-18
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1376,6 +1376,7 @@ contributions:
   log:
   - url timeout, 2025-04-02
   - url timeout, 2025-06-21
+  - url timeout, 2025-09-15
 - id: 81
   source: ' http://ubaa.net/shared/processing/opencv/download/opencv.txt '
   status: BROKEN
@@ -1797,7 +1798,7 @@ contributions:
 - id: 106
   source: 
     http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
@@ -1821,6 +1822,7 @@ contributions:
     - Geometry
   log:
   - url timeout, 2025-04-02
+  - url timeout, 2025-09-15
 - id: 107
   source: https://dl.dropboxusercontent.com/u/6030446/punktiert/punktiert.txt
   status: BROKEN
@@ -5173,7 +5175,6 @@ contributions:
   - url timeout, 2025-07-13
   - url timeout, 2025-08-08
   - url timeout, 2025-08-22
-  lastUpdated: '0'
   previousVersions:
   - 0.1.1
   modes:
