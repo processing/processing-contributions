@@ -1353,7 +1353,7 @@ contributions:
   - url timeout, 2025-02-18
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1798,7 +1798,7 @@ contributions:
 - id: 106
   source: 
     http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
