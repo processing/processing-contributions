@@ -2116,7 +2116,7 @@ contributions:
   - invalid file
 - id: 126
   source: https://raw.github.com/jagracar/grafica/master/releases/grafica.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: grafica
   authors: '[Javier Gracia Carpio](http://jagracar.com)'
@@ -2133,6 +2133,10 @@ contributions:
   override:
     categories:
     - Math
+  log:
+  - file not found, status code 503 returned for url 
+    https://raw.github.com/jagracar/grafica/master/releases/grafica.txt, 
+    2025-09-17
 - id: 127
   source: http://www.lagers.org.uk/processing/ai4g/AI_for_2D_Games.txt
   status: VALID
@@ -2407,7 +2411,7 @@ contributions:
 - id: 140
   source: 
     https://raw.github.com/dhchoi/processing-countdowntimer/master/release/CountdownTimer.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: CountdownTimer
   authors: '[Dong Hyun Choi](http://dhchoi.com)'
@@ -2428,6 +2432,10 @@ contributions:
   override:
     categories:
     - Utilities
+  log:
+  - file not found, status code 503 returned for url 
+    https://raw.github.com/dhchoi/processing-countdowntimer/master/release/CountdownTimer.txt,
+    2025-09-17
 - id: 141
   source: http://s3.staticvoidgames.com/JarMatey/JarMateyProcessingTool.txt
   status: VALID
@@ -5131,7 +5139,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5175,6 +5183,7 @@ contributions:
   - url timeout, 2025-07-13
   - url timeout, 2025-08-08
   - url timeout, 2025-08-22
+  - url timeout, 2025-09-17
   previousVersions:
   - 0.1.1
   modes:
