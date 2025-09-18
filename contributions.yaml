@@ -2116,7 +2116,7 @@ contributions:
   - invalid file
 - id: 126
   source: https://raw.github.com/jagracar/grafica/master/releases/grafica.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: grafica
   authors: '[Javier Gracia Carpio](http://jagracar.com)'
@@ -2411,7 +2411,7 @@ contributions:
 - id: 140
   source: 
     https://raw.github.com/dhchoi/processing-countdowntimer/master/release/CountdownTimer.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: CountdownTimer
   authors: '[Dong Hyun Choi](http://dhchoi.com)'
@@ -5139,7 +5139,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
