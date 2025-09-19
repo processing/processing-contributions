@@ -931,7 +931,7 @@ contributions:
     https://schwittlick.net/yahooweather/YahooWeather.txt%20
 - id: 54
   source: https://raw.github.com/fjenett/Guido/latest/releases/Guido.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Guido
   authors: '[Florian Jenett](http://www.bezier.de/)'
@@ -949,10 +949,13 @@ contributions:
   override:
     categories:
     - GUI
+  log:
+  - file not found, status code 503 returned for url 
+    https://raw.github.com/fjenett/Guido/latest/releases/Guido.txt, 2025-09-19
 - id: 55
   source: 
     https://raw.github.com/fjenett/combinatorics/latest/releases/Combinatorics.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Combinatorics
   authors: '[Florian Jenett](http://www.bezier.de/)'
@@ -972,6 +975,10 @@ contributions:
     categories:
     - Math
     - Simulation
+  log:
+  - file not found, status code 503 returned for url 
+    https://raw.github.com/fjenett/combinatorics/latest/releases/Combinatorics.txt,
+    2025-09-19
 - id: 56
   source: 
     https://github.com/generative-design/GenerativeDesignLibrary3/releases/download/latest/generativedesign.txt
@@ -1496,7 +1503,7 @@ contributions:
 - id: 88
   source: 
     https://raw.github.com/andreaskoller/Fontastic/master/download/Fontastic.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Fontastic
   authors: '[Andreas Koller](http://andreaskoller.com)'
@@ -1514,6 +1521,10 @@ contributions:
   override:
     categories:
     - Typography
+  log:
+  - file not found, status code 503 returned for url 
+    https://raw.github.com/andreaskoller/Fontastic/master/download/Fontastic.txt,
+    2025-09-19
 - id: 89
   source: 
     https://raw.githubusercontent.com/nok/soundcloud-processing/master/download/SoundCloud.txt
@@ -1864,7 +1875,7 @@ contributions:
 - id: 110
   source: 
     https://raw.github.com/fjenett/xlsreader-library-processing/latest/release/XlsReader.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: XlsReader
   authors: '[Florian Jenett](http://www.bezier.de/)'
@@ -1885,6 +1896,9 @@ contributions:
     - Data
   log:
   - in broken conf
+  - file not found, status code 503 returned for url 
+    https://raw.github.com/fjenett/xlsreader-library-processing/latest/release/XlsReader.txt,
+    2025-09-19
 - id: 111
   source: 
     https://github.com/benfry/sql-library-processing/raw/master/release/BezierSQLib.txt
@@ -2116,7 +2130,7 @@ contributions:
   - invalid file
 - id: 126
   source: https://raw.github.com/jagracar/grafica/master/releases/grafica.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: grafica
   authors: '[Javier Gracia Carpio](http://jagracar.com)'
@@ -2137,6 +2151,9 @@ contributions:
   - file not found, status code 503 returned for url 
     https://raw.github.com/jagracar/grafica/master/releases/grafica.txt, 
     2025-09-17
+  - file not found, status code 503 returned for url 
+    https://raw.github.com/jagracar/grafica/master/releases/grafica.txt, 
+    2025-09-19
 - id: 127
   source: http://www.lagers.org.uk/processing/ai4g/AI_for_2D_Games.txt
   status: VALID
@@ -2411,7 +2428,7 @@ contributions:
 - id: 140
   source: 
     https://raw.github.com/dhchoi/processing-countdowntimer/master/release/CountdownTimer.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: CountdownTimer
   authors: '[Dong Hyun Choi](http://dhchoi.com)'
@@ -2436,6 +2453,9 @@ contributions:
   - file not found, status code 503 returned for url 
     https://raw.github.com/dhchoi/processing-countdowntimer/master/release/CountdownTimer.txt,
     2025-09-17
+  - file not found, status code 503 returned for url 
+    https://raw.github.com/dhchoi/processing-countdowntimer/master/release/CountdownTimer.txt,
+    2025-09-19
 - id: 141
   source: http://s3.staticvoidgames.com/JarMatey/JarMateyProcessingTool.txt
   status: VALID
