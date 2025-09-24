@@ -1580,7 +1580,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
@@ -2606,7 +2606,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -2626,6 +2626,7 @@ contributions:
     - Video & Vision
   log:
   - url timeout, 2025-09-21
+  - url timeout, 2025-09-24
 - id: 150
   source: 
     https://github.com/processing/processing-video/releases/download/latest-processing3/video.txt
