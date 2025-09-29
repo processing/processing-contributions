@@ -1096,7 +1096,7 @@ contributions:
   - url timeout, 2025-02-18
 - id: 63
   source: http://rednoise.org/rita/rita.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: RiTa
   authors: '[Daniel C. Howe](https://rednoise.org/daniel)'
@@ -1121,6 +1121,8 @@ contributions:
   override:
     categories:
     - Language
+  log:
+  - url timeout, 2025-09-29
 - id: 64
   source: ' http://www.muvium.com/frappuccino/frappuccino.txt '
   status: BROKEN
