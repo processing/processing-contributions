@@ -1096,7 +1096,7 @@ contributions:
   - url timeout, 2025-02-18
 - id: 63
   source: http://rednoise.org/rita/rita.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: RiTa
   authors: '[Daniel C. Howe](https://rednoise.org/daniel)'
@@ -2608,7 +2608,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -2629,6 +2629,7 @@ contributions:
   log:
   - url timeout, 2025-09-21
   - url timeout, 2025-09-24
+  - url timeout, 2025-09-30
 - id: 150
   source: 
     https://github.com/processing/processing-video/releases/download/latest-processing3/video.txt
@@ -4095,7 +4096,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -4983,7 +4984,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
