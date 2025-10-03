@@ -1169,7 +1169,7 @@ contributions:
 - id: 68
   source: 
     http://phi.lho.free.fr/programming/Processing/P8gGraphicsSVG/P8gGraphicsSVG.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: P8gGraphicsSVG
   authors: '[Philippe Lhoste](http://Phi.Lho.free.fr/)'
@@ -1583,7 +1583,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
@@ -1608,6 +1608,7 @@ contributions:
   - url timeout, 2025-09-01
   - url timeout, 2025-09-09
   - url timeout, 2025-09-23
+  - url timeout, 2025-10-03
 - id: 93
   source: http://www.lagers.org.uk/processing/pathfinder/Path_Finder.txt
   status: VALID
