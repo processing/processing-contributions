@@ -5726,14 +5726,17 @@ contributions:
     hulls, meshing, morphology, geometric optimisation, point and segment set generation,
     shape boolean operations, shape predicates, tilings, geometric transformation,
     triangulation, voronoi diagrams.'
-  version: '200'
-  prettyVersion: '2.0'
+  version: '210'
+  prettyVersion: '2.1'
   minRevision: 4
   maxRevision: 0
   download: 
     https://github.com/micycle1/PGS/releases/download/latest/GeometrySuiteForProcessing.zip
   previousVersions:
   - '2.0'
+  - '2.0'
+  lastUpdated: '0'
+  modes:
 - id: 294
   status: VALID
   dateAdded: 2025-01-15T06:57:36+0000
