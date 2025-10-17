@@ -4100,7 +4100,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -4136,6 +4136,7 @@ contributions:
   - url timeout, 2025-09-25
   - url timeout, 2025-09-27
   - url timeout, 2025-10-14
+  - url timeout, 2025-10-17
 - id: 222
   source: https://pierdr.github.io/tramontanaCV/download/tramontanaCV.txt
   status: VALID
@@ -4989,7 +4990,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -5024,6 +5025,7 @@ contributions:
   - url timeout, 2025-09-25
   - url timeout, 2025-09-27
   - url timeout, 2025-10-14
+  - url timeout, 2025-10-17
 - id: 264
   source: 
     https://github.com/dennisppaul/wellen/releases/latest/download/wellen.txt
@@ -5178,7 +5180,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5226,6 +5228,7 @@ contributions:
   - url timeout, 2025-09-21
   - url timeout, 2025-09-25
   - url timeout, 2025-10-14
+  - url timeout, 2025-10-17
   previousVersions:
   - 0.1.1
   modes:
@@ -5564,8 +5567,8 @@ contributions:
     Features a json save system with autosave on program exit, copy/paste, undo/redo,
     these control elements: [slider, 2D plot, color picker, gradient picker, button,
     toggle, text input, radio], and much more... Works on Windows, Mac and Linux.'
-  version: '51'
-  prettyVersion: v1.11.1
+  version: '52'
+  prettyVersion: v1.12.0
   minRevision: 0
   maxRevision: 0
   imports: com.krab.lazy
@@ -5576,7 +5579,9 @@ contributions:
     - GUI
   previousVersions:
   - v1.10.1
+  - v1.11.1
   modes:
+  lastUpdated: 2025-10-17T04:47:54+0000
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
