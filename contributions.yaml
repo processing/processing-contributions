@@ -4100,7 +4100,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -4990,7 +4990,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -5180,7 +5180,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5581,7 +5581,6 @@ contributions:
   - v1.10.1
   - v1.11.1
   modes:
-  lastUpdated: 2025-10-17T04:47:54+0000
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
