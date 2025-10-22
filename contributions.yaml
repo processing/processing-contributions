@@ -5960,3 +5960,25 @@ contributions:
   previousVersions:
   - '0.4'
   modes:
+- id: 303
+  status: VALID
+  dateAdded: 2025-10-22T18:27:58+0000
+  type: library
+  source: 
+    https://github.com/danielcorbani/LunaMapping/releases/download/v0.1.2-alpha/LunaMapping.txt
+  name: Luna Video Mapping
+  authors: '[Daniel Corbani](https://danielcorbani.art.br/)'
+  url: https://luna.art.br/
+  categories:
+  - GUI
+  - Utilities
+  - Video & Vision
+  sentence: A video mapping library with a user interface.
+  paragraph: ''
+  version: 0
+  prettyVersion: 0.1.2-alpha
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/danielcorbani/LunaMapping/releases/download/v0.1.2-alpha/LunaMapping.zip
