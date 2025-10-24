@@ -1169,7 +1169,7 @@ contributions:
 - id: 68
   source: 
     http://phi.lho.free.fr/programming/Processing/P8gGraphicsSVG/P8gGraphicsSVG.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: P8gGraphicsSVG
   authors: '[Philippe Lhoste](http://Phi.Lho.free.fr/)'
@@ -1192,6 +1192,7 @@ contributions:
   log:
   - in broken conf
   - url timeout, 2025-10-02
+  - url timeout, 2025-10-24
 - id: 69
   source: 
     https://raw.githubusercontent.com/nok/onedollar-unistroke-recognizer/master/download/OneDollarUnistrokeRecognizer.txt
@@ -5184,7 +5185,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
