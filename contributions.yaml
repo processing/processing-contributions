@@ -1584,7 +1584,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
@@ -1613,6 +1613,7 @@ contributions:
   - url timeout, 2025-10-15
   - url timeout, 2025-11-04
   - url timeout, 2025-11-10
+  - url timeout, 2025-11-26
 - id: 93
   source: http://www.lagers.org.uk/processing/pathfinder/Path_Finder.txt
   status: VALID
@@ -5195,7 +5196,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5247,6 +5248,7 @@ contributions:
   - url timeout, 2025-10-22
   - url timeout, 2025-10-29
   - url timeout, 2025-11-15
+  - url timeout, 2025-11-26
   previousVersions:
   - 0.1.1
   modes:
