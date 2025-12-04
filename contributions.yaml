@@ -304,7 +304,7 @@ contributions:
 - id: 21
   source: 
     http://www.gwoptics.org/processing/gwoptics_p5lib/download/gwoptics.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: gwoptics
   authors: '[Daniel Brown and Andreas Freise](http://www.gwoptics.org/processing/gwoptics_p5lib/)'
@@ -327,6 +327,9 @@ contributions:
     - Math
   log:
   - in broken conf
+  - file not found, status code 403 returned for url 
+    http://www.gwoptics.org/processing/gwoptics_p5lib/download/gwoptics.txt, 
+    2025-12-04
 - id: 22
   source: ' http://fluidforms.eu/processing/fluid-forms-libs/download/FluidFormsLibs.txt '
   status: BROKEN
@@ -4107,7 +4110,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -5006,7 +5009,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
