@@ -304,7 +304,7 @@ contributions:
 - id: 21
   source: 
     http://www.gwoptics.org/processing/gwoptics_p5lib/download/gwoptics.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: gwoptics
   authors: '[Daniel Brown and Andreas Freise](http://www.gwoptics.org/processing/gwoptics_p5lib/)'
@@ -5208,7 +5208,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5262,6 +5262,7 @@ contributions:
   - url timeout, 2025-11-15
   - url timeout, 2025-11-26
   - url timeout, 2025-12-08
+  - url timeout, 2025-12-12
   previousVersions:
   - 0.1.1
   modes:
