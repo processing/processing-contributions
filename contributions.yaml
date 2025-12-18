@@ -6017,3 +6017,25 @@ contributions:
     https://github.com/danielcorbani/LunaMapping/releases/download/v0.1.2-alpha/LunaMapping.zip
   previousVersions:
   - 0.1.2-alpha
+- id: 304
+  status: VALID
+  dateAdded: 2025-12-18T13:50:14+0000
+  type: mode
+  source: 
+    https://github.com/processing/processing-p5.js-mode/releases/latest/download/p5js.txt
+  name: p5.js Mode
+  authors: '[The Processing Foundation](https://processingfoundation.org/)'
+  url: https://github.com/processing/processing-p5.js-mode
+  categories:
+  - Unknown
+  sentence: P5.js Mode for Processing
+  paragraph: ''
+  version: 1
+  prettyVersion: 0.1.0
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  lastUpdated: '0'
+  imports: ''
+  download: 
+    https://github.com/processing/processing-p5.js-mode/releases/latest/download/p5js.zip
