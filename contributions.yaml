@@ -221,7 +221,7 @@ contributions:
   - invalid file
 - id: 17
   source: http://mrfeinberg.com/peasycam/peasycam.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: PeasyCam
   authors: '[Jonathan Feinberg](http://mrfeinberg.com/)'
@@ -240,6 +240,7 @@ contributions:
     - 3D
   log:
   - url timeout, 2025-06-22
+  - url timeout, 2025-12-19
 - id: 18
   source: http://www.ricardmarxer.com/fisica/download/fisica.txt
   status: VALID
@@ -623,11 +624,12 @@ contributions:
   - url timeout, 2025-03-19
 - id: 37
   source: http://mrfeinberg.com/patchy/patchy.txt
-  status: VALID
+  status: BROKEN
   type: library
   log:
   - invalid file
   - url timeout, 2025-06-22
+  - url timeout, 2025-12-19
   name: Patchy
   authors: '[Jonathan Feinberg](http://mrfeinberg.com/)'
   url: http://mrfeinberg.com/patchy/
@@ -4110,7 +4112,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -5010,7 +5012,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -5210,7 +5212,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5266,6 +5268,7 @@ contributions:
   - url timeout, 2025-12-08
   - url timeout, 2025-12-12
   - url timeout, 2025-12-17
+  - url timeout, 2025-12-19
   previousVersions:
   - 0.1.1
   modes:
