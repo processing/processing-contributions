@@ -3603,7 +3603,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -3620,6 +3620,8 @@ contributions:
   override:
     categories:
     - Data
+  log:
+  - url timeout, 2026-01-03
 - id: 199
   source: 
     https://github.com/fathominfo/processing-p5js-mode/releases/download/latest/p5jsMode.txt
@@ -3861,7 +3863,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -3878,6 +3880,8 @@ contributions:
   override:
     categories:
     - Utilities
+  log:
+  - url timeout, 2026-01-03
 - id: 211
   source: https://github.com/diwi/PS3Eye/releases/download/latest/PS3Eye.txt
   status: VALID
