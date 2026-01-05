@@ -1721,7 +1721,7 @@ contributions:
   - url timeout
 - id: 101
   source: 
-    https://github.com/processing/processing-android/releases/download/latest-processing3/AndroidMode.txt
+    https://github.com/processing/processing-android/releases/download/latest/AndroidMode.txt
   status: VALID
   type: mode
   name: Android Mode for Processing 3
@@ -1736,7 +1736,7 @@ contributions:
   maxRevision: 270
   imports: processing.mode.java.JavaMode
   download: 
-    https://github.com/processing/processing-android/releases/download/latest-processing3/AndroidMode.zip
+    https://github.com/processing/processing-android/releases/download/latest/AndroidMode.zip
 - id: 102
   source: ' http://s176381904.onlinehome.fr/processing/MoveLib/download/MoveLib.txt '
   status: DEPRECATED
@@ -2648,7 +2648,7 @@ contributions:
   - url timeout, 2025-10-08
 - id: 150
   source: 
-    https://github.com/processing/processing-video/releases/download/latest-processing3/video.txt
+    https://github.com/processing/processing-video/releases/download/latest/video.txt
   status: VALID
   type: library
   name: Video Library for Processing 3
@@ -2663,7 +2663,7 @@ contributions:
   minRevision: 228
   maxRevision: 270
   download: 
-    https://github.com/processing/processing-video/releases/download/latest-processing3/video.zip
+    https://github.com/processing/processing-video/releases/download/latest/video.zip
   override:
     categories:
     - Video & Vision
@@ -5870,7 +5870,7 @@ contributions:
   dateAdded: 2025-05-07T17:17:37+0000
   type: tool
   source: 
-    https://github.com/Stefterv/processing4-movie-maker/releases/download/v2/MovieMaker.properties
+    https://github.com/Stefterv/processing4-movie-maker/releases/latest/download/MovieMaker.properties
   name: Movie Maker II
   authors: The Processing Foundation
   url: 
@@ -5886,7 +5886,7 @@ contributions:
   categories:
   - Other
   download: 
-    https://github.com/Stefterv/processing4-movie-maker/releases/download/v2/MovieMaker.zip
+    https://github.com/Stefterv/processing4-movie-maker/releases/latest/download/MovieMaker.zip
   previousVersions:
   - '2'
 - id: 298
@@ -5941,7 +5941,7 @@ contributions:
   dateAdded: 2025-09-04T00:09:58+0000
   type: examples
   source: 
-    https://github.com/shiffman/LearningProcessing/releases/download/2025-update/learningprocessing2.txt
+    https://github.com/shiffman/LearningProcessing/releases/latest/download/learningprocessing2.txt
   name: Learning Processing 2nd Edition
   authors: '[Daniel Shiffman](http://shiffman.net)'
   url: http://learningprocessing.com
@@ -5955,7 +5955,7 @@ contributions:
   minRevision: 0
   maxRevision: 0
   download: 
-    https://github.com/shiffman/LearningProcessing/releases/download/2025-update/learningprocessing2.zip
+    https://github.com/shiffman/LearningProcessing/releases/latest/download/learningprocessing2.zip
   previousVersions:
   - '1'
 - id: 301
@@ -5984,7 +5984,7 @@ contributions:
   dateAdded: 2025-09-04T21:25:52+0000
   type: library
   source: 
-    https://github.com/shiffman/Box2D-for-Processing/releases/download/2.0.1/box2d_processing.txt
+    https://github.com/shiffman/Box2D-for-Processing/releases/latest/download/box2d_processing.txt
   name: Box2D for Processing
   authors: '[Daniel Shiffman](http://www.shiffman.net/)'
   url: https://github.com/shiffman/Box2D-for-Processing
@@ -5999,7 +5999,7 @@ contributions:
   minRevision: 0
   maxRevision: 0
   download: 
-    https://github.com/shiffman/Box2D-for-Processing/releases/download/2.0.1/box2d_processing.zip
+    https://github.com/shiffman/Box2D-for-Processing/releases/latest/download/box2d_processing.zip
   previousVersions:
   - '0.4'
   modes:
@@ -6008,7 +6008,7 @@ contributions:
   dateAdded: 2025-10-22T18:27:58+0000
   type: library
   source: 
-    https://github.com/danielcorbani/LunaMapping/releases/download/v0.1.2-alpha/LunaMapping.txt
+    https://github.com/danielcorbani/LunaMapping/releases/latest/download/LunaMapping.txt
   name: Luna Video Mapping
   authors: '[Daniel Corbani](https://danielcorbani.art.br/)'
   url: https://luna.art.br/
@@ -6024,6 +6024,6 @@ contributions:
   maxRevision: 0
   modes:
   download: 
-    https://github.com/danielcorbani/LunaMapping/releases/download/v0.1.2-alpha/LunaMapping.zip
+    https://github.com/danielcorbani/LunaMapping/releases/latest/download/LunaMapping.zip
   previousVersions:
   - 0.1.2-alpha
