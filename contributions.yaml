@@ -1721,7 +1721,7 @@ contributions:
   - url timeout
 - id: 101
   source: 
-    https://github.com/processing/processing-android/releases/download/latest/AndroidMode.txt
+    https://github.com/processing/processing-android/releases/download/latest-processing3/AndroidMode.txt
   status: VALID
   type: mode
   name: Android Mode for Processing 3
@@ -1736,7 +1736,7 @@ contributions:
   maxRevision: 270
   imports: processing.mode.java.JavaMode
   download: 
-    https://github.com/processing/processing-android/releases/download/latest/AndroidMode.zip
+    https://github.com/processing/processing-android/releases/download/latest-processing3/AndroidMode.zip
 - id: 102
   source: ' http://s176381904.onlinehome.fr/processing/MoveLib/download/MoveLib.txt '
   status: DEPRECATED
@@ -2648,7 +2648,7 @@ contributions:
   - url timeout, 2025-10-08
 - id: 150
   source: 
-    https://github.com/processing/processing-video/releases/download/latest/video.txt
+    https://github.com/processing/processing-video/releases/download/latest-processing3/video.txt
   status: VALID
   type: library
   name: Video Library for Processing 3
@@ -2663,7 +2663,7 @@ contributions:
   minRevision: 228
   maxRevision: 270
   download: 
-    https://github.com/processing/processing-video/releases/download/latest/video.zip
+    https://github.com/processing/processing-video/releases/download/latest-processing3/video.zip
   override:
     categories:
     - Video & Vision
