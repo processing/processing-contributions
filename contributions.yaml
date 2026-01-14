@@ -6034,3 +6034,25 @@ contributions:
     https://github.com/danielcorbani/LunaMapping/releases/latest/download/LunaMapping.zip
   previousVersions:
   - 0.1.2-alpha
+- id: 304
+  status: VALID
+  dateAdded: 2025-12-18T13:51:32+0000
+  type: mode
+  source: 
+    https://github.com/processing/processing-p5.js-mode/releases/latest/download/p5js.txt
+  name: p5.js Mode (Electron)
+  authors: '[The Processing Foundation](https://processingfoundation.org/)'
+  url: https://github.com/processing/processing-p5.js-mode
+  categories:
+  - Unknown
+  sentence: create p5.js sketches within Processing using the Electron framework
+  paragraph: ''
+  version: 2
+  prettyVersion: 0.2.0
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  lastUpdated: '0'
+  imports: ''
+  download: 
+    https://github.com/processing/processing-p5.js-mode/releases/latest/download/p5js.zip
