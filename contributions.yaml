@@ -6040,19 +6040,21 @@ contributions:
   type: mode
   source: 
     https://github.com/processing/processing-p5.js-mode/releases/latest/download/p5js.txt
-  name: p5.js Mode (Electron)
+  name: p5.js Mode (experimental)
   authors: '[The Processing Foundation](https://processingfoundation.org/)'
   url: https://github.com/processing/processing-p5.js-mode
   categories:
   - Unknown
   sentence: create p5.js sketches within Processing using the Electron framework
   paragraph: ''
-  version: 2
-  prettyVersion: 0.2.0
+  version: '4'
+  prettyVersion: 0.4.0
   minRevision: 0
   maxRevision: 0
   modes:
-  lastUpdated: '0'
   imports: ''
   download: 
     https://github.com/processing/processing-p5.js-mode/releases/latest/download/p5js.zip
+  lastUpdated: '0'
+  previousVersions:
+  - 0.2.0
