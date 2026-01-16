@@ -4225,7 +4225,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4283,6 +4283,7 @@ contributions:
   - file not found, status code 503 returned for url 
     http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt, 
     2025-06-22
+  - url timeout, 2026-01-16
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
@@ -6041,20 +6042,21 @@ contributions:
   source: 
     https://github.com/processing/processing-p5.js-mode/releases/latest/download/p5js.txt
   name: p5.js Mode (experimental)
-  authors: '[The Processing Foundation](https://processingfoundation.org/)'
+  authors: The Processing Foundation
   url: https://github.com/processing/processing-p5.js-mode
   categories:
   - Unknown
   sentence: create p5.js sketches within Processing using the Electron framework
   paragraph: ''
-  version: '4'
-  prettyVersion: 0.4.0
+  version: '5'
+  prettyVersion: 0.5.0
   minRevision: 0
   maxRevision: 0
   modes:
   imports: ''
   download: 
     https://github.com/processing/processing-p5.js-mode/releases/latest/download/p5js.zip
-  lastUpdated: '0'
   previousVersions:
   - 0.2.0
+  - 0.4.0
+  lastUpdated: '0'
