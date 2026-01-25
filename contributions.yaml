@@ -46,7 +46,7 @@ contributions:
     https://www.carljohanrosen.com/processing/images/cellnoise-latest.txt%20
 - id: 3
   source: https://dev.benedikt-gross.de/libraries/Ani/Ani-latest.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Ani
   authors: '[Benedikt Gross](http://benedikt-gross.de/)'
@@ -63,6 +63,8 @@ contributions:
   override:
     categories:
     - Animation
+  log:
+  - url timeout, 2026-01-25
 - id: 4
   source: http://staff.city.ac.uk/~jwo/giCentre/utils/gicentreUtils.txt
   status: BROKEN
@@ -1976,7 +1978,7 @@ contributions:
 - id: 115
   source: 
     http://s176381904.onlinehome.fr/processing/SignalFilter/download/signalFilter.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Signal Filter
   authors: '[Raphael de Courville](https://vimeo.com/sableraf/)'
@@ -1996,6 +1998,10 @@ contributions:
   override:
     categories:
     - Data
+  log:
+  - file not found, status code 500 returned for url 
+    http://s176381904.onlinehome.fr/processing/SignalFilter/download/signalFilter.txt,
+    2026-01-25
 - id: 116
   source: ' https://github.com/prisonerjohn/NextText/releases/download/latest/NextText.txt '
   status: DEPRECATED
