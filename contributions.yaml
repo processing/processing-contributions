@@ -46,7 +46,7 @@ contributions:
     https://www.carljohanrosen.com/processing/images/cellnoise-latest.txt%20
 - id: 3
   source: https://dev.benedikt-gross.de/libraries/Ani/Ani-latest.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Ani
   authors: '[Benedikt Gross](http://benedikt-gross.de/)'
@@ -1978,7 +1978,7 @@ contributions:
 - id: 115
   source: 
     http://s176381904.onlinehome.fr/processing/SignalFilter/download/signalFilter.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Signal Filter
   authors: '[Raphael de Courville](https://vimeo.com/sableraf/)'
