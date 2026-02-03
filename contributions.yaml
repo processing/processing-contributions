@@ -5237,7 +5237,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -6063,8 +6063,8 @@ contributions:
   - Unknown
   sentence: create p5.js sketches within Processing using the Electron framework
   paragraph: ''
-  version: '5'
-  prettyVersion: 0.5.0
+  version: '6'
+  prettyVersion: 0.6.0
   minRevision: 0
   maxRevision: 0
   modes:
@@ -6074,3 +6074,5 @@ contributions:
   previousVersions:
   - 0.2.0
   - 0.4.0
+  - 0.5.0
+  lastUpdated: '0'
