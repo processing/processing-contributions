@@ -1371,7 +1371,7 @@ contributions:
   - url timeout, 2025-02-18
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1395,6 +1395,7 @@ contributions:
   - url timeout, 2025-04-02
   - url timeout, 2025-06-21
   - url timeout, 2025-09-15
+  - url timeout, 2026-02-07
 - id: 81
   source: ' http://ubaa.net/shared/processing/opencv/download/opencv.txt '
   status: BROKEN
@@ -3116,7 +3117,7 @@ contributions:
   status: VALID
   type: library
   name: Camera 3D
-  authors: '[Jim Schmitz](https://ixora.io)'
+  authors: '[Jim Schmitz](https://ixora.io/)'
   url: https://ixora.io/projects/camera-3D/
   categories:
   - 3D
@@ -3124,14 +3125,18 @@ contributions:
     and other 3D effects.
   paragraph: Library will execute the draw method multiple times with different 
     camera settings and combine them together to form one composite frame.
-  version: '7'
-  prettyVersion: 1.2.4
+  version: '8'
+  prettyVersion: 1.3.0
   minRevision: 233
   maxRevision: 0
   download: https://ixora.io/downloads/camera3D/Camera3D.zip
   override:
     categories:
     - 3D
+  lastUpdated: 2026-02-07T05:07:21+0000
+  previousVersions:
+  - 1.2.4
+  modes:
 - id: 175
   source: 
     https://github.com/alexandrainst/processing_websockets/releases/download/latest/webSockets.txt
@@ -3689,8 +3694,8 @@ contributions:
   source: https://ixora.io/downloads/colorblindness/ColorBlindness.txt
   status: VALID
   type: library
-  name: ColorBlindness
-  authors: '[Jim Schmitz](https://ixora.io)'
+  name: Colorblindness
+  authors: '[Jim Schmitz](https://ixora.io/)'
   url: https://ixora.io/projects/colorblindness/
   categories:
   - Utilities
@@ -3698,14 +3703,18 @@ contributions:
     performing daltonization.
   paragraph: Transforms colors so you can see what a color blind person would 
     see when they look at your sketch.
-  version: '3'
-  prettyVersion: 1.0.2
+  version: '4'
+  prettyVersion: 1.1.0
   minRevision: 227
   maxRevision: 0
   download: https://ixora.io/downloads/colorblindness/ColorBlindness.zip
   override:
     categories:
     - Utilities
+  lastUpdated: 2026-02-07T05:07:22+0000
+  previousVersions:
+  - 1.0.2
+  modes:
 - id: 203
   source: 
     https://github.com/OliverColeman/hivis/releases/download/latest/HiVis.txt
@@ -4123,7 +4132,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -4495,7 +4504,7 @@ contributions:
   - url timeout, 2025-04-28
 - id: 237
   source: http://gicentre.org/handy/handy.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: handy
   authors: '[Jo Wood](http://gicentre.net/) and [Aidan Slingsby](http://gicentre.net/)'
@@ -5031,7 +5040,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -5240,7 +5249,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
