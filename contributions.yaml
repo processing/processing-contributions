@@ -1251,7 +1251,7 @@ contributions:
     http://bezier.de/processing/modes/CoffeeScriptMode.txt, 2025-04-08
 - id: 71
   source: http://motscousus.com/stuff/2011-01_dmxP512/dmxP512.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: dmxP512
   authors: Henri DAVID
@@ -1270,6 +1270,7 @@ contributions:
     - Hardware
   log:
   - url timeout, 2025-07-16
+  - url timeout, 2026-02-08
 - id: 72
   source: http://sojamo.de/libraries/oscp5/oscP5.txt
   status: VALID
@@ -1371,7 +1372,7 @@ contributions:
   - url timeout, 2025-02-18
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -3133,7 +3134,6 @@ contributions:
   override:
     categories:
     - 3D
-  lastUpdated: 2026-02-07T05:07:21+0000
   previousVersions:
   - 1.2.4
   modes:
@@ -3711,7 +3711,6 @@ contributions:
   override:
     categories:
     - Utilities
-  lastUpdated: 2026-02-07T05:07:22+0000
   previousVersions:
   - 1.0.2
   modes:
