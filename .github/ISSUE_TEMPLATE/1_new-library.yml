@@ -46,6 +46,30 @@ body:
       placeholder: https://
     validations:
       required: true
+  - type: input
+    id: repository_url
+    attributes:
+      label: Repository URL
+      description: URL of the source code repository for your library.
+      placeholder: https://github.com/username/repository
+    validations:
+      required: false
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub Username
+      description: Your GitHub username.
+      placeholder: username
+    validations:
+      required: false
+  - type: input
+    id: license_spdx
+    attributes:
+      label: License SPDX Identifier
+      description: SPDX identifier for your library's license (e.g., MIT, GPL-3.0-only, LGPL-2.1-or-later). See [SPDX License List](https://spdx.org/licenses/) for valid identifiers.
+      placeholder: MIT
+    validations:
+      required: false
   - type: checkboxes
     id: guidelines_confirmation
     attributes:
