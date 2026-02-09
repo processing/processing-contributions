@@ -1251,7 +1251,7 @@ contributions:
     http://bezier.de/processing/modes/CoffeeScriptMode.txt, 2025-04-08
 - id: 71
   source: http://motscousus.com/stuff/2011-01_dmxP512/dmxP512.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: dmxP512
   authors: Henri DAVID
