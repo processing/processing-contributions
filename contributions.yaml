@@ -6118,3 +6118,30 @@ contributions:
   - 0.2.0
   - 0.4.0
   - 0.5.0
+- id: 305
+  status: VALID
+  dateAdded: 2026-02-20T11:05:25+0000
+  type: 'false'
+  source: 
+    https://github.com/MichailSemoglou/AlgorithmicTypography/releases/latest/download/AlgorithmicTypography.txt
+  name: AlgorithmicTypography
+  authors: Michail Semoglou, Qide Studio, TJ DI
+  url: https://github.com/MichailSemoglou/AlgorithmicTypography
+  categories:
+  - Animation
+  - Typography
+  - Utilities
+  sentence: A library for creating algorithmic typography animations using 
+    mathematical wave functions.
+  paragraph: AlgorithmicTypography enables designers, researchers, and artists 
+    to explore parametric typography systems. Animated grids of typographic 
+    characters driven by mathematical wave functions, with configurable grid 
+    density, brightness, speed, cultural design presets, audio-reactivity, and 
+    plugin architecture.
+  version: 100
+  prettyVersion: 1.0.0
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/MichailSemoglou/AlgorithmicTypography/releases/latest/download/AlgorithmicTypography.zip
