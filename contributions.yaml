@@ -4933,7 +4933,7 @@ contributions:
 - id: 256
   source: 
     https://github.com/Milchreis/uibooster-for-processing/releases/latest/download/UiBooster.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: UiBooster
   authors: "[Nick 'Milchreis' Müller](http://github.com/milchreis)"
@@ -4955,6 +4955,10 @@ contributions:
     - GUI
   previousVersions:
   - 1.21.0
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/Milchreis/uibooster-for-processing/releases/download/1.21.1/UiBooster.txt,
+    2026-02-22
 - id: 257
   source: https://rect.dev/processing/infinidecimal/GRInfinidecimalCanvas.txt
   status: BROKEN
@@ -5014,7 +5018,7 @@ contributions:
 - id: 261
   source: 
     https://github.com/dennisppaul/teilchen/releases/latest/download/teilchen.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: teilchen
   authors: '[Dennis P Paul](https://dennisppaul.de/)'
@@ -5039,6 +5043,10 @@ contributions:
   override:
     categories:
     - Simulation
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/dennisppaul/teilchen/releases/download/v0.4/teilchen.txt,
+    2026-02-22
 - id: 262
   source: ' https://github.com/SamuelAl/SQuelized-for-Processing/releases/latest/download/SQuelized.txt '
   status: DEPRECATED
@@ -5119,7 +5127,7 @@ contributions:
 - id: 264
   source: 
     https://github.com/dennisppaul/wellen/releases/latest/download/wellen.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: wellen
   authors: '[Dennis P Paul](https://dennisppaul.de/)'
@@ -5146,6 +5154,10 @@ contributions:
   previousVersions:
   - '0.12'
   modes:
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/dennisppaul/wellen/releases/download/v0.13/wellen.txt, 
+    2026-02-22
 - id: 265
   source: https://codingart-book.github.io/examples/CodingArtBookExamples.txt
   status: VALID
@@ -5410,7 +5422,7 @@ contributions:
 - id: 275
   source: 
     https://github.com/yashbutno/Oklab-for-Processing/releases/download/latest/OklabForProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Oklab for Processing
   authors: '[Yash Gupta](https://refuse.ink/)'
@@ -5433,6 +5445,10 @@ contributions:
   override:
     categories:
     - Utilities
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/yashbutno/Oklab-for-Processing/releases/download/latest/OklabForProcessing.txt,
+    2026-02-22
 - id: 276
   source: 
     https://github.com/processing/processing-video/releases/download/latest/video.txt
@@ -5545,7 +5561,7 @@ contributions:
 - id: 281
   source: 
     https://github.com/NumericPrime/SwingHelperProcessing/releases/latest/download/SwingHelperLib.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Swing Helper
   authors: Michael Lukas
@@ -5570,6 +5586,10 @@ contributions:
   override:
     categories:
     - GUI
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/NumericPrime/SwingHelperProcessing/releases/download/v1.0.3/SwingHelperLib.txt,
+    2026-02-22
 - id: 282
   source: 
     https://github.com/vmathmachine/Complex-Numbers/releases/download/latest/ComplexNumbers.txt
@@ -5904,7 +5924,7 @@ contributions:
   previousVersions:
   - 0.0.1
 - id: 296
-  status: VALID
+  status: BROKEN
   dateAdded: 2025-03-24T14:56:25+0000
   type: library
   source: 
@@ -5931,6 +5951,10 @@ contributions:
   - 0.0.5
   - 0.0.6
   - 0.0.7
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/vincentsijben/vjmotion-processing/releases/latest/download/VJMotion.txt,
+    2026-02-22
 - id: 297
   status: VALID
   dateAdded: 2025-05-07T17:17:37+0000
@@ -5956,7 +5980,7 @@ contributions:
   previousVersions:
   - '2'
 - id: 298
-  status: VALID
+  status: BROKEN
   dateAdded: 2025-07-04T21:56:25+0000
   type: library
   source: 
@@ -5979,6 +6003,10 @@ contributions:
     https://github.com/BarneyWhiteman/SpicyText/releases/latest/download/SpicyText.zip
   previousVersions:
   - 1.0.0-alpha
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/BarneyWhiteman/SpicyText/releases/download/v1.0.0-alpha/SpicyText.txt,
+    2026-02-22
 - id: 299
   status: VALID
   dateAdded: 2025-08-27T15:36:48+0000
@@ -6025,7 +6053,7 @@ contributions:
   previousVersions:
   - '1'
 - id: 301
-  status: VALID
+  status: BROKEN
   dateAdded: 2025-09-04T00:15:27+0000
   type: examples
   source: 
@@ -6045,6 +6073,10 @@ contributions:
     https://github.com//nature-of-code/noc-2-processing-port/releases/latest/download/noc-2-processing-port.zip
   previousVersions:
   - '1'
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com//nature-of-code/noc-2-processing-port/releases/latest/download/noc-2-processing-port.txt,
+    2026-02-22
 - id: 302
   status: VALID
   dateAdded: 2025-09-04T21:25:52+0000
