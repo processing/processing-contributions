@@ -4933,7 +4933,7 @@ contributions:
 - id: 256
   source: 
     https://github.com/Milchreis/uibooster-for-processing/releases/latest/download/UiBooster.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: UiBooster
   authors: "[Nick 'Milchreis' Müller](http://github.com/milchreis)"
@@ -5018,7 +5018,7 @@ contributions:
 - id: 261
   source: 
     https://github.com/dennisppaul/teilchen/releases/latest/download/teilchen.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: teilchen
   authors: '[Dennis P Paul](https://dennisppaul.de/)'
@@ -5127,7 +5127,7 @@ contributions:
 - id: 264
   source: 
     https://github.com/dennisppaul/wellen/releases/latest/download/wellen.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: wellen
   authors: '[Dennis P Paul](https://dennisppaul.de/)'
@@ -5422,7 +5422,7 @@ contributions:
 - id: 275
   source: 
     https://github.com/yashbutno/Oklab-for-Processing/releases/download/latest/OklabForProcessing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Oklab for Processing
   authors: '[Yash Gupta](https://refuse.ink/)'
@@ -5561,7 +5561,7 @@ contributions:
 - id: 281
   source: 
     https://github.com/NumericPrime/SwingHelperProcessing/releases/latest/download/SwingHelperLib.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Swing Helper
   authors: Michael Lukas
@@ -5924,7 +5924,7 @@ contributions:
   previousVersions:
   - 0.0.1
 - id: 296
-  status: BROKEN
+  status: VALID
   dateAdded: 2025-03-24T14:56:25+0000
   type: library
   source: 
@@ -5980,7 +5980,7 @@ contributions:
   previousVersions:
   - '2'
 - id: 298
-  status: BROKEN
+  status: VALID
   dateAdded: 2025-07-04T21:56:25+0000
   type: library
   source: 
@@ -6053,7 +6053,7 @@ contributions:
   previousVersions:
   - '1'
 - id: 301
-  status: BROKEN
+  status: VALID
   dateAdded: 2025-09-04T00:15:27+0000
   type: examples
   source: 
