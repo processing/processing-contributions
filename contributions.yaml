@@ -1410,7 +1410,7 @@ contributions:
     http://ubaa.net/shared/processing/opencv/download/opencv.txt%20
 - id: 82
   source: http://www.multiply.org/processing/TimedEvents.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: TimedEvents
   authors: '[Jason Gessner](http://multiply.org/)'
@@ -1431,6 +1431,7 @@ contributions:
     - Utilities
   log:
   - invalid file, 2026-02-19
+  - invalid file, 2026-02-28
 - id: 83
   source: http://rdlester.github.com/hermes/downloads/hermes.txt
   status: BROKEN
@@ -2645,7 +2646,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -2668,6 +2669,7 @@ contributions:
   - url timeout, 2025-09-24
   - url timeout, 2025-09-30
   - url timeout, 2025-10-08
+  - invalid file, 2026-02-28
 - id: 150
   source: 
     https://github.com/processing/processing-video/releases/download/latest-processing3/video.txt
@@ -3371,7 +3373,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3391,6 +3393,7 @@ contributions:
   log:
   - url timeout, 2025-04-28
   - invalid file, 2026-02-19
+  - invalid file, 2026-02-28
 - id: 186
   source: 
     https://github.com/leadedge/SpoutProcessing/releases/download/latest/spout.txt
@@ -3629,7 +3632,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -3649,6 +3652,7 @@ contributions:
   log:
   - url timeout, 2026-01-03
   - invalid file, 2026-02-19
+  - invalid file, 2026-02-28
 - id: 199
   source: 
     https://github.com/fathominfo/processing-p5js-mode/releases/download/latest/p5jsMode.txt
@@ -3893,7 +3897,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -3913,6 +3917,7 @@ contributions:
   log:
   - url timeout, 2026-01-03
   - invalid file, 2026-02-19
+  - invalid file, 2026-02-28
 - id: 211
   source: https://github.com/diwi/PS3Eye/releases/download/latest/PS3Eye.txt
   status: VALID
@@ -4503,7 +4508,7 @@ contributions:
     https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -4523,6 +4528,7 @@ contributions:
   log:
   - url timeout, 2025-04-28
   - invalid file, 2026-02-19
+  - invalid file, 2026-02-28
 - id: 237
   source: http://gicentre.org/handy/handy.txt
   status: VALID
@@ -5285,7 +5291,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5352,6 +5358,7 @@ contributions:
   - url timeout, 2026-02-14
   - url timeout, 2026-02-17
   - invalid file, 2026-02-19
+  - invalid file, 2026-02-28
   previousVersions:
   - 0.1.1
   modes:
