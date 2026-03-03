@@ -4154,7 +4154,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -4976,7 +4976,7 @@ contributions:
 - id: 258
   source: 
     https://github.com/Transmedia-Gx/grab/releases/latest/download/Grab.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Grab
   authors: '[Taka Iwai, Roy Tatum](http://transmedia.graphics/)'
@@ -4996,6 +4996,10 @@ contributions:
     categories:
     - I/O
     - Utilities
+  log:
+  - file not found, status code 503 returned for url 
+    https://github.com/Transmedia-Gx/grab/releases/download/v0.6.0/Grab.txt, 
+    2026-03-03
 - id: 260
   source: 
     https://github.com/sphaero/procmod/releases/latest/download/procmod.txt
@@ -5076,7 +5080,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: BROKEN
+  status: VALID
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -5293,7 +5297,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -6018,7 +6022,7 @@ contributions:
     https://github.com/BarneyWhiteman/SpicyText/releases/download/v1.0.0-alpha/SpicyText.txt,
     2026-02-22
 - id: 299
-  status: VALID
+  status: BROKEN
   dateAdded: 2025-08-27T15:36:48+0000
   type: library
   source: 
@@ -6040,6 +6044,10 @@ contributions:
   - 1.0.0
   - 1.0.0
   modes:
+  log:
+  - file not found, status code 503 returned for url 
+    https://github.com/skaringa/colormaps-mpl/releases/download/v1.0.1/ColorMapsMPL.txt,
+    2026-03-03
 - id: 300
   status: VALID
   dateAdded: 2025-09-04T00:09:58+0000
