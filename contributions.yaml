@@ -4976,7 +4976,7 @@ contributions:
 - id: 258
   source: 
     https://github.com/Transmedia-Gx/grab/releases/latest/download/Grab.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Grab
   authors: '[Taka Iwai, Roy Tatum](http://transmedia.graphics/)'
@@ -6022,7 +6022,7 @@ contributions:
     https://github.com/BarneyWhiteman/SpicyText/releases/download/v1.0.0-alpha/SpicyText.txt,
     2026-02-22
 - id: 299
-  status: BROKEN
+  status: VALID
   dateAdded: 2025-08-27T15:36:48+0000
   type: library
   source: 
