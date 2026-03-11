@@ -5305,7 +5305,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -6155,7 +6155,6 @@ contributions:
   previousVersions:
   - 0.1.2-alpha
   - 0.1.2-alpha
-  lastUpdated: 2026-03-10T05:08:22+0000
 - id: 304
   status: VALID
   dateAdded: 2025-12-18T13:51:32+0000
