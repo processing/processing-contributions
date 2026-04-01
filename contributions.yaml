@@ -4635,7 +4635,7 @@ contributions:
     - Utilities
 - id: 241
   source: http://agathelenclen.fr/downloads/Squarify.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Squarify
   authors: '[Agathe Lenclen](https://github.com/agatheblues), [Uri Laserson](https://github.com/laserson),
@@ -4656,6 +4656,9 @@ contributions:
     categories:
     - Data
     - Geometry
+  log:
+  - file not found, status code 503 returned for url 
+    http://agathelenclen.fr/downloads/Squarify.txt, 2026-04-01
 - id: 242
   source: https://jwilder4690.github.io/tools/ArtStation/ArtStation.txt
   status: VALID
