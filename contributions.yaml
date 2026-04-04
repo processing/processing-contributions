@@ -6212,3 +6212,27 @@ contributions:
   - 0.2.0
   - 0.4.0
   - 0.5.0
+- id: 305
+  status: VALID
+  dateAdded: 2026-04-04T14:48:38+0000
+  type: library
+  source: 
+    https://github.com/ShenyfZero9211/WASAPI_p5/releases/download/v0.1.2/WASAPI_for_Processing.txt
+  name: WASAPI for Processing
+  authors: ShenyfZero9211
+  url: https://github.com/ShenyfZero9211/WASAPI_p5
+  categories:
+  - Analysis
+  - Sound
+  sentence: High-performance system audio capture specifically for Windows 
+    (WASAPI Loopback).
+  paragraph: A Processing library for real-time capture and analysis of system 
+    audio on Windows. Features 4096-bin FFT, beat detection, and WAV recording. 
+    No virtual sound cards required.
+  version: 2
+  prettyVersion: 0.1.2
+  minRevision: 228
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/ShenyfZero9211/WASAPI_p5/releases/download/v0.1.2/WASAPI_for_Processing.zip
