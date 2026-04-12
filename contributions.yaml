@@ -397,7 +397,7 @@ contributions:
     2025-07-21
 - id: 25
   source: http://jorgecardoso.eu/processing/NXTComm/NXTComm.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: NXTComm Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -431,7 +431,7 @@ contributions:
 - id: 26
   source: 
     http://jorgecardoso.eu/processing/MindSetProcessing/download/MindsetProcessing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: MindSet Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -470,7 +470,7 @@ contributions:
   - invalid file, 2026-04-11
 - id: 27
   source: http://jorgecardoso.eu/processing/ID3/ID3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ID3
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -2961,7 +2961,7 @@ contributions:
 - id: 164
   source: 
     http://jorgecardoso.eu/processing/eyetribeprocessing/download/EyeTribeProcessing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Eye Tribe for Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -4190,7 +4190,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -4253,6 +4253,7 @@ contributions:
   - url timeout, 2026-03-30
   - url timeout, 2026-04-06
   - url timeout, 2026-04-09
+  - url timeout, 2026-04-12
 - id: 222
   source: https://pierdr.github.io/tramontanaCV/download/tramontanaCV.txt
   status: VALID
@@ -5127,7 +5128,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -5189,6 +5190,7 @@ contributions:
   - url timeout, 2026-03-30
   - url timeout, 2026-04-06
   - url timeout, 2026-04-09
+  - url timeout, 2026-04-12
 - id: 264
   source: 
     https://github.com/dennisppaul/wellen/releases/latest/download/wellen.txt
