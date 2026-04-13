@@ -278,8 +278,8 @@ contributions:
   status: VALID
   type: library
   name: The MidiBus
-  authors: '[Severin Smith](https://www.smallbutdigital.com/)'
-  url: https://www.smallbutdigital.com/themidibus.php
+  authors: '[Severin Smith](http://www.smallbutdigital.com/)'
+  url: http://www.smallbutdigital.com/themidibus.php
   categories:
   - Data
   sentence: The MidiBus is a minimal MIDI library for Processing, no frills, no 
@@ -289,8 +289,8 @@ contributions:
     The MidiBus is aimed primarily at real time MIDI applications. The focus is 
     on strong MIDI I/O capabilities and keeping frills to a minimum (e.g. no 
     built in sequencer, file read/write, MIDI recording/playback).
-  version: '8'
-  prettyVersion: '8'
+  version: '10'
+  prettyVersion: '10'
   minRevision: 0
   maxRevision: 0
   download: 
@@ -298,6 +298,10 @@ contributions:
   override:
     categories:
     - Sound
+  lastUpdated: 2026-04-13T05:38:27+0000
+  previousVersions:
+  - '8'
+  modes:
 - id: 20
   source: 
     https://dl.dropboxusercontent.com/u/69944346/ColorSelectorPlus/ColorSelectorPlusTool.txt
@@ -4313,7 +4317,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4372,6 +4376,7 @@ contributions:
     http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt, 
     2025-06-22
   - url timeout, 2026-01-16
+  - url timeout, 2026-04-13
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
