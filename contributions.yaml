@@ -298,7 +298,6 @@ contributions:
   override:
     categories:
     - Sound
-  lastUpdated: 2026-04-13T05:38:27+0000
   previousVersions:
   - '8'
   modes:
@@ -347,7 +346,7 @@ contributions:
   - invalid file
 - id: 23
   source: http://www.v3ga.net/processing/BlobDetection/blobDetection.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: BlobDetection
   authors: "[Julien 'v3ga' Gachadoat](http://www.v3ga.net)"
@@ -366,6 +365,7 @@ contributions:
     - Video & Vision
   log:
   - url timeout, 2026-03-22
+  - url timeout, 2026-04-14
 - id: 24
   source: 
     https://github.com/firmata/processing/releases/download/latest/processing-arduino.txt
@@ -401,7 +401,7 @@ contributions:
     2025-07-21
 - id: 25
   source: http://jorgecardoso.eu/processing/NXTComm/NXTComm.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: NXTComm Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -432,10 +432,11 @@ contributions:
   - invalid file, 2026-04-05
   - invalid file, 2026-04-09
   - invalid file, 2026-04-11
+  - invalid file, 2026-04-14
 - id: 26
   source: 
     http://jorgecardoso.eu/processing/MindSetProcessing/download/MindsetProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: MindSet Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -472,9 +473,10 @@ contributions:
   - invalid file, 2026-04-05
   - invalid file, 2026-04-09
   - invalid file, 2026-04-11
+  - invalid file, 2026-04-14
 - id: 27
   source: http://jorgecardoso.eu/processing/ID3/ID3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ID3
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -505,6 +507,7 @@ contributions:
   - invalid file, 2026-04-05
   - invalid file, 2026-04-09
   - invalid file, 2026-04-11
+  - invalid file, 2026-04-14
 - id: 28
   source: 
     http://projects.formatlos.de/ambientlightsensor/download/AmbientLightSensor.txt
@@ -1432,7 +1435,7 @@ contributions:
     http://ubaa.net/shared/processing/opencv/download/opencv.txt%20
 - id: 82
   source: http://www.multiply.org/processing/TimedEvents.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: TimedEvents
   authors: '[Jason Gessner](http://multiply.org/)'
@@ -1456,6 +1459,7 @@ contributions:
   - invalid file, 2026-02-28
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
+  - invalid file, 2026-04-14
 - id: 83
   source: http://rdlester.github.com/hermes/downloads/hermes.txt
   status: BROKEN
@@ -2673,7 +2677,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -2699,6 +2703,7 @@ contributions:
   - invalid file, 2026-02-28
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
+  - invalid file, 2026-04-14
 - id: 150
   source: 
     https://github.com/processing/processing-video/releases/download/latest-processing3/video.txt
@@ -2965,7 +2970,7 @@ contributions:
 - id: 164
   source: 
     http://jorgecardoso.eu/processing/eyetribeprocessing/download/EyeTribeProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Eye Tribe for Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -2997,6 +3002,7 @@ contributions:
   - invalid file, 2026-04-05
   - invalid file, 2026-04-09
   - invalid file, 2026-04-11
+  - invalid file, 2026-04-14
 - id: 165
   source: https://processing.org/handbook/handbook_2e.txt
   status: BROKEN
@@ -3406,7 +3412,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3429,6 +3435,7 @@ contributions:
   - invalid file, 2026-02-28
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
+  - invalid file, 2026-04-14
 - id: 186
   source: 
     https://github.com/leadedge/SpoutProcessing/releases/download/latest/spout.txt
@@ -3667,7 +3674,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -3690,6 +3697,7 @@ contributions:
   - invalid file, 2026-02-28
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
+  - invalid file, 2026-04-14
 - id: 199
   source: 
     https://github.com/fathominfo/processing-p5js-mode/releases/download/latest/p5jsMode.txt
@@ -3934,7 +3942,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -3957,6 +3965,7 @@ contributions:
   - invalid file, 2026-02-28
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
+  - invalid file, 2026-04-14
 - id: 211
   source: https://github.com/diwi/PS3Eye/releases/download/latest/PS3Eye.txt
   status: VALID
@@ -4317,7 +4326,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4557,7 +4566,7 @@ contributions:
     https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -4580,6 +4589,7 @@ contributions:
   - invalid file, 2026-02-28
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
+  - invalid file, 2026-04-14
 - id: 237
   source: http://gicentre.org/handy/handy.txt
   status: VALID
@@ -5357,7 +5367,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5431,6 +5441,7 @@ contributions:
   - url timeout, 2026-03-21
   - url timeout, 2026-03-24
   - url timeout, 2026-04-09
+  - invalid file, 2026-04-14
   previousVersions:
   - 0.1.1
   modes:
