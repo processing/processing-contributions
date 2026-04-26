@@ -3114,7 +3114,7 @@ contributions:
 - id: 171
   source: 
     https://github.com/gohai/processing-simpletouch/releases/download/latest/processing-simpletouch.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Simple Touch
   authors: '[Gottfried Haider](http://gottfriedhaider.com/)'
@@ -3132,6 +3132,10 @@ contributions:
   override:
     categories:
     - I/O
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/gohai/processing-simpletouch/releases/download/latest/processing-simpletouch.txt,
+    2026-04-26
 - id: 172
   source: http://transfluxus.github.io/drop/download/Drop.txt
   status: VALID
