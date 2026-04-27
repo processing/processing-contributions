@@ -3114,7 +3114,7 @@ contributions:
 - id: 171
   source: 
     https://github.com/gohai/processing-simpletouch/releases/download/latest/processing-simpletouch.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Simple Touch
   authors: '[Gottfried Haider](http://gottfriedhaider.com/)'
