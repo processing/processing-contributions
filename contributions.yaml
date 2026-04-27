@@ -6262,3 +6262,26 @@ contributions:
   - 0.2.0
   - 0.4.0
   - 0.5.0
+- id: 305
+  status: VALID
+  dateAdded: 2026-04-27T17:40:33+0000
+  type: library
+  source: https://github.com/mstrperson/Processing-Sprite
+  name: SpriteGame
+  authors: '[Jason Cox]'
+  url: https://github.com/mstrperson/Processing-Sprite
+  categories:
+  - Other
+  sentence: Sprite-based game development library for teaching OOP in 
+    Processing.
+  paragraph: Provides Sprite, Blob, Block, ImageSprite, CompoundSprite, 
+    AnimatedSprite, Vector2D, and Event classes for educational sprite-based 
+    game development.
+  version: 1
+  prettyVersion: 0.1.0
+  minRevision: 1270
+  maxRevision: 0
+  modes:
+  keywords: sprite,game,oop,education,objects-first
+  download: 
+    https://raw.githubusercontent.com/mstrperson/Processing-Sprite/master/releases/download/latest/SpriteGame.zip
