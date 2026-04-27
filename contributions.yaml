@@ -6262,3 +6262,27 @@ contributions:
   - 0.2.0
   - 0.4.0
   - 0.5.0
+- id: 305
+  status: VALID
+  dateAdded: 2026-04-05T19:07:35+0000
+  type: library
+  source: 
+    https://github.com/dytme/ImageTiler/releases/download/v1.0.0/ImageTiler.txt
+  name: ImageTiler
+  authors: '[Sammy](https://github.com/dytme)'
+  url: ''
+  categories:
+  - Geometry
+  sentence: Allows you to seamlessly and efficiently tile images in Processing 
+    using PGraphics!
+  paragraph: 'ImageTiler is a Processing library for creating tiled image patterns.
+    Repeat any image across a defined area using three modes: tile at original size,
+    specify exact tile dimensions, or define how many tiles should fit with optional
+    aspect ratio preservation.'
+  version: 1
+  prettyVersion: 1.0.0
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/dytme/ImageTiler/releases/download/v1.0.0/ImageTiler.zip
