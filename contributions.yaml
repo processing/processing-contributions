@@ -366,6 +366,7 @@ contributions:
   log:
   - url timeout, 2026-03-22
   - url timeout, 2026-04-14
+  - url timeout, 2026-05-05
 - id: 24
   source: 
     https://github.com/firmata/processing/releases/download/latest/processing-arduino.txt
@@ -730,7 +731,7 @@ contributions:
     https://github.com/codeanticode/tablet/releases/download/latestv2/Tablet.zip
 - id: 40
   source: http://r-s-g.org/carnivore/download/carnivore_p5lib.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Carnivore
   authors: '[RSG](http://r-s-g.org)'
@@ -749,6 +750,8 @@ contributions:
     categories:
     - Data
     - Simulation
+  log:
+  - url timeout, 2026-05-03
 - id: 41
   source: 
     https://github.com/Syphon/Processing/releases/download/latest/Syphon.txt
@@ -847,6 +850,8 @@ contributions:
     - GUI
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 47
   source: http://transmote.com/nest/download/Nest.txt
   status: VALID
@@ -1071,6 +1076,8 @@ contributions:
     categories:
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 58
   source: http://www.sojamo.de/libraries/controlP5/controlP5.txt
   status: VALID
@@ -1136,6 +1143,8 @@ contributions:
     - Animation
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 63
   source: http://rednoise.org/rita/rita.txt
   status: VALID
@@ -1405,9 +1414,11 @@ contributions:
     - 3D
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1432,6 +1443,7 @@ contributions:
   - url timeout, 2025-06-21
   - url timeout, 2025-09-15
   - url timeout, 2026-02-07
+  - url timeout, 2026-05-08
 - id: 81
   source: ' http://ubaa.net/shared/processing/opencv/download/opencv.txt '
   status: BROKEN
@@ -1441,7 +1453,7 @@ contributions:
     http://ubaa.net/shared/processing/opencv/download/opencv.txt%20
 - id: 82
   source: http://www.multiply.org/processing/TimedEvents.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: TimedEvents
   authors: '[Jason Gessner](http://multiply.org/)'
@@ -1466,6 +1478,7 @@ contributions:
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
   - invalid file, 2026-04-14
+  - invalid file, 2026-05-08
 - id: 83
   source: http://rdlester.github.com/hermes/downloads/hermes.txt
   status: BROKEN
@@ -1689,6 +1702,8 @@ contributions:
     - Other
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 94
   source: https://dl.dropbox.com/u/87680069/executor.txt
   status: BROKEN
@@ -1710,6 +1725,8 @@ contributions:
   log:
   - invalid file
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
   name: Applet Maker & Signer
   authors: '[Peter Lager](http://www.lagers.org.uk)'
   url: http://www.lagers.org.uk/appletutil/
@@ -1872,7 +1889,7 @@ contributions:
 - id: 106
   source: 
     http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
@@ -1897,6 +1914,7 @@ contributions:
   log:
   - url timeout, 2025-04-02
   - url timeout, 2025-09-15
+  - url timeout, 2026-05-08
 - id: 107
   source: https://dl.dropboxusercontent.com/u/6030446/punktiert/punktiert.txt
   status: BROKEN
@@ -2161,7 +2179,7 @@ contributions:
     http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -2185,6 +2203,7 @@ contributions:
   - in broken conf
   - url timeout, 2025-03-13
   - url timeout, 2025-04-02
+  - url timeout, 2026-05-08
 - id: 124
   source: ' http://download.processing.org/pdeX.txt '
   status: BROKEN
@@ -2249,6 +2268,8 @@ contributions:
     - Simulation
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 128
   source: ' http://dasmithii.com/GNet.txt '
   status: BROKEN
@@ -2328,6 +2349,8 @@ contributions:
     - Math
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 132
   source: 
     https://github.com/cansik/opencv-processing/releases/download/contribution-manager/opencv_processing.txt
@@ -2683,7 +2706,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -2710,6 +2733,7 @@ contributions:
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
   - invalid file, 2026-04-14
+  - invalid file, 2026-05-08
 - id: 150
   source: 
     https://github.com/processing/processing-video/releases/download/latest-processing3/video.txt
@@ -2834,6 +2858,8 @@ contributions:
     - Math
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 157
   source: http://www.lagers.org.uk/processing/steganos/Steganos.txt
   status: VALID
@@ -2856,6 +2882,8 @@ contributions:
     - Other
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 158
   source: http://josephtaylor.github.io/ColorScheme/ColorScheme.txt
   status: VALID
@@ -3047,6 +3075,8 @@ contributions:
     - I/O
   log:
   - url timeout, 2025-02-18
+  - url timeout, 2026-05-02
+  - url timeout, 2026-05-05
 - id: 168
   source: 
     http://transfluxus.github.io/SimpleHTTPServer/download/SimpleHTTPServer.txt
@@ -3423,7 +3453,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3447,6 +3477,7 @@ contributions:
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
   - invalid file, 2026-04-14
+  - invalid file, 2026-05-08
 - id: 186
   source: 
     https://github.com/leadedge/SpoutProcessing/releases/download/latest/spout.txt
@@ -3612,7 +3643,7 @@ contributions:
   download: http://damellis.github.io/wovns-processing-examples/WOVNS.zip
 - id: 195
   source: http://culebra.technology/culebra.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Culebra Behavior Library for Processing
   authors: '[Luis Quinones](http://complicitMatter.com)'
@@ -3637,6 +3668,7 @@ contributions:
     - Simulation
   log:
   - url timeout, 2025-04-02
+  - url timeout, 2026-05-08
 - id: 196
   source: 
     https://github.com/jrc03c/queasycam/releases/download/latest/queasycam.txt
@@ -3685,7 +3717,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -3709,6 +3741,7 @@ contributions:
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
   - invalid file, 2026-04-14
+  - invalid file, 2026-05-08
 - id: 199
   source: 
     https://github.com/fathominfo/processing-p5js-mode/releases/download/latest/p5jsMode.txt
@@ -3953,7 +3986,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -3977,6 +4010,7 @@ contributions:
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
   - invalid file, 2026-04-14
+  - invalid file, 2026-05-08
 - id: 211
   source: https://github.com/diwi/PS3Eye/releases/download/latest/PS3Eye.txt
   status: VALID
@@ -4279,6 +4313,9 @@ contributions:
   - url timeout, 2026-04-09
   - url timeout, 2026-04-12
   - url timeout, 2026-04-23
+  - url timeout, 2026-05-01
+  - url timeout, 2026-05-05
+  - url timeout, 2026-05-07
 - id: 222
   source: https://pierdr.github.io/tramontanaCV/download/tramontanaCV.txt
   status: VALID
@@ -4578,7 +4615,7 @@ contributions:
     https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -4602,6 +4639,7 @@ contributions:
   - invalid file, 2026-03-16
   - invalid file, 2026-03-22
   - invalid file, 2026-04-14
+  - invalid file, 2026-05-08
 - id: 237
   source: http://gicentre.org/handy/handy.txt
   status: VALID
@@ -4977,7 +5015,7 @@ contributions:
     - Other
 - id: 254
   source: http://www.kramann.info/ComposingForEveryone.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ComposingForEveryone
   authors: '[Guido Kramann](http://www.kramann.info/cfe)'
@@ -5005,6 +5043,7 @@ contributions:
     - Sound
   log:
   - url timeout, 2025-04-02
+  - url timeout, 2026-05-08
 - id: 255
   source: https://bdhont.net/LiveBrush.txt
   status: BROKEN
@@ -5219,6 +5258,9 @@ contributions:
   - url timeout, 2026-04-09
   - url timeout, 2026-04-12
   - url timeout, 2026-04-23
+  - url timeout, 2026-05-01
+  - url timeout, 2026-05-05
+  - url timeout, 2026-05-07
 - id: 264
   source: 
     https://github.com/dennisppaul/wellen/releases/latest/download/wellen.txt
@@ -5380,7 +5422,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5456,6 +5498,9 @@ contributions:
   - url timeout, 2026-04-09
   - invalid file, 2026-04-14
   - url timeout, 2026-04-23
+  - url timeout, 2026-05-01
+  - url timeout, 2026-05-04
+  - invalid file, 2026-05-08
   previousVersions:
   - 0.1.1
   modes:
