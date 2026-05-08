@@ -6268,7 +6268,7 @@ contributions:
   type: library
   source: https://github.com/mstrperson/Processing-Sprite
   name: SpriteGame
-  authors: '[Jason Cox]'
+  authors: Jason Cox
   url: https://github.com/mstrperson/Processing-Sprite
   categories:
   - Other
