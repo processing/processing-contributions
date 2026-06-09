@@ -6470,3 +6470,27 @@ contributions:
     https://raw.githubusercontent.com/mstrperson/Processing-Sprite/master/releases/download/latest/SpriteGame.zip
   log:
   - invalid file, 2026-05-09
+- id: 306
+  status: VALID
+  dateAdded: 2026-06-09T21:21:20+0000
+  type: library
+  source: https://jshaw.github.io/Canvas2DMX/download/canvas2dmx.txt
+  name: Canvas2DMX
+  authors: '[Jordan Shaw](https://jordanshaw.com)'
+  url: https://jshaw.github.io/Canvas2DMX/
+  categories:
+  - Hardware
+  - I/O
+  sentence: Maps pixels from your Processing sketch canvas directly to DMX 
+    lighting fixtures in real time.
+  paragraph: Supports LED strips, rings, grids, polygon fills, and custom 
+    layouts. Works with ENTTEC USB Pro, FT232RL Open DMX dongles, and any 
+    hardware routed through OLA (Open Lighting Architecture). Includes gamma 
+    correction, channel-pattern mapping, GRB chip support, and live 
+    visualization tools. macOS, Windows, and Linux supported.
+  version: 1
+  prettyVersion: 0.0.1
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  download: https://jshaw.github.io/Canvas2DMX/download/canvas2dmx.zip
