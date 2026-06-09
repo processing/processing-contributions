@@ -312,7 +312,7 @@ contributions:
 - id: 21
   source: 
     http://www.gwoptics.org/processing/gwoptics_p5lib/download/gwoptics.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: gwoptics
   authors: '[Daniel Brown and Andreas Freise](http://www.gwoptics.org/processing/gwoptics_p5lib/)'
@@ -1437,7 +1437,7 @@ contributions:
   - url timeout, 2026-05-26
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1475,7 +1475,7 @@ contributions:
     http://ubaa.net/shared/processing/opencv/download/opencv.txt%20
 - id: 82
   source: http://www.multiply.org/processing/TimedEvents.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: TimedEvents
   authors: '[Jason Gessner](http://multiply.org/)'
@@ -1922,7 +1922,7 @@ contributions:
 - id: 106
   source: 
     http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
@@ -2140,7 +2140,7 @@ contributions:
 - id: 119
   source: 
     https://github.com/codeanticode/eliza/releases/download/latest/Eliza.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Eliza
   authors: '[Andres Colubri](http://interfaze.info/)'
@@ -2219,7 +2219,7 @@ contributions:
     http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -2505,7 +2505,7 @@ contributions:
 - id: 137
   source: 
     https://github.com/runemadsen/HTTP-Requests-for-Processing/releases/download/latest/httprequests_processing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: HTTP Requests for Processing
   authors: '[Rune Madsen](http://www.runemadsen.com), [Daniel Shiffman](http://shiffman.net)'
@@ -2761,7 +2761,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -2844,7 +2844,7 @@ contributions:
 - id: 153
   source: 
     https://github.com/processing/processing-sound/releases/download/latest/sound.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Sound
   authors: The Processing Foundation
@@ -3527,7 +3527,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3720,7 +3720,7 @@ contributions:
   download: http://damellis.github.io/wovns-processing-examples/WOVNS.zip
 - id: 195
   source: http://culebra.technology/culebra.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Culebra Behavior Library for Processing
   authors: '[Luis Quinones](http://complicitMatter.com)'
@@ -3797,7 +3797,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4005,7 +4005,7 @@ contributions:
 - id: 207
   source: 
     https://github.com/Lord-of-the-Galaxy/Timing-Utilities/releases/download/latest/timing_utils.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Timing Utilities
   authors: Lord of Galaxy
@@ -4073,7 +4073,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4129,7 +4129,7 @@ contributions:
 - id: 212
   source: 
     https://github.com/cansik/processing-postfx/releases/download/latest/PostFX.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: PostFX for Processing
   authors: '[Florian Bruggisser](https://bildspur.ch)'
@@ -4717,7 +4717,7 @@ contributions:
     https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -4978,7 +4978,7 @@ contributions:
 - id: 247
   source: 
     https://github.com/orgicus/image-sequence-player/releases/download/latest/ImageSequencePlayer.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Image Sequence Player
   authors: '[George Profenza](http://www.hirschandmann.com)'
@@ -5124,7 +5124,7 @@ contributions:
     - Other
 - id: 254
   source: http://www.kramann.info/ComposingForEveryone.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ComposingForEveryone
   authors: '[Guido Kramann](http://www.kramann.info/cfe)'
@@ -5543,7 +5543,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -6313,7 +6313,7 @@ contributions:
     https://github.com/skaringa/colormaps-mpl/releases/download/v1.0.1/ColorMapsMPL.txt,
     2026-03-03
 - id: 300
-  status: BROKEN
+  status: VALID
   dateAdded: 2025-09-04T00:09:58+0000
   type: examples
   source: 
@@ -6388,7 +6388,7 @@ contributions:
   - '0.4'
   modes:
 - id: 303
-  status: BROKEN
+  status: VALID
   dateAdded: 2025-10-22T18:27:58+0000
   type: library
   source: 
@@ -6417,7 +6417,7 @@ contributions:
     https://github.com/danielcorbani/LunaMapping/releases/latest/download/LunaMapping.txt,
     2026-06-08
 - id: 304
-  status: BROKEN
+  status: VALID
   dateAdded: 2025-12-18T13:51:32+0000
   type: mode
   source: 
