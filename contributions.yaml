@@ -6508,7 +6508,6 @@ contributions:
   modes:
   download: 
     https://github.com/processing-cpp/processing.cpp/releases/latest/download/CppMode.zip
-  lastUpdated: 2026-06-11T06:20:13+0000
   previousVersions:
   - 0.1.2
   prettyversion: 0.1.4
