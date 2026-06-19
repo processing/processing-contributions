@@ -4362,7 +4362,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -4439,6 +4439,8 @@ contributions:
     http://jonathan.dahlberg.media/ecc/ecc.txt, 2026-06-07
   - url timeout, 2026-06-11
   - url timeout, 2026-06-16
+  - file not found, status code 503 returned for url 
+    http://jonathan.dahlberg.media/ecc/ecc.txt, 2026-06-19
 - id: 222
   source: https://pierdr.github.io/tramontanaCV/download/tramontanaCV.txt
   status: VALID
@@ -4498,7 +4500,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4559,6 +4561,7 @@ contributions:
   - url timeout, 2026-01-16
   - url timeout, 2026-04-13
   - url timeout, 2026-05-14
+  - url timeout, 2026-06-19
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
@@ -5332,7 +5335,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -5410,6 +5413,9 @@ contributions:
     2026-06-07
   - url timeout, 2026-06-11
   - url timeout, 2026-06-16
+  - file not found, status code 503 returned for url 
+    http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt, 
+    2026-06-19
 - id: 264
   source: 
     https://github.com/dennisppaul/wellen/releases/latest/download/wellen.txt
