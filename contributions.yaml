@@ -6544,3 +6544,24 @@ contributions:
   - 
   prettyversion: 0.2.0
   lastUpdated: 2026-06-22T06:36:45+0000
+- id: 307
+  status: VALID
+  dateAdded: 2026-06-22T16:20:30+0000
+  type: library
+  source: 
+    https://github.com/OneMaxApps/TellUI/releases/download/v1.0.0-rc1/TellUI.txt
+  name: TellUI
+  authors: Ahmedhanov Islam
+  url: https://github.com/OneMaxApps/TellUI
+  categories:
+  - GUI
+  sentence: Provides a simple way to work with GUI.
+  paragraph: ''
+  version: 1
+  prettyVersion: 1.0.0
+  minRevision: 0
+  maxRevision: 1293
+  modes:
+  lastUpdated: '0'
+  download: 
+    https://github.com/OneMaxApps/TellUI/releases/download/v1.0.0-rc1/TellUI.zip
