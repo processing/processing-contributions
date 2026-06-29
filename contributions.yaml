@@ -1681,7 +1681,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
@@ -4373,7 +4373,7 @@ contributions:
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.zip
 - id: 221
   source: http://jonathan.dahlberg.media/ecc/ecc.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: Extended Code Completion
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media/)'
@@ -4455,6 +4455,7 @@ contributions:
   - file not found, status code 503 returned for url 
     http://jonathan.dahlberg.media/ecc/ecc.txt, 2026-06-21
   - url timeout, 2026-06-26
+  - url timeout, 2026-06-29
 - id: 222
   source: https://pierdr.github.io/tramontanaCV/download/tramontanaCV.txt
   status: VALID
@@ -5356,7 +5357,7 @@ contributions:
     - Data
 - id: 263
   source: http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: Processing2JS
   authors: '[Jonathan Dahlberg](http://jonathan.dahlberg.media)'
@@ -5441,6 +5442,7 @@ contributions:
     http://jonathan.dahlberg.media/processing2js/Processing2JSTool.txt, 
     2026-06-21
   - url timeout, 2026-06-26
+  - url timeout, 2026-06-29
 - id: 264
   source: 
     https://github.com/dennisppaul/wellen/releases/latest/download/wellen.txt
@@ -5602,7 +5604,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5689,6 +5691,7 @@ contributions:
   - url timeout, 2026-06-11
   - url timeout, 2026-06-16
   - invalid file, 2026-06-24
+  - url timeout, 2026-06-29
   previousVersions:
   - 0.1.1
   modes:
@@ -6221,7 +6224,7 @@ contributions:
   - '2.1'
   modes:
 - id: 294
-  status: VALID
+  status: BROKEN
   dateAdded: 2025-01-15T06:57:36+0000
   type: library
   source: 
@@ -6241,6 +6244,10 @@ contributions:
     https://github.com/alexdmiller/shape-mapper/releases/latest/download/shapemapper.zip
   previousVersions:
   - 0.1.7
+  log:
+  - file not found, status code 502 returned for url 
+    https://github.com/alexdmiller/shape-mapper/releases/download/v0.1.7/shapemapper.txt,
+    2026-06-29
 - id: 295
   status: VALID
   dateAdded: 2025-02-09T19:55:16+0000
