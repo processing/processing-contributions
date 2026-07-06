@@ -6588,3 +6588,29 @@ contributions:
   - 0.2.1
   - 0.2.2
   prettyversion: 0.2.0
+- id: 307
+  status: VALID
+  dateAdded: 2026-06-29T10:23:49+0000
+  type: mode
+  source: 
+    https://codeberg.org/Umfeld/umfeld-processing-mode/releases/download/latest/UmfeldMode.txt
+  name: Umfeld
+  authors: '[Dennis P Paul](https://codeberg.org/dennisppaul)'
+  url: https://codeberg.org/Umfeld/umfeld-processing-mode
+  categories:
+  sentence: C++ mode for Processing using Umfeld library
+  paragraph: Compile and run C++ sketches using the 
+    [Umfeld](https://umfeld.org/) library. Umfeld provides a Processing-style 
+    API for C++, and this mode integrates CMake-based compilation directly into 
+    the Processing IDE. The system needs to be configured to run Umfeld 
+    applications. This can be handled from within the Processing IDE at `Umfeld 
+    > Install Dependencies`. See 
+    https://codeberg.org/Umfeld/umfeld-processing-mode for more information.
+  version: 363
+  prettyVersion: '1.0'
+  minRevision: 1295
+  maxRevision: 0
+  modes:
+  lastUpdated: '20260629121839'
+  download: 
+    https://codeberg.org/Umfeld/umfeld-processing-mode/releases/download/latest/UmfeldMode.zip
