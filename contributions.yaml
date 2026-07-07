@@ -6061,8 +6061,8 @@ contributions:
     Features a json save system with autosave on program exit, copy/paste, undo/redo,
     these control elements: [slider, 2D plot, color picker, gradient picker, button,
     toggle, text input, radio], and much more... Works on Windows, Mac and Linux.'
-  version: '54'
-  prettyVersion: v1.12.2
+  version: '55'
+  prettyVersion: v1.12.3
   minRevision: 0
   maxRevision: 0
   imports: com.krab.lazy
@@ -6076,7 +6076,9 @@ contributions:
   - v1.11.1
   - v1.12.0
   - v1.12.1
+  - v1.12.2
   modes:
+  lastUpdated: 2026-07-07T06:07:49+0000
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
@@ -6597,7 +6599,7 @@ contributions:
   name: Umfeld
   authors: '[Dennis P Paul](https://codeberg.org/dennisppaul)'
   url: https://codeberg.org/Umfeld/umfeld-processing-mode
-  categories:
+  categories: []
   sentence: C++ mode for Processing using Umfeld library
   paragraph: Compile and run C++ sketches using the 
     [Umfeld](https://umfeld.org/) library. Umfeld provides a Processing-style 
@@ -6606,11 +6608,13 @@ contributions:
     applications. This can be handled from within the Processing IDE at `Umfeld 
     > Install Dependencies`. See 
     https://codeberg.org/Umfeld/umfeld-processing-mode for more information.
-  version: 363
+  version: '387'
   prettyVersion: '1.0'
   minRevision: 1295
   maxRevision: 0
   modes:
-  lastUpdated: '20260629121839'
   download: 
     https://codeberg.org/Umfeld/umfeld-processing-mode/releases/download/latest/UmfeldMode.zip
+  lastUpdated: '20260704224639'
+  previousVersions:
+  - '1.0'
