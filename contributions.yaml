@@ -4530,7 +4530,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4596,6 +4596,7 @@ contributions:
   - url timeout, 2026-06-27
   - url timeout, 2026-07-02
   - url timeout, 2026-07-05
+  - url timeout, 2026-07-08
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
@@ -6078,7 +6079,6 @@ contributions:
   - v1.12.1
   - v1.12.2
   modes:
-  lastUpdated: 2026-07-07T06:07:49+0000
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
@@ -6615,6 +6615,5 @@ contributions:
   modes:
   download: 
     https://codeberg.org/Umfeld/umfeld-processing-mode/releases/download/latest/UmfeldMode.zip
-  lastUpdated: '20260704224639'
   previousVersions:
   - '1.0'
