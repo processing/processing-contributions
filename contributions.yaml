@@ -834,7 +834,7 @@ contributions:
     https://dl.dropboxusercontent.com/u/6990683/Processing/papaya.txt%20
 - id: 46
   source: http://www.lagers.org.uk/processing3/g4p/G4P.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: G4P
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -864,6 +864,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 47
   source: http://transmote.com/nest/download/Nest.txt
   status: VALID
@@ -1065,7 +1066,7 @@ contributions:
     - Compilation
 - id: 57
   source: http://www.lagers.org.uk/processing3/guibuilder/G4PTool.txt
-  status: VALID
+  status: BROKEN
   type: tool
   name: G4P GUI Builder
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -1095,6 +1096,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 58
   source: http://www.sojamo.de/libraries/controlP5/controlP5.txt
   status: VALID
@@ -1138,7 +1140,7 @@ contributions:
     https://dl.dropbox.com/u/87680069/piccolo2d.txt%20
 - id: 62
   source: http://www.lagers.org.uk/processing/sprites/Sprites.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Sprites
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -1167,6 +1169,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 63
   source: http://rednoise.org/rita/rita.txt
   status: VALID
@@ -1413,7 +1416,7 @@ contributions:
     https://s373.net/code/marchingcubes/download/marchingcubes.txt%20
 - id: 79
   source: http://www.lagers.org.uk/processing3/shapes3d/Shapes3D.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Shapes 3D
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -1443,6 +1446,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
   status: VALID
@@ -1723,7 +1727,7 @@ contributions:
   - url timeout, 2026-07-01
 - id: 93
   source: http://www.lagers.org.uk/processing/pathfinder/Path_Finder.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Path Finder
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -1750,6 +1754,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 94
   source: https://dl.dropbox.com/u/87680069/executor.txt
   status: BROKEN
@@ -1766,7 +1771,7 @@ contributions:
     https://dl.dropbox.com/u/87680069/frames.txt
 - id: 96
   source: http://www.lagers.org.uk/processing/appletmaker/AppletMaker.txt
-  status: VALID
+  status: BROKEN
   type: tool
   log:
   - invalid file
@@ -1778,6 +1783,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
   name: Applet Maker & Signer
   authors: '[Peter Lager](http://www.lagers.org.uk)'
   url: http://www.lagers.org.uk/appletutil/
@@ -2312,7 +2318,7 @@ contributions:
     2025-09-19
 - id: 127
   source: http://www.lagers.org.uk/processing/ai4g/AI_for_2D_Games.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: AI for 2D Games
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -2342,6 +2348,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 128
   source: ' http://dasmithii.com/GNet.txt '
   status: BROKEN
@@ -2398,7 +2405,7 @@ contributions:
     - 3D
 - id: 131
   source: http://www.lagers.org.uk/processing/qscript/QScript.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: QScript
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -2428,6 +2435,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 132
   source: 
     https://github.com/cansik/opencv-processing/releases/download/contribution-manager/opencv_processing.txt
@@ -2928,7 +2936,7 @@ contributions:
     - Hardware
 - id: 156
   source: http://www.lagers.org.uk/processing/jasmine/Jasmine.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Jasmine
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -2956,9 +2964,10 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 157
   source: http://www.lagers.org.uk/processing/steganos/Steganos.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Steganos
   authors: '[Peter Lager](http://www.lagers.org.uk)'
@@ -2985,6 +2994,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 158
   source: http://josephtaylor.github.io/ColorScheme/ColorScheme.txt
   status: VALID
@@ -3155,7 +3165,7 @@ contributions:
     https://processing.org/books/gswp_2e.txt
 - id: 167
   source: http://www.lagers.org.uk/processing3/gamecontrol/GameControlPlus.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Game Control Plus
   authors: '[Peter Lager](http://lagers.org.uk)'
@@ -3183,6 +3193,7 @@ contributions:
   - url timeout, 2026-05-18
   - url timeout, 2026-05-26
   - url timeout, 2026-07-04
+  - url timeout, 2026-07-11
 - id: 168
   source: 
     http://transfluxus.github.io/SimpleHTTPServer/download/SimpleHTTPServer.txt
@@ -4530,7 +4541,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4597,6 +4608,7 @@ contributions:
   - url timeout, 2026-07-02
   - url timeout, 2026-07-05
   - url timeout, 2026-07-08
+  - url timeout, 2026-07-11
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
@@ -5624,7 +5636,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
