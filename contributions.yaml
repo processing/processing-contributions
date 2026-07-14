@@ -223,7 +223,7 @@ contributions:
   - invalid file
 - id: 17
   source: http://mrfeinberg.com/peasycam/peasycam.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: PeasyCam
   authors: '[Jonathan Feinberg](http://mrfeinberg.com/)'
@@ -245,6 +245,7 @@ contributions:
   - url timeout, 2025-12-19
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 18
   source: http://www.ricardmarxer.com/fisica/download/fisica.txt
   status: VALID
@@ -312,7 +313,7 @@ contributions:
 - id: 21
   source: 
     http://www.gwoptics.org/processing/gwoptics_p5lib/download/gwoptics.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: gwoptics
   authors: '[Daniel Brown and Andreas Freise](http://www.gwoptics.org/processing/gwoptics_p5lib/)'
@@ -595,7 +596,7 @@ contributions:
     https://studioijeoma.com/processing/ijeomamotion/download/ijeomamotion.txt
 - id: 34
   source: http://www.deadpixel.ca/keystone/download/keystone.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Keystone
   authors: '[David Bouchard](http://www.deadpixel.ca)'
@@ -617,6 +618,7 @@ contributions:
   - url timeout, 2025-01-25
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 35
   source: http://www.erase.net/projects/processing-sc/files/processing-sc.txt
   status: VALID
@@ -665,7 +667,7 @@ contributions:
   - url timeout, 2025-03-19
 - id: 37
   source: http://mrfeinberg.com/patchy/patchy.txt
-  status: VALID
+  status: BROKEN
   type: library
   log:
   - invalid file
@@ -673,6 +675,7 @@ contributions:
   - url timeout, 2025-12-19
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
   name: Patchy
   authors: '[Jonathan Feinberg](http://mrfeinberg.com/)'
   url: http://mrfeinberg.com/patchy/
@@ -868,7 +871,7 @@ contributions:
   - url timeout, 2026-07-11
 - id: 47
   source: http://transmote.com/nest/download/Nest.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Nest
   authors: '[Eric Socolofsky](http://transmote.com/)'
@@ -893,6 +896,7 @@ contributions:
   - in broken conf
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 48
   source: ' http://kenai.com/downloads/l-system-utilities/lsystem.txt '
   status: BROKEN
@@ -1450,7 +1454,7 @@ contributions:
   - url timeout, 2026-07-11
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1492,7 +1496,7 @@ contributions:
     http://ubaa.net/shared/processing/opencv/download/opencv.txt%20
 - id: 82
   source: http://www.multiply.org/processing/TimedEvents.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: TimedEvents
   authors: '[Jason Gessner](http://multiply.org/)'
@@ -1949,7 +1953,7 @@ contributions:
 - id: 106
   source: 
     http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
@@ -2197,7 +2201,7 @@ contributions:
 - id: 120
   source: 
     https://fox-gieg.com/patches/processing/libraries/SimpleOpenNI/SimpleOpenNI.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: SimpleOpenNI
   authors: '[Max Rheiner & Antonio Vega](http://code.google.com/p/simple-openni/)'
@@ -2218,6 +2222,7 @@ contributions:
   log:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 121
   source: 
     https://github.com/codeanticode/tablet/releases/download/latest/Tablet.txt
@@ -2250,7 +2255,7 @@ contributions:
     http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -2518,7 +2523,7 @@ contributions:
 - id: 136
   source: 
     https://fox-gieg.com/patches/processing/libraries/gifAnimation/gifAnimation.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: GifAnimation
   authors: '[Patrick Meister, Jerome Saint-Clair](http://www.extrapixel.ch)'
@@ -2541,6 +2546,7 @@ contributions:
   log:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 137
   source: 
     https://github.com/runemadsen/HTTP-Requests-for-Processing/releases/download/latest/httprequests_processing.txt
@@ -2752,7 +2758,7 @@ contributions:
     - Video & Vision
 - id: 147
   source: http://code.compartmental.net/minim/distro/minim_for_processing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Minim
   authors: '[Damien Di Fede](http://code.compartmental.net/) and [Anderson Mills](http://konfuzo.net/)'
@@ -2773,6 +2779,7 @@ contributions:
   log:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 148
   source: ' https://github.com/Syphon/Processing/releases/download/latest/Syphon.txt '
   status: DEPRECATED
@@ -2800,7 +2807,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -3576,7 +3583,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3773,7 +3780,7 @@ contributions:
   download: http://damellis.github.io/wovns-processing-examples/WOVNS.zip
 - id: 195
   source: http://culebra.technology/culebra.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Culebra Behavior Library for Processing
   authors: '[Luis Quinones](http://complicitMatter.com)'
@@ -3854,7 +3861,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4134,7 +4141,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4356,7 +4363,7 @@ contributions:
     - Hardware
 - id: 219
   source: https://teddavis.org/xyscope/download/XYscope.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: XYscope
   authors: '[Ted Davis](https://www.teddavis.org)'
@@ -4386,6 +4393,7 @@ contributions:
   log:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 220
   source: 
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.txt
@@ -4551,7 +4559,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4799,7 +4807,7 @@ contributions:
     https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -5213,7 +5221,7 @@ contributions:
   modes:
 - id: 254
   source: http://www.kramann.info/ComposingForEveryone.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ComposingForEveryone
   authors: '[Guido Kramann](http://www.kramann.info/cfe)'
@@ -5648,7 +5656,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5744,7 +5752,7 @@ contributions:
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Latk for Processing
   authors: '[Nick Fox-Gieg](https://fox-gieg.com)'
@@ -5766,6 +5774,7 @@ contributions:
   - url timeout, 2025-02-20
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 273
   source: 
     https://github.com/processing/processing4-javafx/releases/download/latest/processing4-javafx.txt
@@ -6007,7 +6016,7 @@ contributions:
     - Math
 - id: 283
   source: https://fox-gieg.com/patches/processing/libraries/joons/joons.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Joon's Renderer
   authors: '[Joon Hyub Lee](https://sketch.kaist.ac.kr/people/joonhyublee)'
@@ -6028,6 +6037,7 @@ contributions:
   - url timeout, 2025-02-20
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
+  - url timeout, 2026-07-14
 - id: 284
   source: 
     https://github.com/jjeongin/creative-machine/releases/download/latest/creative_machine.txt
