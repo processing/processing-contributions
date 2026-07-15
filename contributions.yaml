@@ -223,7 +223,7 @@ contributions:
   - invalid file
 - id: 17
   source: http://mrfeinberg.com/peasycam/peasycam.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: PeasyCam
   authors: '[Jonathan Feinberg](http://mrfeinberg.com/)'
@@ -596,7 +596,7 @@ contributions:
     https://studioijeoma.com/processing/ijeomamotion/download/ijeomamotion.txt
 - id: 34
   source: http://www.deadpixel.ca/keystone/download/keystone.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Keystone
   authors: '[David Bouchard](http://www.deadpixel.ca)'
@@ -667,7 +667,7 @@ contributions:
   - url timeout, 2025-03-19
 - id: 37
   source: http://mrfeinberg.com/patchy/patchy.txt
-  status: BROKEN
+  status: VALID
   type: library
   log:
   - invalid file
@@ -871,7 +871,7 @@ contributions:
   - url timeout, 2026-07-11
 - id: 47
   source: http://transmote.com/nest/download/Nest.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Nest
   authors: '[Eric Socolofsky](http://transmote.com/)'
@@ -2201,7 +2201,7 @@ contributions:
 - id: 120
   source: 
     https://fox-gieg.com/patches/processing/libraries/SimpleOpenNI/SimpleOpenNI.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: SimpleOpenNI
   authors: '[Max Rheiner & Antonio Vega](http://code.google.com/p/simple-openni/)'
@@ -2523,7 +2523,7 @@ contributions:
 - id: 136
   source: 
     https://fox-gieg.com/patches/processing/libraries/gifAnimation/gifAnimation.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: GifAnimation
   authors: '[Patrick Meister, Jerome Saint-Clair](http://www.extrapixel.ch)'
@@ -2758,7 +2758,7 @@ contributions:
     - Video & Vision
 - id: 147
   source: http://code.compartmental.net/minim/distro/minim_for_processing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Minim
   authors: '[Damien Di Fede](http://code.compartmental.net/) and [Anderson Mills](http://konfuzo.net/)'
@@ -4363,7 +4363,7 @@ contributions:
     - Hardware
 - id: 219
   source: https://teddavis.org/xyscope/download/XYscope.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: XYscope
   authors: '[Ted Davis](https://www.teddavis.org)'
@@ -5752,7 +5752,7 @@ contributions:
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Latk for Processing
   authors: '[Nick Fox-Gieg](https://fox-gieg.com)'
@@ -6016,7 +6016,7 @@ contributions:
     - Math
 - id: 283
   source: https://fox-gieg.com/patches/processing/libraries/joons/joons.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Joon's Renderer
   authors: '[Joon Hyub Lee](https://sketch.kaist.ac.kr/people/joonhyublee)'
