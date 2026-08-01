@@ -412,7 +412,7 @@ contributions:
     2025-07-21
 - id: 25
   source: http://jorgecardoso.eu/processing/NXTComm/NXTComm.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: NXTComm Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -446,10 +446,11 @@ contributions:
   - invalid file, 2026-04-14
   - invalid file, 2026-04-16
   - invalid file, 2026-04-21
+  - invalid file, 2026-08-01
 - id: 26
   source: 
     http://jorgecardoso.eu/processing/MindSetProcessing/download/MindsetProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: MindSet Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -489,9 +490,10 @@ contributions:
   - invalid file, 2026-04-14
   - invalid file, 2026-04-16
   - invalid file, 2026-04-21
+  - invalid file, 2026-08-01
 - id: 27
   source: http://jorgecardoso.eu/processing/ID3/ID3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ID3
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -525,6 +527,7 @@ contributions:
   - invalid file, 2026-04-14
   - invalid file, 2026-04-16
   - invalid file, 2026-04-21
+  - invalid file, 2026-08-01
 - id: 28
   source: 
     http://projects.formatlos.de/ambientlightsensor/download/AmbientLightSensor.txt
@@ -3173,7 +3176,7 @@ contributions:
 - id: 164
   source: 
     http://jorgecardoso.eu/processing/eyetribeprocessing/download/EyeTribeProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Eye Tribe for Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -3207,6 +3210,7 @@ contributions:
   - invalid file, 2026-04-11
   - invalid file, 2026-04-14
   - invalid file, 2026-04-16
+  - invalid file, 2026-08-01
 - id: 165
   source: https://processing.org/handbook/handbook_2e.txt
   status: BROKEN
@@ -5718,7 +5722,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
