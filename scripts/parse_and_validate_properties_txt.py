@@ -3,41 +3,40 @@ Reads a properties txt file from a library's release artifacts,
 and validates the contents. If valid, it returns the contents
 as an object.
 """
-import json
+
 import argparse
-
-import requests
-from tenacity import retry, stop_after_attempt, wait_fixed
-import re
+import json
 import os
-from typing import Optional, Union
-from pydantic import BaseModel, Field, ConfigDict, field_validator, AliasChoices
-import javaproperties as jp
 
+import javaproperties as jp
+import requests
+from pydantic import AliasChoices, BaseModel, ConfigDict, Field, field_validator
+from tenacity import retry, stop_after_attempt, wait_fixed
 
 
 class PropertiesBase(BaseModel):
     name: str
-    authors: str = Field(validation_alias=AliasChoices('authors','authorList'))
+    authors: str = Field(validation_alias=AliasChoices("authors", "authorList"))
     url: str
-    categories: Optional[str] = Field(None, validation_alias=AliasChoices('categories','category'))
+    categories: str | None = Field(None, validation_alias=AliasChoices("categories", "category"))
     sentence: str
-    paragraph: Optional[str] = None
+    paragraph: str | None = None
     version: int
     prettyVersion: str
     minRevision: int = Field(0)
     maxRevision: int = Field(0)
-    modes: Optional[str] = Field(None, validation_alias=AliasChoices('modes','compatibleModesList'))
+    modes: str | None = Field(None, validation_alias=AliasChoices("modes", "compatibleModesList"))
 
     model_config = ConfigDict(
-        extra='allow',
+        extra="allow",
     )
 
-class PropertiesExisting(PropertiesBase):
-    version: Union[int, str]
-    prettyVersion: Optional[str] = None
 
-    @field_validator('minRevision', 'maxRevision', mode='before')
+class PropertiesExisting(PropertiesBase):
+    version: int | str
+    prettyVersion: str | None = None
+
+    @field_validator("minRevision", "maxRevision", mode="before")
     def default_on_error(cls, v):
         if v.isdigit():
             return int(v)
@@ -46,16 +45,14 @@ class PropertiesExisting(PropertiesBase):
 
 
 class LibraryPropertiesNew(PropertiesBase):
-    categories: str = Field(validation_alias=AliasChoices('categories','category'))
+    categories: str = Field(validation_alias=AliasChoices("categories", "category"))
 
 
-@retry(stop=stop_after_attempt(3),
-       wait=wait_fixed(2),
-       reraise=True)
+@retry(stop=stop_after_attempt(3), wait=wait_fixed(2), reraise=True)
 def read_properties_txt(properties_url):
     headers = {
-        'User-Agent': 'Mozilla/5.0',
-        'Accept': 'text/html',
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "text/html",
     }
     r = requests.get(properties_url, headers=headers, timeout=30)
 
@@ -64,12 +61,14 @@ def read_properties_txt(properties_url):
 
     return r.text
 
+
 def parse_text(properties_raw):
     properties_dict = {
-        key: value.split('#')[0].strip() if isinstance(value, str) else value
+        key: value.split("#")[0].strip() if isinstance(value, str) else value
         for key, value in jp.loads(properties_raw).items()
     }
     return properties_dict
+
 
 def validate_existing(properties_dict):
     # validation on existing contribution is weaker
@@ -77,11 +76,13 @@ def validate_existing(properties_dict):
 
     return properties.model_dump()
 
+
 def validate_new(properties_dict):
     # new contribution has stronger validation
     properties = PropertiesBase.model_validate(properties_dict)
 
     return properties.model_dump()
+
 
 def validate_new_library(properties_dict):
     # new contribution has stronger validation
@@ -89,37 +90,39 @@ def validate_new_library(properties_dict):
 
     return properties.model_dump()
 
+
 def set_output(output_object):
-    with open(os.environ['GITHUB_OUTPUT'],'a') as f:
-        f.write(f'props={json.dumps(output_object)}')
+    with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+        f.write(f"props={json.dumps(output_object)}")
+
 
 def set_output_error(msg):
-    with open(os.environ['GITHUB_OUTPUT'],'a') as f:
-        f.write(f'error={msg}')
+    with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+        f.write(f"error={msg}")
 
 
 if __name__ == "__main__":
     # this is used by github workflow, on new contributions. Use strong validation.
     # Add type to object
     parser = argparse.ArgumentParser()
-    parser.add_argument('type')
-    parser.add_argument('url')
+    parser.add_argument("type")
+    parser.add_argument("url")
     args = parser.parse_args()
 
     type_ = args.type
     url = args.url
     if not url.startswith("http"):
         print(f"Url not valid: {url}.\nStopping...")
-        set_output_error(f"Url is not valid. It should start with http:// or https://")
+        set_output_error("Url is not valid. It should start with http:// or https://")
         raise AssertionError
 
     print(f"url: {url}")  # just for debugging, should do this via logging levels
 
     try:
         properties_raw = read_properties_txt(url)
-    except Exception as e:
-        set_output_error(f'Error when accessing url. Please ensure the url returns a valid properties text file')
-        raise e
+    except Exception:
+        set_output_error("Error when accessing url. Please ensure the url returns a valid properties text file")
+        raise
 
     print(f"properties text: {properties_raw}")  # just for debugging, should do this via logging levels
 
@@ -127,15 +130,15 @@ if __name__ == "__main__":
     # this is because github actions will delimit strings with single quotes, and escapes single quotes this way
     properties_raw = properties_raw.replace("'", "''")
     try:
-        if type_ == 'library':
+        if type_ == "library":
             props = validate_new_library(parse_text(properties_raw))
         else:
             props = validate_new(parse_text(properties_raw))
     except Exception as e:
-        set_output_error(f'Errors when parsing file. Please check all required fields, and file format.\n\n{e}')
-        raise e
+        set_output_error(f"Errors when parsing file. Please check all required fields, and file format.\n\n{e}")
+        raise
 
-    contribution= {
+    contribution = {
         "type": type_,
         "source": url,
     }

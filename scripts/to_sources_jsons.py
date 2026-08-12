@@ -8,56 +8,40 @@ import shutil
 
 from utils import get_valid_contributions
 
-json_fields_library = [
-    'name', 'authors', 'url', 'categories', 'sentence', 'paragraph', 'imports',
-    'id', 'type'
-]
+json_fields_library = ["name", "authors", "url", "categories", "sentence", "paragraph", "imports", "id", "type"]
 json_fields_example = [
-    'name', 'authors', 'url', 'categories', 'sentence', 'modes', 'paragraph', 'imports',
-    'id', 'type'
+    "name",
+    "authors",
+    "url",
+    "categories",
+    "sentence",
+    "modes",
+    "paragraph",
+    "imports",
+    "id",
+    "type",
 ]
-json_fields_tool = [
-    'name', 'authors', 'url', 'categories', 'sentence', 'paragraph', 'imports',
-    'id', 'type'
-]
-json_fields_mode = [
-    'name', 'authors', 'url', 'sentence', 'paragraph', 'imports',
-    'id', 'type', 'categories'
-]
-json_package_fields_list = ['mode', 'minRevision', 'maxRevision', 'props', 'download']
+json_fields_tool = ["name", "authors", "url", "categories", "sentence", "paragraph", "imports", "id", "type"]
+json_fields_mode = ["name", "authors", "url", "sentence", "paragraph", "imports", "id", "type", "categories"]
+json_package_fields_list = ["mode", "minRevision", "maxRevision", "props", "download"]
 
 
 def to_sources_dict(contribution_dict):
-    contribution_dict['props'] = contribution_dict.pop('source')
-    if contribution_dict['type'] == 'library':
-        sources_dict = {
-          field: contribution_dict[field]
-          for field in json_fields_library if field in contribution_dict
-        }
-    elif contribution_dict['type'] == 'examples':
-        sources_dict = {
-            field: contribution_dict[field]
-            for field in json_fields_example if field in contribution_dict
-        }
-    elif contribution_dict['type'] == 'tool':
-        sources_dict = {
-          field: contribution_dict[field]
-          for field in json_fields_tool if field in contribution_dict
-        }
+    contribution_dict["props"] = contribution_dict.pop("source")
+    if contribution_dict["type"] == "library":
+        sources_dict = {field: contribution_dict[field] for field in json_fields_library if field in contribution_dict}
+    elif contribution_dict["type"] == "examples":
+        sources_dict = {field: contribution_dict[field] for field in json_fields_example if field in contribution_dict}
+    elif contribution_dict["type"] == "tool":
+        sources_dict = {field: contribution_dict[field] for field in json_fields_tool if field in contribution_dict}
     else:
-        sources_dict = {
-          field: contribution_dict[field]
-          for field in json_fields_mode if field in contribution_dict
-        }
+        sources_dict = {field: contribution_dict[field] for field in json_fields_mode if field in contribution_dict}
 
     # put authors in list
-    sources_dict['authors'] = [sources_dict['authors']] if sources_dict['authors'] else sources_dict['authors']
+    sources_dict["authors"] = [sources_dict["authors"]] if sources_dict["authors"] else sources_dict["authors"]
 
-    sources_dict['packages'] = [
-      {
-        field:('java' if field == 'mode' else str(contribution_dict[field]))
-        for field in json_package_fields_list
-      }
+    sources_dict["packages"] = [
+        {field: ("java" if field == "mode" else str(contribution_dict[field])) for field in json_package_fields_list}
     ]
 
     return sources_dict
@@ -65,17 +49,17 @@ def to_sources_dict(contribution_dict):
 
 def write_json_for_each_contribution_in_list(all_contributions, folder_path):
     for contribution in all_contributions:
-        if 'name' in contribution:
+        if "name" in contribution:
             # output zero padded string for id
-            contribution['id'] = f"{contribution['id']:03}"
-            filename = contribution['name'].replace(':', '').replace('/', '').replace(' ', '_') + '.json'
+            contribution["id"] = f"{contribution['id']:03}"
+            filename = contribution["name"].replace(":", "").replace("/", "").replace(" ", "_") + ".json"
             this_filepath = folder_path / filename
-            with open(this_filepath, 'w') as f:
+            with open(this_filepath, "w") as f:
                 json.dump(to_sources_dict(contribution), f, indent=2)
 
 
 if __name__ == "__main__":
-    sources_folder = pathlib.Path(__file__).parent.parent / 'sources/'
+    sources_folder = pathlib.Path(__file__).parent.parent / "sources/"
 
     contributions_list = get_valid_contributions()
 
