@@ -6708,8 +6708,8 @@ contributions:
     — size(), ellipse(), mouseX, draw() — but compiled to a native binary via 
     g++. Runs on Linux and Windows (via MSYS2). Requires g++ and OpenGL (GLFW + 
     GLEW).
-  version: '9'
-  prettyVersion: 0.4.0
+  version: '16'
+  prettyVersion: 0.4.6
   minRevision: 1280
   maxRevision: 0
   modes:
@@ -6722,7 +6722,9 @@ contributions:
   - 0.2.1
   - 0.2.2
   - 0.2.3
+  - 0.4.0
   prettyversion: 0.2.0
+  lastUpdated: 2026-08-12T05:17:08+0000
 - id: 307
   status: VALID
   dateAdded: 2026-06-29T10:23:49+0000
