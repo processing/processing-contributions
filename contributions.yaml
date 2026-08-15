@@ -313,7 +313,7 @@ contributions:
 - id: 21
   source: 
     http://www.gwoptics.org/processing/gwoptics_p5lib/download/gwoptics.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: gwoptics
   authors: '[Daniel Brown and Andreas Freise](http://www.gwoptics.org/processing/gwoptics_p5lib/)'
@@ -1475,7 +1475,7 @@ contributions:
     http://www.lagers.org.uk/processing3/shapes3d/Shapes3D.txt, 2026-07-22
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1522,7 +1522,7 @@ contributions:
     http://ubaa.net/shared/processing/opencv/download/opencv.txt%20
 - id: 82
   source: http://www.multiply.org/processing/TimedEvents.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: TimedEvents
   authors: '[Jason Gessner](http://multiply.org/)'
@@ -1990,7 +1990,7 @@ contributions:
 - id: 106
   source: 
     http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
@@ -2297,7 +2297,7 @@ contributions:
     http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -2860,7 +2860,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -3654,7 +3654,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3856,7 +3856,7 @@ contributions:
   download: http://damellis.github.io/wovns-processing-examples/WOVNS.zip
 - id: 195
   source: http://culebra.technology/culebra.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Culebra Behavior Library for Processing
   authors: '[Luis Quinones](http://complicitMatter.com)'
@@ -3942,7 +3942,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4227,7 +4227,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4899,7 +4899,7 @@ contributions:
     https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -5318,7 +5318,7 @@ contributions:
   modes:
 - id: 254
   source: http://www.kramann.info/ComposingForEveryone.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ComposingForEveryone
   authors: '[Guido Kramann](http://www.kramann.info/cfe)'
@@ -5758,7 +5758,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -6721,8 +6721,8 @@ contributions:
     — size(), ellipse(), mouseX, draw() — but compiled to a native binary via 
     g++. Runs on Linux and Windows (via MSYS2). Requires g++ and OpenGL (GLFW + 
     GLEW).
-  version: '19'
-  prettyVersion: 0.4.8
+  version: '20'
+  prettyVersion: 0.5.0
   minRevision: 1280
   maxRevision: 0
   modes:
@@ -6737,8 +6737,9 @@ contributions:
   - 0.2.3
   - 0.4.0
   - 0.4.6
+  - 0.4.8
   prettyversion: 0.2.0
-  lastUpdated: 2026-08-14T05:17:43+0000
+  lastUpdated: 2026-08-15T04:54:19+0000
 - id: 307
   status: VALID
   dateAdded: 2026-06-29T10:23:49+0000
@@ -6783,13 +6784,16 @@ contributions:
     Desktop and Android.
   paragraph: Includes controls, views, calendar models, responsive scaling, 
     automatic event handling, and the SimpleCore task engine.
-  version: 6
+  version: '6'
   prettyVersion: 0.5.1
   minRevision: 0
   maxRevision: 0
   modes:
   download: 
     https://github.com/LuislopezMartinez/SimpleUI/releases/latest/download/SimpleUI.zip
+  lastUpdated: 2026-08-15T04:54:19+0000
+  previousVersions:
+  - 0.5.1
 - id: 309
   status: VALID
   dateAdded: 2026-08-15T02:43:20+0000
@@ -6808,9 +6812,12 @@ contributions:
     hardware routed through OLA (Open Lighting Architecture). Includes gamma 
     correction, channel-pattern mapping, GRB chip support, and live 
     visualization tools. macOS, Windows, and Linux supported.
-  version: 1
+  version: '1'
   prettyVersion: 0.0.1
   minRevision: 0
   maxRevision: 0
   modes:
   download: https://jshaw.github.io/Canvas2DMX/download/canvas2dmx.zip
+  lastUpdated: 2026-08-15T04:54:18+0000
+  previousVersions:
+  - 0.0.1
