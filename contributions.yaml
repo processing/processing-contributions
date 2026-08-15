@@ -6768,3 +6768,25 @@ contributions:
   - '1.0'
   log:
   - url timeout, 2026-07-20
+- id: 308
+  status: VALID
+  dateAdded: 2026-07-24T20:00:30+0000
+  type: library
+  source: 
+    https://github.com/LuislopezMartinez/SimpleUI/releases/latest/download/SimpleUI.txt
+  name: SimpleUI
+  authors: '[Luis López Martínez](https://github.com/LuislopezMartinez)'
+  url: https://luislopezmartinez.github.io/SimpleUI/
+  categories:
+  - GUI
+  sentence: Cross-platform GUI widgets and frame-task utilities for Processing 
+    Desktop and Android.
+  paragraph: Includes controls, views, calendar models, responsive scaling, 
+    automatic event handling, and the SimpleCore task engine.
+  version: 6
+  prettyVersion: 0.5.1
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/LuislopezMartinez/SimpleUI/releases/latest/download/SimpleUI.zip
