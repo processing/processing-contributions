@@ -5758,7 +5758,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5855,6 +5855,7 @@ contributions:
   - url timeout, 2026-08-02
   - invalid file, 2026-08-08
   - url timeout, 2026-08-13
+  - url timeout, 2026-08-16
   previousVersions:
   - 0.1.1
   modes:
@@ -6721,8 +6722,8 @@ contributions:
     — size(), ellipse(), mouseX, draw() — but compiled to a native binary via 
     g++. Runs on Linux and Windows (via MSYS2). Requires g++ and OpenGL (GLFW + 
     GLEW).
-  version: '20'
-  prettyVersion: 0.5.0
+  version: '21'
+  prettyVersion: 0.5.1
   minRevision: 1280
   maxRevision: 0
   modes:
@@ -6738,8 +6739,9 @@ contributions:
   - 0.4.0
   - 0.4.6
   - 0.4.8
+  - 0.5.0
   prettyversion: 0.2.0
-  lastUpdated: 2026-08-15T04:54:19+0000
+  lastUpdated: 2026-08-16T04:55:07+0000
 - id: 307
   status: VALID
   dateAdded: 2026-06-29T10:23:49+0000
@@ -6783,17 +6785,19 @@ contributions:
   sentence: Cross-platform GUI widgets and frame-task utilities for Processing 
     Desktop and Android.
   paragraph: Includes controls, views, calendar models, responsive scaling, 
-    automatic event handling, and the SimpleCore task engine.
-  version: '6'
-  prettyVersion: 0.5.1
+    automatic event handling, a Windows Java2D resize guard, and the SimpleCore 
+    task engine.
+  version: '10'
+  prettyVersion: 0.5.5
   minRevision: 0
   maxRevision: 0
   modes:
   download: 
     https://github.com/LuislopezMartinez/SimpleUI/releases/latest/download/SimpleUI.zip
-  lastUpdated: 2026-08-15T04:54:19+0000
   previousVersions:
   - 0.5.1
+  - 0.5.1
+  lastUpdated: 2026-08-16T04:55:07+0000
 - id: 309
   status: VALID
   dateAdded: 2026-08-15T02:43:20+0000
@@ -6818,6 +6822,5 @@ contributions:
   maxRevision: 0
   modes:
   download: https://jshaw.github.io/Canvas2DMX/download/canvas2dmx.zip
-  lastUpdated: 2026-08-15T04:54:18+0000
   previousVersions:
   - 0.0.1
