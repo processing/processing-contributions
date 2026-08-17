@@ -5758,7 +5758,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -6722,8 +6722,8 @@ contributions:
     — size(), ellipse(), mouseX, draw() — but compiled to a native binary via 
     g++. Runs on Linux and Windows (via MSYS2). Requires g++ and OpenGL (GLFW + 
     GLEW).
-  version: '21'
-  prettyVersion: 0.5.1
+  version: '22'
+  prettyVersion: 0.5.2
   minRevision: 1280
   maxRevision: 0
   modes:
@@ -6740,8 +6740,9 @@ contributions:
   - 0.4.6
   - 0.4.8
   - 0.5.0
+  - 0.5.1
   prettyversion: 0.2.0
-  lastUpdated: 2026-08-16T04:55:07+0000
+  lastUpdated: 2026-08-17T04:59:12+0000
 - id: 307
   status: VALID
   dateAdded: 2026-06-29T10:23:49+0000
@@ -6797,7 +6798,6 @@ contributions:
   previousVersions:
   - 0.5.1
   - 0.5.1
-  lastUpdated: 2026-08-16T04:55:07+0000
 - id: 309
   status: VALID
   dateAdded: 2026-08-15T02:43:20+0000
