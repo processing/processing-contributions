@@ -1268,7 +1268,7 @@ contributions:
 - id: 68
   source: 
     http://phi.lho.free.fr/programming/Processing/P8gGraphicsSVG/P8gGraphicsSVG.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: P8gGraphicsSVG
   authors: '[Philippe Lhoste](http://Phi.Lho.free.fr/)'
@@ -6787,11 +6787,10 @@ contributions:
   - GUI
   sentence: Cross-platform GUI widgets and frame-task utilities for Processing 
     Desktop and Android.
-  paragraph: Includes controls, views, calendar models, responsive scaling, 
-    automatic event handling, a Windows Java2D resize guard, and the SimpleCore 
-    task engine.
-  version: '10'
-  prettyVersion: 0.5.5
+  paragraph: Includes controls, views, calendars and the SimpleCore game-task 
+    engine with one shared virtual-resolution viewport for Desktop and Android.
+  version: '12'
+  prettyVersion: 0.5.7
   minRevision: 0
   maxRevision: 0
   modes:
@@ -6800,6 +6799,8 @@ contributions:
   previousVersions:
   - 0.5.1
   - 0.5.1
+  - 0.5.5
+  lastUpdated: 2026-08-22T04:55:05+0000
 - id: 309
   status: VALID
   dateAdded: 2026-08-15T02:43:20+0000
