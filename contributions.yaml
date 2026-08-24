@@ -1268,7 +1268,7 @@ contributions:
 - id: 68
   source: 
     http://phi.lho.free.fr/programming/Processing/P8gGraphicsSVG/P8gGraphicsSVG.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: P8gGraphicsSVG
   authors: '[Philippe Lhoste](http://Phi.Lho.free.fr/)'
@@ -1293,6 +1293,7 @@ contributions:
   - url timeout, 2025-10-02
   - url timeout, 2025-10-24
   - url timeout, 2026-08-21
+  - url timeout, 2026-08-24
 - id: 69
   source: 
     https://raw.githubusercontent.com/nok/onedollar-unistroke-recognizer/master/download/OneDollarUnistrokeRecognizer.txt
@@ -6723,8 +6724,8 @@ contributions:
     — size(), ellipse(), mouseX, draw() — but compiled to a native binary via 
     g++. Runs on Linux and Windows (via MSYS2). Requires g++ and OpenGL (GLFW + 
     GLEW).
-  version: '24'
-  prettyVersion: 0.5.4
+  version: '26'
+  prettyVersion: 0.6.0
   minRevision: 1280
   maxRevision: 0
   modes:
@@ -6744,7 +6745,9 @@ contributions:
   - 0.5.1
   - 0.5.2
   - 0.5.3
+  - 0.5.4
   prettyversion: 0.2.0
+  lastUpdated: 2026-08-24T05:00:30+0000
 - id: 307
   status: VALID
   dateAdded: 2026-06-29T10:23:49+0000
@@ -6787,10 +6790,11 @@ contributions:
   - GUI
   sentence: Cross-platform GUI widgets and frame-task utilities for Processing 
     Desktop and Android.
-  paragraph: Includes controls, views, calendars and the SimpleCore game-task 
-    engine with one shared virtual-resolution viewport for Desktop and Android.
-  version: '12'
-  prettyVersion: 0.5.7
+  paragraph: Supports traditional and P2D renderers, controls, views, calendars,
+    MP3/Ogg/WAV audio and the SimpleCore engine with one shared FIT, FILL, 
+    RESPONSIVE or STRETCH viewport.
+  version: '15'
+  prettyVersion: 0.7.0
   minRevision: 0
   maxRevision: 0
   modes:
@@ -6800,6 +6804,8 @@ contributions:
   - 0.5.1
   - 0.5.1
   - 0.5.5
+  - 0.5.7
+  lastUpdated: 2026-08-24T05:00:31+0000
 - id: 309
   status: VALID
   dateAdded: 2026-08-15T02:43:20+0000
