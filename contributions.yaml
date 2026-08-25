@@ -5760,7 +5760,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5858,6 +5858,7 @@ contributions:
   - invalid file, 2026-08-08
   - url timeout, 2026-08-13
   - url timeout, 2026-08-16
+  - url timeout, 2026-08-25
   previousVersions:
   - 0.1.1
   modes:
@@ -6747,7 +6748,6 @@ contributions:
   - 0.5.3
   - 0.5.4
   prettyversion: 0.2.0
-  lastUpdated: 2026-08-24T05:00:30+0000
 - id: 307
   status: VALID
   dateAdded: 2026-06-29T10:23:49+0000
@@ -6793,8 +6793,8 @@ contributions:
   paragraph: Supports traditional and P2D renderers, controls, views, calendars,
     MP3/Ogg/WAV audio and the SimpleCore engine with one shared FIT, FILL, 
     RESPONSIVE or STRETCH viewport.
-  version: '15'
-  prettyVersion: 0.7.0
+  version: '17'
+  prettyVersion: 0.7.2
   minRevision: 0
   maxRevision: 0
   modes:
@@ -6805,7 +6805,8 @@ contributions:
   - 0.5.1
   - 0.5.5
   - 0.5.7
-  lastUpdated: 2026-08-24T05:00:31+0000
+  - 0.7.0
+  lastUpdated: 2026-08-25T04:57:28+0000
 - id: 309
   status: VALID
   dateAdded: 2026-08-15T02:43:20+0000
