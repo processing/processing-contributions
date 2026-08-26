@@ -5760,7 +5760,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -6806,7 +6806,6 @@ contributions:
   - 0.5.5
   - 0.5.7
   - 0.7.0
-  lastUpdated: 2026-08-25T04:57:28+0000
 - id: 309
   status: VALID
   dateAdded: 2026-08-15T02:43:20+0000
