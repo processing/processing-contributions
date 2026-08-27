@@ -1268,7 +1268,7 @@ contributions:
 - id: 68
   source: 
     http://phi.lho.free.fr/programming/Processing/P8gGraphicsSVG/P8gGraphicsSVG.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: P8gGraphicsSVG
   authors: '[Philippe Lhoste](http://Phi.Lho.free.fr/)'
