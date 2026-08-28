@@ -415,7 +415,7 @@ contributions:
     2025-07-21
 - id: 25
   source: http://jorgecardoso.eu/processing/NXTComm/NXTComm.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: NXTComm Processing
   authors: '[Jorge C. S. Cardoso](http://jorgecardoso.eu)'
@@ -450,6 +450,7 @@ contributions:
   - invalid file, 2026-04-16
   - invalid file, 2026-04-21
   - invalid file, 2026-08-01
+  - invalid file, 2026-08-28
 - id: 26
   source: 
     http://jorgecardoso.eu/processing/MindSetProcessing/download/MindsetProcessing.txt
