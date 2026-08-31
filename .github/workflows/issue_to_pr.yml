@@ -23,12 +23,12 @@ jobs:
     steps:
       - name: Parse issue
         id: parseIssue
-        uses: onmax/issue-form-parser@v1.5
+        uses: onmax/issue-form-parser@7b55aeae4ae3c4f99df00f270991fe286e9ea826 # v1.5
         with:
           issue_number: ${{ github.event.issue.number }}
 
       - name: Checkout sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Setup Python
         uses: ./.github/actions/setup
@@ -46,7 +46,7 @@ jobs:
       - name: add comment to issue
         id: issueComment
         if: success()
-        uses: peter-evans/create-or-update-comment@v4
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4.0.0
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
@@ -54,7 +54,7 @@ jobs:
 
       - name: if failure, add comment to issue
         if: failure()
-        uses: peter-evans/create-or-update-comment@v4
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4.0.0
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
@@ -66,13 +66,13 @@ jobs:
 
       - name: check if target branch exists
         id: branchExists
-        uses: GuillaumeFalourd/branch-exists@v1
+        uses: GuillaumeFalourd/branch-exists@48261ee350426a6d9434c82c6033fea357a17592 # v1
         with:
           branch: ${{ env.BRANCH_NAME }}
 
       - name: delete target branch if exists
         if: steps.branchExists.outputs.exists == 'true'
-        uses: dawidd6/action-delete-branch@v3
+        uses: dawidd6/action-delete-branch@d1efac9a6f7a9b408d4e8ff663a99c1fbac17b3f # v3.1.0
         with:
           github_token: ${{github.token}}
           branches: ${{ env.BRANCH_NAME }}
@@ -88,7 +88,7 @@ jobs:
           python add_new_contribution_to_yaml.py '${{ steps.parseProps.outputs.props }}'
 
       - name: commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403 # v5.2.0
         with:
           commit_message: adding contribution ${{ github.event.issue.title }} from #${{ github.event.issue.number }}
           branch: ${{ env.BRANCH_NAME }}
@@ -103,7 +103,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
 
       - name: add comment to issue
-        uses: peter-evans/create-or-update-comment@v4
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4.0.0
         with:
           comment-id:  ${{ steps.issueComment.outputs.comment-id }}
           body: |
@@ -112,7 +112,7 @@ jobs:
 
       - name: if failure, add comment to issue
         if: failure()
-        uses: peter-evans/create-or-update-comment@v4
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4.0.0
         with:
           comment-id:  ${{ steps.issueComment.outputs.comment-id }}
           body: |
