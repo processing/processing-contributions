@@ -5920,7 +5920,7 @@ contributions:
     https://py.processing.org/4/PythonMode.txt
   name: Python Mode for Processing 4
   authors: '[Jonathan Feinberg](http://MrFeinberg.com/)'
-  url: https://github.com/jdf/processing.py
+  url: https://github.com/jdf/processing.py/tree/processing4
   categories: []
   sentence: Write Processing 4 sketches in Python.
   paragraph: ''
