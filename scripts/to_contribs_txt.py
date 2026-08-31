@@ -6,6 +6,7 @@ import json
 import pathlib
 import shutil
 from collections import defaultdict
+from typing import List
 
 from utils import get_valid_contributions
 
@@ -45,6 +46,40 @@ def read_contribs_text(filepath):
   return contribs_list
 
 
+def preprocess_contributions() -> List:
+  all_contributions = get_valid_contributions()
+
+  # sort contributions list by type
+  def sort_key(d):
+    return type_list.index(d['type'])
+  all_contributions = sorted(all_contributions, key=sort_key)
+
+  return all_contributions
+
+
+def write_contribs(all_contributions, fh):
+  for contribution in all_contributions:
+    fh.write(contribution['type'] + '\n')
+    for field in contribs_fields_list:
+      if field in contribution:
+        if field == 'id':
+          fh.write(f'{field}={contribution[field]:03}\n')
+        elif field == 'categories':
+          if contribution['type'] == 'library':
+            fh.write(f'{field}={",".join(contribution[field]) if contribution[field] else ""}\n')
+          else:
+            # categories are only relevant for libraries, except for examples with "Books" as category
+            if contribution[field] and 'Books' in contribution[field]:
+              fh.write(f'{field}={",".join(contribution[field]) if contribution[field] else ""}\n')
+            else:
+              fh.write(f'{field}=\n')
+        elif field == 'compatibleModesList':
+          fh.write(f'modes={contribution[field]}\n')
+        else:
+          fh.write(f'{field}={"" if contribution[field] is None else contribution[field]}\n')
+    fh.write('\n')
+
+
 if __name__ == "__main__":
   pde_folder = pathlib.Path(__file__).parent.parent / 'pde/'
   # remove sources folder if it already exists
@@ -54,34 +89,10 @@ if __name__ == "__main__":
 
   contribs_text_file = pde_folder / 'contribs.txt'
 
-  contributions_list = get_valid_contributions()
-
-  # sort contributions list by type
-  def sort_key(d):
-    return type_list.index(d['type'])
-  contributions_list = sorted(contributions_list, key=sort_key)
+  contributions_list = preprocess_contributions()
 
   # write contribs.txt file
   with open(contribs_text_file, 'w+') as f:
-    for contribution in contributions_list:
-      f.write(contribution['type']+'\n')
-      for field in contribs_fields_list:
-        if field in contribution:
-          if field == 'id':
-            f.write(f'{field}={contribution[field]:03}\n')
-          elif field == 'categories':
-            if contribution['type'] == 'library':
-              f.write(f'{field}={",".join(contribution[field]) if contribution[field] else ""}\n')
-            else:
-              # categories are only relevant for libraries, except for examples with "Books" as category
-              if contribution[field] and 'Books' in contribution[field]:
-                f.write(f'{field}={",".join(contribution[field]) if contribution[field] else ""}\n')
-              else:
-                f.write(f'{field}=\n')
-          elif field == 'compatibleModesList':
-            f.write(f'modes={contribution[field]}\n')
-          else:
-            f.write(f'{field}={"" if contribution[field] is None else contribution[field]}\n')
-      f.write('\n')
+    write_contribs(contributions_list, f)
 
 

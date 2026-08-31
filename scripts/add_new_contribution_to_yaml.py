@@ -8,22 +8,31 @@ from sys import argv
 
 from ruamel.yaml import YAML
 
+
+def split_categories(categories):
+    categories = sorted(categories.replace('"', '').split(','))
+    categories = [category.strip() for category in categories]
+    return categories
+
+
+def postprocess_properties(properties_dict):
+    if 'categories' in properties_dict and properties_dict['categories']:
+        properties_dict['categories'] = split_categories(properties_dict['categories'])
+    else:
+        properties_dict['categories'] = None
+
+    # add download
+    if 'download' not in properties_dict:
+        properties_dict['download'] = properties_dict['source'][:properties_dict['source'].rfind('.')] + '.zip'
+
+
 if __name__ == "__main__":
     if len(argv) < 2:
         print("script takes json string as argument.\nStopping...")
         raise ValueError
 
     props = json.loads(argv[1])
-    # process category list
-    if 'categories' in props and props['categories']:
-        props['categories'] = sorted(props['categories'].replace('"', '').split(','))
-        props['categories'] = [category.strip() for category in props['categories']]
-    else:
-        props['categories'] = None
-
-    # add download
-    if 'download' not in props:
-        props['download'] = props['source'][:props['source'].rfind('.')] + '.zip'
+    postprocess_properties(props)
 
     # open database
     database_file = pathlib.Path(__file__).parent.parent / 'contributions.yaml'

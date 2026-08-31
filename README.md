@@ -77,6 +77,15 @@ contribution. These files are created from the database using the script `script
 The Processing application's contribution manager reads in a `contribs.txt` file.
 This file is created from the database using the script `scripts/to_contribs_txt.py`.
 
+These artifacts are created and released via Github Actions.
+
+## Contributing
+
+Thanks for your interest in contributing to this repository.
+The scripts are currently written in Python.
+
+Because much of this repository is workflows and automation, we recommend to run the workflows on your fork before
+creating pull requests.
 
 ## Contributors
 

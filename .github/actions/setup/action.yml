@@ -1,0 +1,13 @@
+name: "Setup Python"
+description: "Setup Python and dependencies"
+runs:
+  using: "composite"
+  steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '>=3.11'
+
+      - name: Install dependencies
+        shell: bash
+        run: pip install -r requirements.txt
