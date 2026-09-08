@@ -6836,3 +6836,33 @@ contributions:
   download: https://jshaw.github.io/Canvas2DMX/download/canvas2dmx.zip
   previousVersions:
   - 0.0.1
+- id: 310
+  status: VALID
+  dateAdded: 2026-08-25T02:00:04+0000
+  type: library
+  source: 
+    https://github.com/vicvalentim/ziviDomeLive/releases/latest/download/ziviDomeLive.txt
+  name: ziviDomeLive
+  authors: '[Victor Valentim](https://victorvalentim.com/)'
+  url: https://vicvalentim.github.io/ziviDomeLive/
+  categories:
+  - Video & Vision
+  - 3D
+  sentence: Renders Standard, domemaster, equirectangular, and skybox views from
+    Processing sketches.
+  paragraph: Provides scene management, Standard and spherical rendering, 
+    domemaster calibration, equirectangular and skybox representations, and 
+    optional NDI, Syphon, or Spout output routing. External-output backends 
+    require their platform/runtime dependencies and separate qualification.
+  version: 11
+  prettyVersion: 2.0.0
+  minRevision: 1285
+  maxRevision: 0
+  modes:
+  library.copyright: (c) 2024 Victor Valentim
+  library.keywords: fulldome, projection, immersive, spherical, 360, visual, 
+    real-time, NDI, Syphon, Spout
+  tested.platform: ''
+  tested.processingVersion: ''
+  download: 
+    https://github.com/vicvalentim/ziviDomeLive/releases/latest/download/ziviDomeLive.zip
