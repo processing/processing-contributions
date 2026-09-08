@@ -6866,3 +6866,26 @@ contributions:
   tested.processingVersion: ''
   download: 
     https://github.com/vicvalentim/ziviDomeLive/releases/latest/download/ziviDomeLive.zip
+- id: 311
+  status: VALID
+  dateAdded: 2026-09-08T22:14:23+0000
+  type: library
+  source: 
+    https://github.com/seb-prjcts-be/processing.waves/releases/latest/download/waves.txt
+  name: waves
+  authors: Sebastien Vanblaere
+  url: https://seb-prjcts-be.github.io/processing.waves/
+  categories:
+  - Math
+  sentence: 35 wave shapes for Processing. Pass a number in, get a number back.
+  paragraph: Java port of p5.waves v3.6.0. 35 curated wave formulas with shift, 
+    morph, wild mode, group filtering, and range mapping. Pure math, no 
+    Processing dependencies. Drop-in replacement for users who want the same 
+    waves in Java mode.
+  version: 4
+  prettyVersion: 1.6.1
+  minRevision: 1285
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/seb-prjcts-be/processing.waves/releases/latest/download/waves.zip
