@@ -6846,7 +6846,7 @@ contributions:
   authors: '[Victor Valentim](https://victorvalentim.com/)'
   url: https://vicvalentim.github.io/ziviDomeLive/
   categories:
-  - Video & Vision
+  - ' Video & Vision'
   - 3D
   sentence: Renders Standard, domemaster, equirectangular, and skybox views from
     Processing sketches.
@@ -6854,7 +6854,7 @@ contributions:
     domemaster calibration, equirectangular and skybox representations, and 
     optional NDI, Syphon, or Spout output routing. External-output backends 
     require their platform/runtime dependencies and separate qualification.
-  version: 11
+  version: '11'
   prettyVersion: 2.0.0
   minRevision: 1285
   maxRevision: 0
@@ -6866,6 +6866,9 @@ contributions:
   tested.processingVersion: ''
   download: 
     https://github.com/vicvalentim/ziviDomeLive/releases/latest/download/ziviDomeLive.zip
+  lastUpdated: 2026-09-09T04:48:35+0000
+  previousVersions:
+  - 2.0.0
 - id: 311
   status: VALID
   dateAdded: 2026-09-08T22:14:23+0000
@@ -6882,10 +6885,13 @@ contributions:
     morph, wild mode, group filtering, and range mapping. Pure math, no 
     Processing dependencies. Drop-in replacement for users who want the same 
     waves in Java mode.
-  version: 4
+  version: '4'
   prettyVersion: 1.6.1
   minRevision: 1285
   maxRevision: 0
   modes:
   download: 
     https://github.com/seb-prjcts-be/processing.waves/releases/latest/download/waves.zip
+  lastUpdated: 2026-09-09T04:48:35+0000
+  previousVersions:
+  - 1.6.1
