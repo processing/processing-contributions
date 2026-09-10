@@ -6866,7 +6866,6 @@ contributions:
   tested.processingVersion: ''
   download: 
     https://github.com/vicvalentim/ziviDomeLive/releases/latest/download/ziviDomeLive.zip
-  lastUpdated: 2026-09-09T04:48:35+0000
   previousVersions:
   - 2.0.0
 - id: 311
@@ -6892,6 +6891,5 @@ contributions:
   modes:
   download: 
     https://github.com/seb-prjcts-be/processing.waves/releases/latest/download/waves.zip
-  lastUpdated: 2026-09-09T04:48:35+0000
   previousVersions:
   - 1.6.1
