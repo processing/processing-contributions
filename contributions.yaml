@@ -6893,3 +6893,24 @@ contributions:
     https://github.com/seb-prjcts-be/processing.waves/releases/latest/download/waves.zip
   previousVersions:
   - 1.6.1
+- id: 312
+  status: VALID
+  dateAdded: 2026-09-14T18:17:46+0000
+  type: library
+  source: 
+    https://github.com/OneMaxApps/TellUI/releases/latest/download/TellUI.txt
+  name: TellUI
+  authors: '[Ahmedhanov Islam](https://github.com/OneMaxApps/TellUI/)'
+  url: https://github.com/OneMaxApps/TellUI
+  categories:
+  - GUI
+  sentence: Provides a simple way to work with GUI.
+  paragraph: ''
+  version: 2
+  prettyVersion: 1.0.1
+  minRevision: 1
+  maxRevision: 2
+  modes:
+  lastUpdated: '0'
+  download: 
+    https://github.com/OneMaxApps/TellUI/releases/latest/download/TellUI.zip
