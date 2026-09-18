@@ -6907,11 +6907,13 @@ contributions:
   - GUI
   sentence: Provides a simple way to work with GUI.
   paragraph: ''
-  version: 2
+  version: '2'
   prettyVersion: 1.0.1
   minRevision: 0
   maxRevision: 0
   modes:
-  lastUpdated: '0'
   download: 
     https://github.com/OneMaxApps/TellUI/releases/latest/download/TellUI.zip
+  lastUpdated: '0'
+  previousVersions:
+  - 1.0.1
