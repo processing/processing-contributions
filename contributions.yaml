@@ -6918,3 +6918,32 @@ contributions:
     https://github.com/OneMaxApps/TellUI/releases/latest/download/TellUI.zip
   previousVersions:
   - 1.0.1
+- id: 313
+  status: VALID
+  dateAdded: 2026-09-21T19:26:53+0000
+  type: library
+  source: 
+    https://github.com/trackme518/NDI_processing/releases/latest/download/NDIStream.txt
+  name: NDI Stream for Processing
+  authors: '[Vojtech Leischner](https://github.com/trackme518), [Walker Knapp](https://walkerknapp.me)'
+  url: https://github.com/trackme518/NDI_processing
+  categories:
+  - Video & Vision
+  sentence: Sends and receives video and audio over the network using NewTeks 
+    NDI(tm) protocol.
+  paragraph: 'NDIStream wraps the [NDI(tm) SDK](https://www.newtek.com/ndi/) so Processing
+    sketches can act as NDI senders, receivers, finders and routers with no video-capture
+    hardware required. NDI sources from other applications (NDI Screen Capture, OBS,
+    vMix, TriCasters, and more) can be received as PImage video and audio, and Processing
+    visuals can be transmitted as NDI sources. The NDI(tm) runtimes and native bindings
+    are bundled in the library for macOS (Apple Silicon and Intel). Linux and Windows
+    builds require the NDI runtime to be installed or bundled at build time. This
+    is the default allinone variant: the NDI runtime is bundled for out-of-the-box
+    use.'
+  version: 1
+  prettyVersion: 4.0.0
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/trackme518/NDI_processing/releases/latest/download/NDIStream.zip
