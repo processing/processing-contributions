@@ -5933,6 +5933,12 @@ contributions:
   minRevision: 1279
   maxRevision: 0
   download: https://contribs.processing.org/pythonmode/4/PythonMode.zip
+  override:
+    sentence: Python Mode for Processing 4 (unmaintained)
+    paragraph: >-
+      This project is not compatible with the latest versions of Processing 4.
+      It is unmaintained, meaning there is no longer anyone fixing bugs or developing new features.
+      For a more up-to-date Python experience with Processing, consider using py5 instead.
 - id: 275
   source: 
     https://github.com/yashbutno/Oklab-for-Processing/releases/download/latest/OklabForProcessing.txt
