@@ -5934,10 +5934,10 @@ contributions:
   maxRevision: 0
   download: https://contribs.processing.org/pythonmode/4/PythonMode.zip
   override:
-    sentence: Python Mode for Processing 4 (unmaintained)
+    name: Python Mode for Processing 4 (unmaintained)
+    sentence: Not compatible with the latest versions of Processing 4.
     paragraph: >-
-      This project is not compatible with the latest versions of Processing 4.
-      It is unmaintained, meaning there is no longer anyone fixing bugs or developing new features.
+      This mode is unmaintained, meaning there is no longer anyone fixing bugs or developing new features.
       For a more up-to-date Python experience with Processing, consider using py5 instead.
 - id: 275
   source: 
