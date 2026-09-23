@@ -652,7 +652,7 @@ contributions:
     - Sound
 - id: 36
   source: http://www.gdsstudios.com/processing/libraries/ocd/download/ocd.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: 'OCD: Obsessive Camera Direction'
   authors: '[Kristian Damkjer](http://www.gdsstudios.com/)'
