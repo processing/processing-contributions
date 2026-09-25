@@ -6917,3 +6917,25 @@ contributions:
     https://github.com/OneMaxApps/TellUI/releases/latest/download/TellUI.zip
   previousVersions:
   - 1.0.1
+- id: 313
+  status: VALID
+  dateAdded: 2026-09-25T12:36:25+0000
+  type: library
+  source: https://github.com/trackme518/HRTF/releases/latest/download/HRTF.txt
+  name: HRTF
+  authors: '[Vojtech Leischner](https://trackmeifyoucan.com)'
+  url: https://trackme518.github.io/HRTF/
+  categories:
+  - Sound
+  sentence: Binaural 3D audio for the Sound library using SOFA HRIR convolution.
+  paragraph: Loads head-related impulse responses from a SOFA file and convolves
+    them with any Sound library source (oscillators, samples, input) using 
+    spherical-harmonic direction interpolation. Includes a standalone mode that 
+    works without the Sound library.
+  version: 100
+  prettyVersion: 1.0.0
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  lastUpdated: '0'
+  download: https://github.com/trackme518/HRTF/releases/latest/download/HRTF.zip
