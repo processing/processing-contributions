@@ -606,7 +606,7 @@ contributions:
     https://studioijeoma.com/processing/ijeomamotion/download/ijeomamotion.txt
 - id: 34
   source: http://www.deadpixel.ca/keystone/download/keystone.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Keystone
   authors: '[David Bouchard](http://www.deadpixel.ca)'
@@ -629,6 +629,7 @@ contributions:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
   - url timeout, 2026-07-14
+  - url timeout, 2026-10-03
 - id: 35
   source: http://www.erase.net/projects/processing-sc/files/processing-sc.txt
   status: VALID
@@ -885,7 +886,7 @@ contributions:
     http://www.lagers.org.uk/processing3/g4p/G4P.txt, 2026-07-22
 - id: 47
   source: http://transmote.com/nest/download/Nest.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Nest
   authors: '[Eric Socolofsky](http://transmote.com/)'
@@ -911,6 +912,7 @@ contributions:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
   - url timeout, 2026-07-14
+  - url timeout, 2026-10-03
 - id: 48
   source: ' http://kenai.com/downloads/l-system-utilities/lsystem.txt '
   status: BROKEN
@@ -1734,7 +1736,7 @@ contributions:
     - I/O
 - id: 92
   source: http://www.local-guru.net/projects/ttslib/ttslib.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ttslib
   authors: '[Nikolaus Gradwohl](http://www.local-guru.net)'
@@ -1769,6 +1771,7 @@ contributions:
   - url timeout, 2026-02-15
   - url timeout, 2026-06-24
   - url timeout, 2026-07-01
+  - url timeout, 2026-10-03
 - id: 93
   source: http://www.lagers.org.uk/processing/pathfinder/Path_Finder.txt
   status: VALID
@@ -2250,7 +2253,7 @@ contributions:
 - id: 120
   source: 
     https://fox-gieg.com/patches/processing/libraries/SimpleOpenNI/SimpleOpenNI.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: SimpleOpenNI
   authors: '[Max Rheiner & Antonio Vega](http://code.google.com/p/simple-openni/)'
@@ -2272,6 +2275,7 @@ contributions:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
   - url timeout, 2026-07-14
+  - url timeout, 2026-10-03
 - id: 121
   source: 
     https://github.com/codeanticode/tablet/releases/download/latest/Tablet.txt
@@ -2584,7 +2588,7 @@ contributions:
 - id: 136
   source: 
     https://fox-gieg.com/patches/processing/libraries/gifAnimation/gifAnimation.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: GifAnimation
   authors: '[Patrick Meister, Jerome Saint-Clair](http://www.extrapixel.ch)'
@@ -2608,6 +2612,7 @@ contributions:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
   - url timeout, 2026-07-14
+  - url timeout, 2026-10-03
 - id: 137
   source: 
     https://github.com/runemadsen/HTTP-Requests-for-Processing/releases/download/latest/httprequests_processing.txt
@@ -2799,7 +2804,7 @@ contributions:
     http://www.heroicrobotics.com/software/PixelPusher.txt
 - id: 146
   source: http://boofcv.org/processing/boofcv_processing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: BoofCV for Processing
   authors: Peter Abeles
@@ -2817,9 +2822,11 @@ contributions:
   override:
     categories:
     - Video & Vision
+  log:
+  - url timeout, 2026-10-03
 - id: 147
   source: http://code.compartmental.net/minim/distro/minim_for_processing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Minim
   authors: '[Damien Di Fede](http://code.compartmental.net/) and [Anderson Mills](http://konfuzo.net/)'
@@ -2841,6 +2848,7 @@ contributions:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
   - url timeout, 2026-07-14
+  - url timeout, 2026-10-03
 - id: 148
   source: ' https://github.com/Syphon/Processing/releases/download/latest/Syphon.txt '
   status: DEPRECATED
@@ -4468,7 +4476,7 @@ contributions:
     - Hardware
 - id: 219
   source: https://teddavis.org/xyscope/download/XYscope.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: XYscope
   authors: '[Ted Davis](https://www.teddavis.org)'
@@ -4499,6 +4507,7 @@ contributions:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
   - url timeout, 2026-07-14
+  - url timeout, 2026-10-03
 - id: 220
   source: 
     https://github.com/processing-r/Processing.R/releases/latest/download/RLangMode.txt
@@ -5882,7 +5891,7 @@ contributions:
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Latk for Processing
   authors: '[Nick Fox-Gieg](https://fox-gieg.com)'
@@ -5905,6 +5914,7 @@ contributions:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
   - url timeout, 2026-07-14
+  - url timeout, 2026-10-03
 - id: 273
   source: 
     https://github.com/processing/processing4-javafx/releases/download/latest/processing4-javafx.txt
@@ -6146,7 +6156,7 @@ contributions:
     - Math
 - id: 283
   source: https://fox-gieg.com/patches/processing/libraries/joons/joons.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Joon's Renderer
   authors: '[Joon Hyub Lee](https://sketch.kaist.ac.kr/people/joonhyublee)'
@@ -6168,6 +6178,7 @@ contributions:
   - url timeout, 2026-02-19
   - url timeout, 2026-03-08
   - url timeout, 2026-07-14
+  - url timeout, 2026-10-03
 - id: 284
   source: 
     https://github.com/jjeongin/creative-machine/releases/download/latest/creative_machine.txt
