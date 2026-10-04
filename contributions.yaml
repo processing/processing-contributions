@@ -6931,3 +6931,21 @@ contributions:
     https://github.com/OneMaxApps/TellUI/releases/latest/download/TellUI.zip
   previousVersions:
   - 1.0.1
+- id: 313
+  status: VALID
+  dateAdded: 2026-10-04T09:22:16+0000
+  type: library
+  source: https://github.com/domizai/Keyed/releases/latest/download/Keyed.txt
+  name: Keyed
+  authors: '[Dominique Schmitz](http://www.domizai.ch)'
+  url: https://github.com/domizai/Keyed
+  categories:
+  - Animation
+  sentence: Keyframes for Processing
+  paragraph: ''
+  version: 1
+  prettyVersion: 1.0.0
+  minRevision: 1435
+  maxRevision: 0
+  modes:
+  download: https://github.com/domizai/Keyed/releases/latest/download/Keyed.zip
