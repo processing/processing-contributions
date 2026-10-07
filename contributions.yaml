@@ -6239,8 +6239,8 @@ contributions:
     Features a json save system with autosave on program exit, copy/paste, undo/redo,
     these control elements: [slider, 2D plot, color picker, gradient picker, button,
     toggle, text input, radio], and much more... Works on Windows, Mac and Linux.'
-  version: '55'
-  prettyVersion: v1.12.3
+  version: '57'
+  prettyVersion: v1.13.0
   minRevision: 0
   maxRevision: 0
   imports: com.krab.lazy
@@ -6255,7 +6255,9 @@ contributions:
   - v1.12.0
   - v1.12.1
   - v1.12.2
+  - v1.12.3
   modes:
+  lastUpdated: 2026-10-07T11:20:43+0000
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
