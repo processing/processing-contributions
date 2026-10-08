@@ -5783,7 +5783,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5885,6 +5885,7 @@ contributions:
   - invalid file, 2026-09-06
   - url timeout, 2026-09-22
   - url timeout, 2026-09-27
+  - url timeout, 2026-10-08
   previousVersions:
   - 0.1.1
   modes:
@@ -6239,8 +6240,8 @@ contributions:
     Features a json save system with autosave on program exit, copy/paste, undo/redo,
     these control elements: [slider, 2D plot, color picker, gradient picker, button,
     toggle, text input, radio], and much more... Works on Windows, Mac and Linux.'
-  version: '57'
-  prettyVersion: v1.13.0
+  version: '58'
+  prettyVersion: v1.13.1
   minRevision: 0
   maxRevision: 0
   imports: com.krab.lazy
@@ -6256,8 +6257,9 @@ contributions:
   - v1.12.1
   - v1.12.2
   - v1.12.3
+  - v1.13.0
   modes:
-  lastUpdated: 2026-10-07T11:20:43+0000
+  lastUpdated: 2026-10-08T11:37:02+0000
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
