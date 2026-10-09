@@ -28,39 +28,39 @@ json_package_fields_list = ['mode', 'minRevision', 'maxRevision', 'props', 'down
 
 
 def to_sources_dict(contribution_dict):
-  contribution_dict['props'] = contribution_dict.pop('source')
-  if contribution_dict['type'] == 'library':
-    sources_dict = {
-      field: contribution_dict[field]
-      for field in json_fields_library if field in contribution_dict
-    }
-  elif contribution_dict['type'] == 'examples':
-    sources_dict = {
-        field: contribution_dict[field]
-        for field in json_fields_example if field in contribution_dict
-    }
-  elif contribution_dict['type'] == 'tool':
-    sources_dict = {
-      field: contribution_dict[field]
-      for field in json_fields_tool if field in contribution_dict
-    }
-  else:
-    sources_dict = {
-      field: contribution_dict[field]
-      for field in json_fields_mode if field in contribution_dict
-    }
+    contribution_dict['props'] = contribution_dict.pop('source')
+    if contribution_dict['type'] == 'library':
+        sources_dict = {
+          field: contribution_dict[field]
+          for field in json_fields_library if field in contribution_dict
+        }
+    elif contribution_dict['type'] == 'examples':
+        sources_dict = {
+            field: contribution_dict[field]
+            for field in json_fields_example if field in contribution_dict
+        }
+    elif contribution_dict['type'] == 'tool':
+        sources_dict = {
+          field: contribution_dict[field]
+          for field in json_fields_tool if field in contribution_dict
+        }
+    else:
+        sources_dict = {
+          field: contribution_dict[field]
+          for field in json_fields_mode if field in contribution_dict
+        }
 
-  # put authors in list
-  sources_dict['authors'] = [sources_dict['authors']] if sources_dict['authors'] else sources_dict['authors']
+    # put authors in list
+    sources_dict['authors'] = [sources_dict['authors']] if sources_dict['authors'] else sources_dict['authors']
 
-  sources_dict['packages'] = [
-    {
-      field:('java' if field == 'mode' else str(contribution_dict[field]))
-      for field in json_package_fields_list
-    }
-  ]
+    sources_dict['packages'] = [
+      {
+        field:('java' if field == 'mode' else str(contribution_dict[field]))
+        for field in json_package_fields_list
+      }
+    ]
 
-  return sources_dict
+    return sources_dict
 
 
 def write_json_for_each_contribution_in_list(all_contributions, folder_path):
@@ -75,14 +75,14 @@ def write_json_for_each_contribution_in_list(all_contributions, folder_path):
 
 
 if __name__ == "__main__":
-  sources_folder = pathlib.Path(__file__).parent.parent / 'sources/'
+    sources_folder = pathlib.Path(__file__).parent.parent / 'sources/'
 
-  contributions_list = get_valid_contributions()
+    contributions_list = get_valid_contributions()
 
-  # remove sources folder if it already exists
-  if sources_folder.is_dir():
-    shutil.rmtree(sources_folder)
-  sources_folder.mkdir(parents=True, exist_ok=True)
+    # remove sources folder if it already exists
+    if sources_folder.is_dir():
+        shutil.rmtree(sources_folder)
+    sources_folder.mkdir(parents=True, exist_ok=True)
 
-  # create a json file in the sources folder for each contribution
-  write_json_for_each_contribution_in_list(contributions_list, sources_folder)
+    # create a json file in the sources folder for each contribution
+    write_json_for_each_contribution_in_list(contributions_list, sources_folder)
