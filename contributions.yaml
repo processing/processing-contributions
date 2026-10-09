@@ -6248,7 +6248,6 @@ contributions:
   - v1.12.2
   - v1.12.3
   modes:
-  lastUpdated: 2026-10-08T04:54:50+0000
 - id: 287
   source: 
     https://github.com/vincentsijben/bpm-timings-for-processing/releases/download/latest/BPM_timings.txt
