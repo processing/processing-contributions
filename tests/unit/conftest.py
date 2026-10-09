@@ -16,7 +16,7 @@ def valid_properties_data():
         "prettyVersion": "1.0.0",
         "minRevision": "5",
         "maxRevision": "10",
-        "modes": "standard,debug"
+        "modes": "standard,debug",
     }
 
 
@@ -34,7 +34,7 @@ def valid_properties_data_aliases():
         "prettyVersion": "1.0.0",
         "minRevision": "5",
         "maxRevision": "10",
-        "compatibleModesList": "standard,debug"
+        "compatibleModesList": "standard,debug",
     }
 
 
@@ -47,7 +47,7 @@ def minimal_properties_base_data():
         "url": "https://minimal.com",
         "sentence": "A minimal test case",
         "version": "1",
-        "prettyVersion": "1.0"
+        "prettyVersion": "1.0",
     }
 
 
@@ -60,7 +60,7 @@ def minimal_properties_base_data_aliases():
         "url": "https://minimal.com",
         "sentence": "A minimal test case",
         "version": "1",
-        "prettyVersion": "1.0"
+        "prettyVersion": "1.0",
     }
 
 
@@ -98,7 +98,7 @@ def minimal_properties_library_data():
         "categories": "minimal,library",
         "sentence": "A minimal test case",
         "version": "1",
-        "prettyVersion": "1.0"
+        "prettyVersion": "1.0",
     }
 
 
@@ -112,7 +112,7 @@ def minimal_properties_library_data_aliases():
         "category": "minimal,library",
         "sentence": "A minimal test case",
         "version": "1",
-        "prettyVersion": "1.0"
+        "prettyVersion": "1.0",
     }
 
 
@@ -128,5 +128,5 @@ def properties_with_extra_fields():
         "version": "2",
         "prettyVersion": "2.0",
         "customField": "custom value",
-        "anotherExtra": "42"
+        "anotherExtra": "42",
     }
