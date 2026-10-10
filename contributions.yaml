@@ -313,7 +313,7 @@ contributions:
 - id: 21
   source: 
     http://www.gwoptics.org/processing/gwoptics_p5lib/download/gwoptics.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: gwoptics
   authors: '[Daniel Brown and Andreas Freise](http://www.gwoptics.org/processing/gwoptics_p5lib/)'
@@ -1482,7 +1482,7 @@ contributions:
     http://www.lagers.org.uk/processing3/shapes3d/Shapes3D.txt, 2026-07-22
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1531,7 +1531,7 @@ contributions:
     http://ubaa.net/shared/processing/opencv/download/opencv.txt%20
 - id: 82
   source: http://www.multiply.org/processing/TimedEvents.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: TimedEvents
   authors: '[Jason Gessner](http://multiply.org/)'
@@ -2002,7 +2002,7 @@ contributions:
 - id: 106
   source: 
     http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
@@ -2312,7 +2312,7 @@ contributions:
     http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -2881,7 +2881,7 @@ contributions:
     - Video & Vision
 - id: 149
   source: http://www.magicandlove.com/software/Kinect4WinSDK.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Kinect4WinSDK
   authors: '[Bryan Chung](http://www.magicandlove.com)'
@@ -3678,7 +3678,7 @@ contributions:
     - Video & Vision
 - id: 185
   source: http://softlab.pt/ptmx/ptmx.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Ptmx
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -3882,7 +3882,7 @@ contributions:
   download: http://damellis.github.io/wovns-processing-examples/WOVNS.zip
 - id: 195
   source: http://culebra.technology/culebra.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Culebra Behavior Library for Processing
   authors: '[Luis Quinones](http://complicitMatter.com)'
@@ -3970,7 +3970,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4165,7 +4165,7 @@ contributions:
     - Books
 - id: 206
   source: https://ap-sync.github.io/libs/AP_sync_processing/APsync.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: AP-Sync
   authors: '[Nigel Tiany](http://nigeltiany.com)'
@@ -4186,6 +4186,9 @@ contributions:
     categories:
     - Data
     - I/O
+  log:
+  - file not found, status code 404 returned for url 
+    https://ap-sync.github.io/libs/AP_sync_processing/APsync.txt, 2026-10-10
 - id: 207
   source: 
     https://github.com/Lord-of-the-Galaxy/Timing-Utilities/releases/download/latest/timing_utils.txt
@@ -4257,7 +4260,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4932,7 +4935,7 @@ contributions:
     https://openpatch.github.io/scratch-for-java/scratch.txt
 - id: 236
   source: http://softlab.pt/VLCJVideo/VLCJVideo.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: VLCJVideo
   authors: '[Caldas Lopes](http://softlab.pt)'
@@ -5353,7 +5356,7 @@ contributions:
   modes:
 - id: 254
   source: http://www.kramann.info/ComposingForEveryone.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ComposingForEveryone
   authors: '[Guido Kramann](http://www.kramann.info/cfe)'
@@ -5795,7 +5798,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
