@@ -4148,7 +4148,7 @@ contributions:
     - Books
 - id: 206
   source: https://ap-sync.github.io/libs/AP_sync_processing/APsync.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: AP-Sync
   authors: '[Nigel Tiany](http://nigeltiany.com)'
@@ -4169,6 +4169,9 @@ contributions:
     categories:
     - Data
     - I/O
+  log:
+  - file not found, status code 404 returned for url 
+    https://ap-sync.github.io/libs/AP_sync_processing/APsync.txt, 2026-10-11
 - id: 207
   source: 
     https://github.com/Lord-of-the-Galaxy/Timing-Utilities/releases/download/latest/timing_utils.txt
