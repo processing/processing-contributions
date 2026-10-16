@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Setup Python
         uses: ./.github/actions/setup
@@ -23,7 +23,7 @@ jobs:
           python fetch_updates.py 
 
       - name: commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403 # v5.2.0
         with:
           commit_message: chore(CI) update contributions to database and output files
           branch: main
@@ -39,7 +39,7 @@ jobs:
           python to_contribs_txt.py
           python to_sources_jsons.py
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: output-files-${{ env.DATE }}
           overwrite: true
