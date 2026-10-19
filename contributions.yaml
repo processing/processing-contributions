@@ -3743,22 +3743,26 @@ contributions:
   status: VALID
   type: library
   name: Video Export
-  authors: '[Abe Pazos](http://hamoid.com)'
+  authors: '[Abe Pazos](https://hamoid.com)'
   url: https://funprogramming.org/VideoExport-for-Processing
   categories:
   - I/O
   - Video & Vision
   sentence: Simple video file exporter.
   paragraph: Create movies you can share online.
-  version: '23'
-  prettyVersion: 0.2.3
-  minRevision: 233
-  maxRevision: 0
+  version: '24'
+  prettyVersion: 0.2.4
+  minRevision: 0
+  maxRevision: 233
   download: 
     https://funprogramming.org/VideoExport-for-Processing/download/VideoExport.zip
   override:
     categories:
     - I/O
+  lastUpdated: 2026-10-19T04:54:07+0000
+  previousVersions:
+  - 0.2.3
+  modes:
 - id: 188
   source: http://developers.gausstoys.com/processing/GaussSense.txt
   status: BROKEN
@@ -5791,7 +5795,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5895,6 +5899,7 @@ contributions:
   - url timeout, 2026-09-29
   - url timeout, 2026-10-02
   - url timeout, 2026-10-16
+  - url timeout, 2026-10-19
   previousVersions:
   - 0.1.1
   modes:
