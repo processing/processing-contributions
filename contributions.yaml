@@ -3763,7 +3763,6 @@ contributions:
   - 0.2.3
   - 0.2.4
   modes:
-  lastUpdated: 2026-10-20T11:58:00+0000
 - id: 188
   source: http://developers.gausstoys.com/processing/GaussSense.txt
   status: BROKEN
