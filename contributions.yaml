@@ -3767,7 +3767,6 @@ contributions:
   - 0.2.3
   - 0.2.4
   modes:
-  lastUpdated: 2026-10-21T09:38:35+0000
 - id: 188
   source: http://developers.gausstoys.com/processing/GaussSense.txt
   status: BROKEN
@@ -3977,7 +3976,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4016,6 +4015,7 @@ contributions:
   - invalid file, 2026-08-14
   - invalid file, 2026-09-06
   - url timeout, 2026-10-09
+  - url timeout, 2026-10-22
 - id: 199
   source: 
     https://github.com/fathominfo/processing-p5js-mode/releases/download/latest/p5jsMode.txt
@@ -4267,7 +4267,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4306,6 +4306,7 @@ contributions:
   - invalid file, 2026-08-14
   - invalid file, 2026-09-06
   - url timeout, 2026-10-09
+  - url timeout, 2026-10-22
 - id: 211
   source: https://github.com/diwi/PS3Eye/releases/download/latest/PS3Eye.txt
   status: VALID
@@ -4983,7 +4984,7 @@ contributions:
   - invalid file, 2026-10-09
 - id: 237
   source: http://gicentre.org/handy/handy.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: handy
   authors: '[Jo Wood](http://gicentre.net/) and [Aidan Slingsby](http://gicentre.net/)'
@@ -5008,6 +5009,7 @@ contributions:
   log:
   - url timeout, 2025-08-18
   - url timeout, 2026-02-06
+  - invalid file, 2026-10-22
 - id: 238
   source: 
     https://github.com/cansik/realsense-processing/releases/download/contributed/RealSenseProcessing.txt
@@ -5805,7 +5807,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
