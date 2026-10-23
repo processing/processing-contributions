@@ -6971,7 +6971,7 @@ contributions:
   paragraph: ''
   version: 1
   prettyVersion: 1.0.0
-  minRevision: 1435
+  minRevision: 1304
   maxRevision: 0
   modes:
   download: https://github.com/domizai/Keyed/releases/latest/download/Keyed.zip
