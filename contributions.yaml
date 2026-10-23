@@ -101,7 +101,7 @@ contributions:
     https://nootropicdesign.com/processing-layers/downloads/layers.txt
 - id: 6
   source: http://www.die-seite.ch/colladaloader/colladaLoader.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Collada Loader for SketchUp and Blender
   authors: '[Markus Zimmermann](http://www.die-seite.ch/)'
@@ -123,6 +123,7 @@ contributions:
     - 3D
   log:
   - url timeout, 2025-02-20
+  - url timeout, 2026-10-23
 - id: 7
   source: 
     https://github.com/generative-design/GenerativeDesignLibrary2/releases/download/latest/generativedesign.txt
@@ -3971,7 +3972,7 @@ contributions:
     - Hardware
 - id: 198
   source: http://cagewebdev.com/zxing4p/zxing4p3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Zxing For Processing (QRCode lib)
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4261,7 +4262,7 @@ contributions:
     - I/O
 - id: 210
   source: http://cagewebdev.com/colorharmony/colorharmony.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: ColorHarmony
   authors: '[Rolf van Gelder](http://cagewebdev.com/)'
@@ -4976,7 +4977,7 @@ contributions:
   - invalid file, 2026-10-04
 - id: 237
   source: http://gicentre.org/handy/handy.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: handy
   authors: '[Jo Wood](http://gicentre.net/) and [Aidan Slingsby](http://gicentre.net/)'
@@ -5121,7 +5122,7 @@ contributions:
     https://coding-creative.dringtech.com/examples/coding-creative-examples.zip
 - id: 244
   source: http://giftedapprentice.com/ewbIK/ewbIK.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Everything Will Be IK
   authors: '[Eron Gjoni](https://github.com/EGjoni/)'
@@ -5148,6 +5149,7 @@ contributions:
     - Simulation
   log:
   - url timeout, 2025-04-19
+  - url timeout, 2026-10-23
 - id: 245
   source: 
     https://github.com/VisualComputing/nub/releases/download/latest/nub.txt
@@ -6963,15 +6965,20 @@ contributions:
   type: library
   source: https://github.com/domizai/Keyed/releases/latest/download/Keyed.txt
   name: Keyed
-  authors: '[Dominique Schmitz](http://www.domizai.ch)'
+  authors: '[Dominique Schmitz](https://www.domizai.ch)'
   url: https://github.com/domizai/Keyed
   categories:
   - Animation
-  sentence: Keyframes for Processing
-  paragraph: ''
-  version: 1
-  prettyVersion: 1.0.0
+  sentence: Keyframe animation for Processing.
+  paragraph: Keyed brings keyframes to your sketches. Set a value at a few 
+    points in time, and Keyed blends everything in between, with easing, paths, 
+    effects and events.
+  version: '2'
+  prettyVersion: 1.1.0
   minRevision: 1304
   maxRevision: 0
   modes:
   download: https://github.com/domizai/Keyed/releases/latest/download/Keyed.zip
+  lastUpdated: 2026-10-23T04:51:54+0000
+  previousVersions:
+  - 1.0.0
