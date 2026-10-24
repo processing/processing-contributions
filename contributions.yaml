@@ -5979,7 +5979,10 @@ contributions:
   download: https://contribs.processing.org/pythonmode/4/PythonMode.zip
   override:
     name: Python Mode for Processing 4 (unmaintained)
-    sentence: This mode does not function reliably. There is no longer anyone fixing bugs or developing new features. For more info, read [Status of Python Mode for Processing](https://github.com/processing/processing4/wiki/Status-of-Python-Mode-for-Processing).
+    sentence: This mode does not function reliably. There is no longer anyone 
+      fixing bugs or developing new features. For more info, read [Status of 
+      Python Mode for 
+      Processing](https://github.com/processing/processing4/wiki/Status-of-Python-Mode-for-Processing).
     paragraph: ''
 - id: 275
   source: 
@@ -6988,3 +6991,28 @@ contributions:
   download: https://github.com/domizai/Keyed/releases/latest/download/Keyed.zip
   previousVersions:
   - 1.0.0
+- id: org.rednoise.rita
+  status: VALID
+  dateAdded: 2026-10-24T19:39:09+0000
+  type: library
+  source: https://github.com/dhowe/rita/releases/latest/download/rita.txt
+  name: rita
+  authors: '[Daniel C. Howe](https://rednoise.org/daniel)'
+  url: https://rednoise.org/rita/
+  categories:
+  - Language
+  sentence: A library for natural language and generative writing.
+  paragraph: RiTa is a library for natural language and generative writing. 
+    Functionality include text-generation (via grammars and n-grams), tagging 
+    (for syllables, phonemes, stresses, and parts-of-speech), conjugation, 
+    pluralization, stemming, letter-to-phoneme mapping, rhyme, alliteration and 
+    more. RiTa also includes its own writer-oriented scripting language called 
+    RiScript. RiTa is written in Java and JavaScript, and runs alone or via 
+    Processing, p5.js, Node, Observable and Android. It is free/libre and 
+    open-source (via the GPL).
+  version: 410
+  prettyVersion: 4.1.0
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  download: https://github.com/dhowe/rita/releases/latest/download/rita.zip
