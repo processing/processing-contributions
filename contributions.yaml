@@ -4687,7 +4687,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -4757,6 +4757,9 @@ contributions:
   - url timeout, 2026-07-11
   - url timeout, 2026-07-26
   - url timeout, 2026-09-05
+  - file not found, status code 503 returned for url 
+    http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt, 
+    2026-10-24
 - id: 226
   source: 
     https://github.com/Apress/processing-for-android/releases/download/latest/processing-for-android-examples.txt
@@ -6979,6 +6982,5 @@ contributions:
   maxRevision: 0
   modes:
   download: https://github.com/domizai/Keyed/releases/latest/download/Keyed.zip
-  lastUpdated: 2026-10-23T04:51:54+0000
   previousVersions:
   - 1.0.0
