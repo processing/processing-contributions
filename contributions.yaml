@@ -101,7 +101,7 @@ contributions:
     https://nootropicdesign.com/processing-layers/downloads/layers.txt
 - id: 6
   source: http://www.die-seite.ch/colladaloader/colladaLoader.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Collada Loader for SketchUp and Blender
   authors: '[Markus Zimmermann](http://www.die-seite.ch/)'
@@ -4687,7 +4687,7 @@ contributions:
     - Hardware
 - id: 225
   source: http://web.tecnico.ulisboa.pt/augusto.esteves/GazeTrack/GazeTrack.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: 'GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)'
   authors: '[Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/)'
@@ -5979,7 +5979,10 @@ contributions:
   download: https://contribs.processing.org/pythonmode/4/PythonMode.zip
   override:
     name: Python Mode for Processing 4 (unmaintained)
-    sentence: This mode does not function reliably. There is no longer anyone fixing bugs or developing new features. For more info, read [Status of Python Mode for Processing](https://github.com/processing/processing4/wiki/Status-of-Python-Mode-for-Processing).
+    sentence: This mode does not function reliably. There is no longer anyone 
+      fixing bugs or developing new features. For more info, read [Status of 
+      Python Mode for 
+      Processing](https://github.com/processing/processing4/wiki/Status-of-Python-Mode-for-Processing).
     paragraph: ''
 - id: 275
   source: 
