@@ -6991,3 +6991,33 @@ contributions:
   download: https://github.com/domizai/Keyed/releases/latest/download/Keyed.zip
   previousVersions:
   - 1.0.0
+- id: 314
+  status: VALID
+  dateAdded: 2026-10-26T21:27:22+0000
+  type: library
+  source: 
+    https://github.com/trackme518/ResonanceSpatialAudio/releases/latest/download/ResonanceAudio.txt
+  name: ResonanceAudio
+  authors: '[L. Leischner](https://github.com/trackme518)'
+  url: https://github.com/trackme518/ResonanceSpatialAudio
+  categories:
+  - 3D
+  - Sound
+  sentence: HRTF binaural and 1st-3rd order Ambisonics spatial audio for 
+    Processing, with optional room reflections.
+  paragraph: An independent spatial audio library for Processing with HRTF 
+    binaural rendering for headphones, 1st/2nd/3rd order Ambisonics B-format 
+    output (ACN/SN3D), and Ambisonics-to-loudspeaker decoding from precomputed 
+    matrices. Room reflections and reverb can be enabled or disabled. Integrates
+    with the Processing Sound library and includes ASIO output examples. 
+    Windows, macOS (Intel and Apple Silicon), and Linux (x64 and arm64) are 
+    supported.
+  version: 101
+  prettyVersion: 1.1.0
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  maintainer: leischner
+  lastUpdated: '0'
+  download: 
+    https://github.com/trackme518/ResonanceSpatialAudio/releases/latest/download/ResonanceAudio.zip
