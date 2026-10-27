@@ -6839,7 +6839,6 @@ contributions:
   - '1.0'
   log:
   - url timeout, 2026-07-20
-  lastUpdated: '20261026043250'
 - id: 308
   status: VALID
   dateAdded: 2026-07-24T20:00:30+0000
