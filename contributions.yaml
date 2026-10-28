@@ -5803,7 +5803,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5908,6 +5908,7 @@ contributions:
   - url timeout, 2026-10-02
   - url timeout, 2026-10-16
   - url timeout, 2026-10-19
+  - url timeout, 2026-10-28
   previousVersions:
   - 0.1.1
   modes:
@@ -6824,8 +6825,8 @@ contributions:
     applications. This can be handled from within the Processing IDE at `Umfeld 
     > Install Dependencies`. See 
     https://codeberg.org/Umfeld/umfeld-processing-mode for more information.
-  version: '399'
-  prettyVersion: '1.2'
+  version: '406'
+  prettyVersion: 1.2.1
   minRevision: 1295
   maxRevision: 0
   modes:
@@ -6834,9 +6835,10 @@ contributions:
   previousVersions:
   - '1.0'
   - '1.0'
+  - '1.2'
   log:
   - url timeout, 2026-07-20
-  lastUpdated: '20261026043250'
+  lastUpdated: '1793123392000'
 - id: 308
   status: VALID
   dateAdded: 2026-07-24T20:00:30+0000
