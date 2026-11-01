@@ -5660,8 +5660,8 @@ contributions:
     an adapter to various sound in- and outputs like MIDI, OSC, or 
     digital/analog audio. the library is hosted on github 
     [wellen](https://github.com/dennisppaul/wellen).
-  version: '13'
-  prettyVersion: '0.13'
+  version: '15'
+  prettyVersion: '0.15'
   minRevision: 246
   maxRevision: 0
   download: 
@@ -5671,11 +5671,13 @@ contributions:
     - Sound
   previousVersions:
   - '0.12'
+  - '0.13'
   modes:
   log:
   - file not found, status code 502 returned for url 
     https://github.com/dennisppaul/wellen/releases/download/v0.13/wellen.txt, 
     2026-02-22
+  lastUpdated: 2026-11-01T04:47:09+0000
 - id: 265
   source: https://codingart-book.github.io/examples/CodingArtBookExamples.txt
   status: VALID
@@ -5803,7 +5805,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
