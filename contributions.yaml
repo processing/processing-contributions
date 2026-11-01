@@ -5666,8 +5666,8 @@ contributions:
     an adapter to various sound in- and outputs like MIDI, OSC, or 
     digital/analog audio. the library is hosted on github 
     [wellen](https://github.com/dennisppaul/wellen).
-  version: '13'
-  prettyVersion: '0.13'
+  version: '15'
+  prettyVersion: '0.15'
   minRevision: 246
   maxRevision: 0
   download: 
@@ -5677,11 +5677,13 @@ contributions:
     - Sound
   previousVersions:
   - '0.12'
+  - '0.13'
   modes:
   log:
   - file not found, status code 502 returned for url 
     https://github.com/dennisppaul/wellen/releases/download/v0.13/wellen.txt, 
     2026-02-22
+  lastUpdated: 2026-11-01T11:29:24+0000
 - id: 265
   source: https://codingart-book.github.io/examples/CodingArtBookExamples.txt
   status: VALID
@@ -6811,7 +6813,7 @@ contributions:
   - 0.6.0
   prettyversion: 0.2.0
 - id: 307
-  status: VALID
+  status: BROKEN
   dateAdded: 2026-06-29T10:23:49+0000
   type: mode
   source: 
@@ -6841,6 +6843,7 @@ contributions:
   - '1.2'
   log:
   - url timeout, 2026-07-20
+  - url timeout, 2026-11-01
 - id: 308
   status: VALID
   dateAdded: 2026-07-24T20:00:30+0000
