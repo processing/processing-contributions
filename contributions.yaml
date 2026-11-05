@@ -5125,7 +5125,7 @@ contributions:
     https://coding-creative.dringtech.com/examples/coding-creative-examples.zip
 - id: 244
   source: http://giftedapprentice.com/ewbIK/ewbIK.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Everything Will Be IK
   authors: '[Eron Gjoni](https://github.com/EGjoni/)'
@@ -5519,8 +5519,8 @@ contributions:
     "Processing.org")-style library. and teilchen is a german word and a synonym
     for Partikel which translates to the english particle. the library is hosted
     on github [teilchen](https://github.com/dennisppaul/teilchen).
-  version: '4'
-  prettyVersion: '0.4'
+  version: '5'
+  prettyVersion: '0.5'
   minRevision: 246
   maxRevision: 0
   download: 
@@ -5532,6 +5532,10 @@ contributions:
   - file not found, status code 502 returned for url 
     https://github.com/dennisppaul/teilchen/releases/download/v0.4/teilchen.txt,
     2026-02-22
+  lastUpdated: 2026-11-05T04:47:06+0000
+  previousVersions:
+  - '0.4'
+  modes:
 - id: 262
   source: ' https://github.com/SamuelAl/SQuelized-for-Processing/releases/latest/download/SQuelized.txt '
   status: DEPRECATED
