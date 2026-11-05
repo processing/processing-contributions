@@ -5525,8 +5525,8 @@ contributions:
     "Processing.org")-style library. and teilchen is a german word and a synonym
     for Partikel which translates to the english particle. the library is hosted
     on github [teilchen](https://github.com/dennisppaul/teilchen).
-  version: '5'
-  prettyVersion: '0.5'
+  version: '6'
+  prettyVersion: '0.6'
   minRevision: 246
   maxRevision: 0
   download: 
@@ -5538,10 +5538,11 @@ contributions:
   - file not found, status code 502 returned for url 
     https://github.com/dennisppaul/teilchen/releases/download/v0.4/teilchen.txt,
     2026-02-22
-  lastUpdated: 2026-11-04T12:32:23+0000
   previousVersions:
   - '0.4'
+  - '0.5'
   modes:
+  lastUpdated: 2026-11-05T12:44:33+0000
 - id: 262
   source: ' https://github.com/SamuelAl/SQuelized-for-Processing/releases/latest/download/SQuelized.txt '
   status: DEPRECATED
@@ -5814,7 +5815,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
