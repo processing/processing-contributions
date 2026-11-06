@@ -5542,7 +5542,6 @@ contributions:
   - '0.4'
   - '0.5'
   modes:
-  lastUpdated: 2026-11-05T12:44:33+0000
 - id: 262
   source: ' https://github.com/SamuelAl/SQuelized-for-Processing/releases/latest/download/SQuelized.txt '
   status: DEPRECATED
