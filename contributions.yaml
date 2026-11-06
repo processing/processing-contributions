@@ -3927,7 +3927,7 @@ contributions:
 - id: 196
   source: 
     https://github.com/jrc03c/queasycam/releases/download/latest/queasycam.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: QueasyCam
   authors: '[Josh Castle](https://twitter.com/jrc03c)'
@@ -3945,6 +3945,10 @@ contributions:
   override:
     categories:
     - 3D
+  log:
+  - file not found, status code 500 returned for url 
+    https://github.com/jrc03c/queasycam/releases/download/latest/queasycam.txt, 
+    2026-11-06
 - id: 197
   source: ' https://github.com/sgeigers/Phidgets-For-Processing/releases/download/latest/PhidgetsForProcessing.txt '
   status: DEPRECATED
@@ -5519,8 +5523,8 @@ contributions:
     "Processing.org")-style library. and teilchen is a german word and a synonym
     for Partikel which translates to the english particle. the library is hosted
     on github [teilchen](https://github.com/dennisppaul/teilchen).
-  version: '5'
-  prettyVersion: '0.5'
+  version: '6'
+  prettyVersion: '0.6'
   minRevision: 246
   maxRevision: 0
   download: 
@@ -5532,10 +5536,11 @@ contributions:
   - file not found, status code 502 returned for url 
     https://github.com/dennisppaul/teilchen/releases/download/v0.4/teilchen.txt,
     2026-02-22
-  lastUpdated: 2026-11-05T04:47:06+0000
   previousVersions:
   - '0.4'
+  - '0.5'
   modes:
+  lastUpdated: 2026-11-06T04:47:04+0000
 - id: 262
   source: ' https://github.com/SamuelAl/SQuelized-for-Processing/releases/latest/download/SQuelized.txt '
   status: DEPRECATED
@@ -5808,7 +5813,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5916,6 +5921,7 @@ contributions:
   - url timeout, 2026-10-28
   - url timeout, 2026-10-31
   - url timeout, 2026-11-02
+  - url timeout, 2026-11-06
   previousVersions:
   - 0.1.1
   modes:
