@@ -3927,7 +3927,7 @@ contributions:
 - id: 196
   source: 
     https://github.com/jrc03c/queasycam/releases/download/latest/queasycam.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: QueasyCam
   authors: '[Josh Castle](https://twitter.com/jrc03c)'
@@ -5540,7 +5540,6 @@ contributions:
   - '0.4'
   - '0.5'
   modes:
-  lastUpdated: 2026-11-06T04:47:04+0000
 - id: 262
   source: ' https://github.com/SamuelAl/SQuelized-for-Processing/releases/latest/download/SQuelized.txt '
   status: DEPRECATED
@@ -5813,7 +5812,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
