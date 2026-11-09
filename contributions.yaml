@@ -7115,3 +7115,24 @@ contributions:
   lastUpdated: '0'
   download: 
     https://github.com/trackme518/ResonanceSpatialAudio/releases/latest/download/ResonanceAudio.zip
+- id: 318
+  status: VALID
+  dateAdded: 2026-11-09T21:37:10+0000
+  type: library
+  source: 
+    https://github.com/joshgiesbrecht/TermText/releases/latest/download/TermText.txt
+  name: TermText
+  authors: '[Josh Giesbrecht](https://thoughtlost.org)'
+  url: https://thoughtlost.org/termtext
+  categories:
+  - Typography
+  sentence: A terminal-style monospaced text box with simple line wrapping and 
+    color support.
+  paragraph: ''
+  version: 1
+  prettyVersion: 1alpha
+  minRevision: 0
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/joshgiesbrecht/TermText/releases/latest/download/TermText.zip
