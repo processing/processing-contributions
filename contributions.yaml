@@ -6991,7 +6991,7 @@ contributions:
   download: https://github.com/domizai/Keyed/releases/latest/download/Keyed.zip
   previousVersions:
   - 1.0.0
-- id: org.rednoise.rita
+- id: 314
   status: VALID
   dateAdded: 2026-10-25T10:54:12+0000
   type: library
