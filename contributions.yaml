@@ -5812,7 +5812,7 @@ contributions:
     - Data
 - id: 271
   source: https://www.robertesler.com/software/Pd4P3.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Pd4P3
   authors: '[Robert Esler](https://www.robertesler.com)'
@@ -5922,6 +5922,7 @@ contributions:
   - url timeout, 2026-11-02
   - url timeout, 2026-11-06
   - url timeout, 2026-11-08
+  - url timeout, 2026-11-11
   previousVersions:
   - 0.1.1
   modes:
@@ -6821,7 +6822,6 @@ contributions:
   - 0.6.0
   - 0.6.1
   prettyversion: 0.2.0
-  lastUpdated: 2026-11-10T04:46:57+0000
 - id: 307
   status: VALID
   dateAdded: 2026-06-29T10:23:49+0000
@@ -7035,7 +7035,6 @@ contributions:
   maxRevision: 0
   modes:
   download: https://github.com/dhowe/rita/releases/latest/download/rita.zip
-  lastUpdated: 2026-11-10T04:46:57+0000
   previousVersions:
   - 4.1.0
 - id: 315
@@ -7059,7 +7058,6 @@ contributions:
   maxRevision: 0
   modes:
   download: https://github.com/trackme518/HRTF/releases/latest/download/HRTF.zip
-  lastUpdated: '0'
   previousVersions:
   - 1.0.0
 - id: 316
@@ -7091,7 +7089,6 @@ contributions:
   modes:
   download: 
     https://github.com/trackme518/NDI_processing/releases/latest/download/NDIStream.zip
-  lastUpdated: 2026-11-10T04:46:57+0000
   previousVersions:
   - 4.0.0
 - id: 317
@@ -7123,6 +7120,5 @@ contributions:
   maintainer: leischner
   download: 
     https://github.com/trackme518/ResonanceSpatialAudio/releases/latest/download/ResonanceAudio.zip
-  lastUpdated: '0'
   previousVersions:
   - 1.1.0
