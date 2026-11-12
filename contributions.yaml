@@ -6840,8 +6840,8 @@ contributions:
     applications. This can be handled from within the Processing IDE at `Umfeld 
     > Install Dependencies`. See 
     https://codeberg.org/Umfeld/umfeld-processing-mode for more information.
-  version: '414'
-  prettyVersion: 1.2.2
+  version: '416'
+  prettyVersion: 1.2.3
   minRevision: 1295
   maxRevision: 0
   modes:
@@ -6852,8 +6852,10 @@ contributions:
   - '1.0'
   - '1.2'
   - 1.2.1
+  - 1.2.2
   log:
   - url timeout, 2026-07-20
+  lastUpdated: '1794377003000'
 - id: 308
   status: VALID
   dateAdded: 2026-07-24T20:00:30+0000
