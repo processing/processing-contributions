@@ -1486,7 +1486,7 @@ contributions:
   - url timeout, 2026-10-15
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1525,6 +1525,7 @@ contributions:
   - url timeout, 2026-08-08
   - invalid file, 2026-08-14
   - invalid file, 2026-10-04
+  - url timeout, 2026-11-16
 - id: 81
   source: ' http://ubaa.net/shared/processing/opencv/download/opencv.txt '
   status: BROKEN
@@ -6843,8 +6844,8 @@ contributions:
     applications. This can be handled from within the Processing IDE at `Umfeld 
     > Install Dependencies`. See 
     https://codeberg.org/Umfeld/umfeld-processing-mode for more information.
-  version: '424'
-  prettyVersion: 1.3.0
+  version: '425'
+  prettyVersion: 1.4.0
   minRevision: 1295
   maxRevision: 0
   modes:
@@ -6857,9 +6858,10 @@ contributions:
   - 1.2.1
   - 1.2.2
   - 1.2.3
+  - 1.3.0
   log:
   - url timeout, 2026-07-20
-  lastUpdated: '1794682887000'
+  lastUpdated: '1794731687000'
 - id: 308
   status: VALID
   dateAdded: 2026-07-24T20:00:30+0000
