@@ -130,3 +130,25 @@ def properties_with_extra_fields():
         "customField": "custom value",
         "anotherExtra": "42"
     }
+
+
+@pytest.fixture
+def properties_with_fields_to_ignore():
+    """Valid library data that also contains fields which are set by our scripts,
+    and so must be stripped if they appear in a contributor's properties file."""
+    return {
+        "name": "Ignored Fields Library",
+        "authors": "Some Author",
+        "url": "https://ignored.com",
+        "categories": "ignored,fields",
+        "sentence": "Library whose properties file contains fields we set ourselves",
+        "version": "3",
+        "prettyVersion": "3.0",
+        "id": "999",
+        "download": "https://ignored.com/wrong.zip",
+        "dateAdded": "2001-01-01T00:00:00+0000",
+        "lastUpdated": "2001-01-01T00:00:00+0000",
+        "status": "DEPRECATED",
+        "source": "https://ignored.com/wrong.txt",
+        "type": "tool",
+    }

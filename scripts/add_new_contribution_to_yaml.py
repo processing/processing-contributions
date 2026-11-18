@@ -9,6 +9,9 @@ from sys import argv
 from ruamel.yaml import YAML
 
 
+FIELDS_TO_IGNORE = ['id', 'dateAdded', 'lastUpdated', 'status']
+
+
 def split_categories(categories):
     categories = sorted(categories.replace('"', '').split(','))
     categories = [category.strip() for category in categories]
@@ -24,6 +27,10 @@ def postprocess_properties(properties_dict):
     # add download
     if 'download' not in properties_dict:
         properties_dict['download'] = properties_dict['source'][:properties_dict['source'].rfind('.')] + '.zip'
+
+    # remove fields that are set by our scripts, not by the contributor
+    for field in FIELDS_TO_IGNORE:
+        properties_dict.pop(field, None)
 
 
 if __name__ == "__main__":

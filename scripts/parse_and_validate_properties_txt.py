@@ -10,11 +10,11 @@ import requests
 from tenacity import retry, stop_after_attempt, wait_fixed
 import re
 import os
-from typing import Optional, Union
-from pydantic import BaseModel, Field, ConfigDict, field_validator, AliasChoices
+from typing import Any, Optional, Union
+from pydantic import BaseModel, Field, ConfigDict, field_validator, model_validator, AliasChoices
 import javaproperties as jp
 
-
+FIELDS_TO_IGNORE = ['id', 'download', 'dateAdded', 'lastUpdated', 'status', 'source', 'type']
 
 class PropertiesBase(BaseModel):
     name: str
@@ -32,6 +32,14 @@ class PropertiesBase(BaseModel):
     model_config = ConfigDict(
         extra='allow',
     )
+
+    @model_validator(mode="before")
+    @classmethod
+    def check_raw_input(cls, data: Any) -> Any:
+        if isinstance(data, dict):
+            for field in FIELDS_TO_IGNORE:
+                data.pop(field, None)
+        return data
 
 class PropertiesExisting(PropertiesBase):
     version: Union[int, str]
