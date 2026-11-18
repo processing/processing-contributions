@@ -7130,3 +7130,29 @@ contributions:
     https://github.com/trackme518/ResonanceSpatialAudio/releases/latest/download/ResonanceAudio.zip
   previousVersions:
   - 1.1.0
+- id: 318
+  status: VALID
+  dateAdded: 2026-11-18T15:32:47+0000
+  type: library
+  source: 
+    https://github.com/ndev-itservices/processing-ndi-win-mac/releases/latest/download/ProcessingNDI.txt
+  name: Processing-NDI
+  authors: '[Tiago Martins](https://github.com/ndev-itservices)'
+  url: https://github.com/ndev-itservices/processing-ndi-win-mac
+  categories:
+  - Video & Vision
+  sentence: Send the sketch window, a PGraphics or any PImage over NDI®, and 
+    receive one or many NDI sources as PImages (macOS and Windows).
+  paragraph: 'A Spout/Syphon style sender and receiver for NDI® video over the local
+    network: exchange video with OBS, vMix, Resolume, TouchDesigner and other NDI
+    software. Works with JAVA2D, P2D and P3D, keeps transparency (BGRA), receives
+    several sources at once with automatic reconnection, and bundles the NDI 6 runtime,
+    so nothing else needs to be installed. NDI® is a registered trademark of Vizrt
+    NDI AB - https://ndi.video/'
+  version: 1
+  prettyVersion: 1.0.0
+  minRevision: 1290
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/ndev-itservices/processing-ndi-win-mac/releases/latest/download/ProcessingNDI.zip
