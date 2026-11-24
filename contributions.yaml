@@ -7131,3 +7131,32 @@ contributions:
     https://github.com/trackme518/ResonanceSpatialAudio/releases/latest/download/ResonanceAudio.zip
   previousVersions:
   - 1.1.0
+- id: 318
+  status: VALID
+  dateAdded: 2026-11-24T12:10:01+0000
+  type: library
+  source: 
+    https://github.com/bosshorncom-cmd/train-horn-spl-processing/releases/latest/download/TrainHornSPL.txt
+  name: TrainHornSPL
+  authors: '[Horn Guns](https://hornguns.com/)'
+  url: https://github.com/bosshorncom-cmd/train-horn-spl-processing
+  categories:
+  - Math
+  - Sound
+  sentence: Estimate and draw train horn sound pressure level versus distance 
+    (inverse-square spreading, ISO 9613-1 air absorption, A-weighting).
+  paragraph: TrainHornSPL computes the free-field sound pressure level of a 
+    point source such as a train horn at any distance, using the inverse-square 
+    law (Lp2 = Lp1 - 20 log10(r2/r1)) with optional ISO 9613-1 pure-tone 
+    atmospheric absorption for a given temperature, humidity and pressure, plus 
+    IEC 61672-1 A-weighting. It includes drawing helpers that plot 
+    SPL-versus-distance curves on a log axis and concentric dB contour diagrams 
+    in a sketch or an offscreen PGraphics. It is an estimate for teaching and 
+    planning, not a replacement for a calibrated sound level meter.
+  version: 1
+  prettyVersion: 1.0.0
+  minRevision: 1285
+  maxRevision: 0
+  modes:
+  download: 
+    https://github.com/bosshorncom-cmd/train-horn-spl-processing/releases/latest/download/TrainHornSPL.zip
