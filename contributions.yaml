@@ -1486,7 +1486,7 @@ contributions:
   - url timeout, 2026-10-15
 - id: 80
   source: http://cloud.brendandawes.com/dawesometoolkit/dawesometoolkit.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Dawesome Toolkit
   authors: '[Brendan Dawes](http://www.brendandawes.com/)'
@@ -1526,6 +1526,7 @@ contributions:
   - invalid file, 2026-08-14
   - invalid file, 2026-10-04
   - url timeout, 2026-11-16
+  - url timeout, 2026-11-25
 - id: 81
   source: ' http://ubaa.net/shared/processing/opencv/download/opencv.txt '
   status: BROKEN
@@ -2006,7 +2007,7 @@ contributions:
 - id: 106
   source: 
     http://www.thecloudlab.org/processing/download/ComputationalGeometry.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Computational Geometry
   authors: '[Mark Collins & Toru Hasegawa](http://thecloudlab.org)'
@@ -2045,6 +2046,7 @@ contributions:
   - url timeout, 2026-08-08
   - invalid file, 2026-08-14
   - invalid file, 2026-10-04
+  - url timeout, 2026-11-25
 - id: 107
   source: https://dl.dropboxusercontent.com/u/6030446/punktiert/punktiert.txt
   status: BROKEN
@@ -2314,7 +2316,7 @@ contributions:
     http://galsasson.com/tweakmode/tweakmode.txt%20
 - id: 123
   source: http://igeo.jp/igeo.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: iGeo
   authors: '[Satoru Sugihara](http://atlv.org/)'
@@ -2352,6 +2354,7 @@ contributions:
   - url timeout, 2026-08-08
   - invalid file, 2026-08-14
   - invalid file, 2026-10-04
+  - url timeout, 2026-11-25
 - id: 124
   source: ' http://download.processing.org/pdeX.txt '
   status: BROKEN
@@ -3886,7 +3889,7 @@ contributions:
   download: http://damellis.github.io/wovns-processing-examples/WOVNS.zip
 - id: 195
   source: http://culebra.technology/culebra.txt
-  status: VALID
+  status: BROKEN
   type: library
   name: Culebra Behavior Library for Processing
   authors: '[Luis Quinones](http://complicitMatter.com)'
@@ -3925,6 +3928,7 @@ contributions:
   - url timeout, 2026-08-08
   - invalid file, 2026-08-14
   - invalid file, 2026-10-04
+  - url timeout, 2026-11-25
 - id: 196
   source: 
     https://github.com/jrc03c/queasycam/releases/download/latest/queasycam.txt
